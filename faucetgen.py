@@ -2,6 +2,7 @@
 # Generate a wallet through a faucet
 import json
 import sys
+import argparse
 from xrpl.clients import JsonRpcClient
 from xrpl.wallet import generate_faucet_wallet
 from xrpl.core import addresscodec
