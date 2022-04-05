@@ -15,15 +15,15 @@ networks = {
 	"main":[
 		{"websocket":"https://s1.ripple.com:51234/"},
 		{"jsonrpc":"wss://s1.ripple.com/"}
-	]
+	],
 	"testnet":[
 		{"websocket":"wss://s.altnet.rippletest.net:51233"},
 		{"jsonrpc:""https://s.altnet.rippletest.net:51234"}
-	]
+	],
 	"devnet":[
 		{"websocket":"wss://s.devnet.rippletest.net:51233"},
 		{"jsonrpc":"https://s.devnet.rippletest.net:51234"}
-	]
+	],
 	"nftdev":[
 		{"nftdev":"wss://xls20-sandbox.rippletest.net:51233"},
 		{"jsonrpc":"http://xls20-sandbox.rippletest.net:51234"}
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 
 # query the account arg.
-	client = JsonRpcClient(JSON_RPC_URL)
+	client = JsonRpcClient(networks["nftdev"][1]["jsonrpc"])
 	acct_info = AccountInfo(account=args.account,ledger_index="validated",strict=True)
 	response = client.request(acct_info)
 	result = response.result
