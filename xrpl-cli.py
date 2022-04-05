@@ -12,10 +12,22 @@ from xrpl.models.requests.account_info import AccountInfo
 JSON_RPC_URL = "http://xls20-sandbox.rippletest.net:51234"
 
 networks = {
-        "mainnet": "wss://xrplcluster.com",
-        "testnet": "wss://s.altnet.rippletest.net:51233",
-        "devnet": "wss://s.devnet.rippletest.net:51233",
-        "nft-devnet": "wss://xls20-sandbox.rippletest.net:51233",
+	"main":[
+		{"websocket":"https://s1.ripple.com:51234/"},
+		{"jsonrpc":"wss://s1.ripple.com/"}
+	]
+	"testnet":[
+		{"websocket":"wss://s.altnet.rippletest.net:51233"},
+		{"jsonrpc:""https://s.altnet.rippletest.net:51234"}
+	]
+	"devnet":[
+		{"websocket":"wss://s.devnet.rippletest.net:51233"},
+		{"jsonrpc":"https://s.devnet.rippletest.net:51234"}
+	]
+	"nftdev":[
+		{"nftdev":"wss://xls20-sandbox.rippletest.net:51233"},
+		{"jsonrpc":"http://xls20-sandbox.rippletest.net:51234"}
+	]
 }
 
 #genfund
