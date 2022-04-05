@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # xrpl-cli - a command line tool for working with the XRPL ledger
+# e.g. python3 xrpl-cli.py --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
 import sys
 import json
 import argparse
@@ -32,6 +33,7 @@ if __name__ == "__main__":
 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
 	parser.add_argument("-o","--owner", help="owner")
 	args = parser.parse_args()
+
 # query the account arg.
 	client = JsonRpcClient(JSON_RPC_URL)
 	acct_info = AccountInfo(account=args.account,ledger_index="validated",strict=True)
