@@ -31,7 +31,7 @@ if __name__ == "__main__":
 	parser.add_argument("-m","--amount", help="amount")
 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
 	parser.add_argument("-o","--owner", help="owner")
-
+	args = parser.parse_args()
 # query the account arg.
 	client = JsonRpcClient(JSON_RPC_URL)
 	acct_info = AccountInfo(account=args.account,ledger_index="validated",strict=True)
