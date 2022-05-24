@@ -2,7 +2,7 @@
 # xrpl-cli - a command line tool for working with the XRPL ledger
 # e.g. 
 # python3 xrpl-cli.py --network 2 --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
-# python3 xrpl-cli.py --accounta rEx2PsuEurkNQwQbiCeoj1rdAjzu1gX3XF  --network 3 -l
+# python3 xrpl-cli.py --account rEx2PsuEurkNQwQbiCeoj1rdAjzu1gX3XF  --network 3 -l
 import sys
 import json
 import xrpl
