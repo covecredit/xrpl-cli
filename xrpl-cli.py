@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # xrpl-cli - a command line tool for working with the XRPL ledger
-# e.g. python3 xrpl-cli.py --network 2 --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
+# e.g. 
+# python3 xrpl-cli.py --network 2 --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
+# python3 xrpl-cli.py --accounta rEx2PsuEurkNQwQbiCeoj1rdAjzu1gX3XF  --network 3 -l
 import sys
 import json
 import xrpl
@@ -65,12 +67,14 @@ class XRPLobject:
 		result = response.result
 		print("response.status: ", response.status)
 		print(json.dumps(response.result, indent=4, sort_keys=True))
-	def fundaccount():
-		pass
-	def genfund():
-		pass
-	def mint():
-		pass
+	def mintnft(self,metauri):
+		nft_mint = NFTokenMint(account=self.account, token_taxon=0, uri=metauri)
+		print(nft_mint)
+		print(nft_mint.is_valid())
+		response = self.client.request(nft_mint)
+		result = response.result
+		print("response.status: ", response.status)
+		print(json.dumps(response.result, indent=4, sort_keys=True))
 	def getnft(self):
 		nft_info = AccountNFTs(account=self.account)
 		response = self.client.request(nft_info)
@@ -101,7 +105,7 @@ if __name__ == "__main__":
 	parser.add_argument("-s","--secret", help="seed key")
 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
-	parser.add_argument("-t","--tokenurl", help="NFT token url")
+	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
 	parser.add_argument("-f","--flags", help="NFT flags")
 	parser.add_argument("-i","--tokenid", help="token id")
 	parser.add_argument("-m","--amount", help="amount")
@@ -149,8 +153,9 @@ if __name__ == "__main__":
 	if args.listnft:
 		if xrplobj.account:
 			xrplobj.getnft()
-		sys.exit(0)
 	# default get account 
+	if args.tokenurl:
+		xrplobj.mintnft(args.tokenurl)
 	if xrplobj.account:
 		xrplobj.getaccount()
 		sys.exit(0)
