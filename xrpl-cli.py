@@ -21,7 +21,7 @@ networks = {
 	],
 	"testnet":[
 		{"websocket":"wss://s.altnet.rippletest.net:51233"},
-		{"jsonrpc:""https://s.altnet.rippletest.net:51234"}
+		{"jsonrpc":"https://s.altnet.rippletest.net:51234"}
 	],
 	"devnet":[
 		{"websocket":"wss://s.devnet.rippletest.net:51233"},
