@@ -87,8 +87,6 @@ class XRPLobject:
 		pass
 	def create_buy():
 		pass
-	def create_buy():
-		pass
 	def get_offers():
 		pass
 	def accept_sell():
