@@ -2,7 +2,22 @@
 
 These are developer notes and are raw verbatim and may mean something completely different than expected.
 
+# Build Platform
 
+Developers seeking to make the most out of Linux development on XRPL should use Ubuntu 20.04 LTS. Tested
+a number of different Linux OS and non-Ubuntu / Debian / Redhat(?) / CentOS distributions do not have all
+the available Next.JS modules for compiling XUMM. If you intend to build a full xApp experience then stick
+to the upstream developers preferred build which for XUMM and all tested XRPLF repos builds easily on
+Ubuntu. If you build on Arch Linux for instance, it will require patches to the build processes and to 
+leverage the UI/UX code being used for Linux.
+
+# Steps for developers
+
+1. build rippled and configure with xrpl-node-configurator 
+2. "pip3 install -r requirements.txt"
+3. python3 xrpl-cli.py --help  
+
+# RPC notes
 // RPC handler table
 static HandlerTable handlerTable{
     {"account_channels", &doAccountChannels, LimitRange{10, 50, 256}},
@@ -30,3 +45,6 @@ static HandlerTable handlerTable{
     {"transaction_entry", &doTransactionEntry, {}},
     {"random", &doRandom, {}}};
 
+# Mnemonic Wallets, seeds and XLS-7
+
+The mnemonic brain wallet implementation in xrpl-cli is a python re-write of the rippled implementation. 
