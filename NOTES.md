@@ -77,3 +77,24 @@ static HandlerTable handlerTable{
 # Mnemonic Wallets, seeds and XLS-7
 
 The mnemonic brain wallet implementation in xrpl-cli is a python re-write of the rippled implementation. 
+
+# mint.py
+
+Generates a wallet on faucet and attempts to mint an NFT but throws an error due to unsupported method
+in SDK.
+
+Traceback (most recent call last):
+  File "/home/developer/src/xrpl-cli/mint.py", line 37, in <module>
+    response = client.request(nft_mint)
+  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/clients/sync_client.py", line 28, in request
+    return asyncio.run(self.request_impl(request))
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
+    return future.result()
+  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/asyncio/clients/json_rpc_base.py", line 43, in request_impl
+    json=request_to_json_rpc(request),
+  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/asyncio/clients/utils.py", line 22, in request_to_json_rpc
+    method = params["method"]
+KeyError: 'method'
+

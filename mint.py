@@ -31,7 +31,7 @@ if __name__ == "__main__":
     print(json.dumps(response.result, indent=4, sort_keys=True))
 
     # nft_mint
-    nft_mint = NFTokenMint(account=test_wallet.classic_address, token_taxon=0, uri="\x41\x42\x43\x44")
+    nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri="\x41\x42\x43\x44")
     print(nft_mint)
     print(nft_mint.is_valid())
     response = client.request(nft_mint)
