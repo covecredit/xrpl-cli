@@ -30,9 +30,14 @@ networks = {
 		{"jsonrpc":"https://s.devnet.rippletest.net:51234"}
 	],
 	"nftdev":[
-		{"nftdev":"wss://xls20-sandbox.rippletest.net:51233"},
+		{"websocket":"wss://xls20-sandbox.rippletest.net:51233"},
 		{"jsonrpc":"http://xls20-sandbox.rippletest.net:51234"}
+	],
+	"local":[
+		{"websocket":"wss://127.0.0.1:6006"},
+		{"jsonrpc":"http://127.0.0.1:5005"}
 	]
+
 }
 
 class XRPLobject:
@@ -113,7 +118,7 @@ if __name__ == "__main__":
 	args = parser.parse_args()
 	xrplobj = XRPLobject()
 	if str(args.network) == "list":
-		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev")
+		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
 		print(networks)
 		sys.exit(0)
 	try:
@@ -130,6 +135,8 @@ if __name__ == "__main__":
 			XRPLobject.server = str(networks["devnet"][1]["jsonrpc"])
 		if networkint == 3:
 			XRPLobject.server = str(networks["nftdev"][1]["jsonrpc"])
+		if networkint == 4:
+			XRPLobject.server = str(networks["local"][1]["jsonrpc"])
 	else:
 		print("fatal error, no network selected")
 		sys.exit(0)

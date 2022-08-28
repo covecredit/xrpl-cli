@@ -74,6 +74,9 @@ static HandlerTable handlerTable{
     {"transaction_entry", &doTransactionEntry, {}},
     {"random", &doRandom, {}}};
 
+// commands.js 
+server_info / server_state
+
 # Mnemonic Wallets, seeds and XLS-7
 
 The mnemonic brain wallet implementation in xrpl-cli is a python re-write of the rippled implementation. 
