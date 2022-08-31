@@ -45,7 +45,7 @@ if __name__ == "__main__":
     test_wallet.sequence = get_next_valid_seq_number(test_wallet.classic_address, client)
 
 
-    # nft_mint uri must be > 5 chars
+    # nft_mint uri must be > 5 chars < 512 chars
     # nftoken_taxon = Required, but if you have no use for it, set to zero.
     # uri needs to be hex-encoded data for the transaction
     uriarg = sys.argv[1].encode('utf-8')
