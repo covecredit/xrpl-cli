@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-# Generate a wallet through a faucet
+# generate an XLS-20 wallet, fund it, mint an arbitrary hex string onto the sandbox
+# e.g. python mint.py ABCDEF0102030405
 import json
 import sys
 import argparse
@@ -47,8 +48,7 @@ if __name__ == "__main__":
     # nft_mint uri must be > 5 chars
     # nftoken_taxon = Required, but if you have no use for it, set to zero.
     # uri needs to be hex-encoded data for the transaction
-    nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri=binascii.a2b_hex(sys.argv[1]))
-    print(nft_mint)
+    nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri=sys.argv[1])
     print(nft_mint.is_valid())
     nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, test_wallet, client)
     print(nft_mint_signed)
