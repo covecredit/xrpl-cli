@@ -101,3 +101,7 @@ Traceback (most recent call last):
     method = params["method"]
 KeyError: 'method'
 
+the missing "method"  -   ACCOUNT_NFTS = "account_nfts" - this is a bug in JSON-RPC
+its missing the method for the request to mint an NFT. The NFT Token mint is missing
+from models/requests - which is correct as it's a "transaction_type" - JSON-RPC doesn't
+know it's a transaction for account_nfts method

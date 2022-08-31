@@ -19,10 +19,29 @@ if __name__ == "__main__":
     print(test_wallet.seed)
     acct_info = AccountInfo(
         account=test_wallet.classic_address, ledger_index="validated", strict=True)
+    print(acct_info)
     response = client.request(acct_info)
     result = response.result
     print("response.status: ", response.status)
     print(json.dumps(response.result, indent=4, sort_keys=True))
+    # list nfts
+    nft_info = AccountNFTs(account=test_wallet.classic_address)
+    print(nft_info)
+    response = client.request(nft_info)
+    result = response.result
+    print("response.status: ", response.status)
+    print(json.dumps(response.result, indent=4, sort_keys=True))
+
+    # nft_mint uri must be > 5 chars
+    # nftoken_taxon = Required, but if you have no use for it, set to zero.
+    nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri="\x41\x42\x43\x44\x45")
+    print(nft_mint)
+    print(nft_mint.is_valid())
+    response = client.request(nft_mint)
+    result = response.result
+    print("response.status: ", response.status)
+    print(json.dumps(response.result, indent=4, sort_keys=True))
+
     # list nfts
     nft_info = AccountNFTs(account=test_wallet.classic_address)
     response = client.request(nft_info)
@@ -30,11 +49,3 @@ if __name__ == "__main__":
     print("response.status: ", response.status)
     print(json.dumps(response.result, indent=4, sort_keys=True))
 
-    # nft_mint
-    nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri="\x41\x42\x43\x44")
-    print(nft_mint)
-    print(nft_mint.is_valid())
-    response = client.request(nft_mint)
-    result = response.result
-    print("response.status: ", response.status)
-    print(json.dumps(response.result, indent=4, sort_keys=True))
