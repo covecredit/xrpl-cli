@@ -6,6 +6,7 @@ import argparse
 from xrpl.clients import JsonRpcClient
 from xrpl.wallet import generate_faucet_wallet
 from xrpl.core import addresscodec
+from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction
 from xrpl.models.requests.account_info import AccountInfo
 from xrpl.models.transactions import NFTokenMint
 from xrpl.models.requests import AccountNFTs
@@ -37,10 +38,11 @@ if __name__ == "__main__":
     nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri="\x41\x42\x43\x44\x45")
     print(nft_mint)
     print(nft_mint.is_valid())
-    response = client.request(nft_mint)
-    result = response.result
-    print("response.status: ", response.status)
-    print(json.dumps(response.result, indent=4, sort_keys=True))
+    nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, test_wallet, client)
+    print(nft_mint_signed)
+    tx_response = send_reliable_submission(nft_mint_signed, client)
+    print("response.status: ", tx_response.status)
+    print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 
     # list nfts
     nft_info = AccountNFTs(account=test_wallet.classic_address)

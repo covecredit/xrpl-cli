@@ -83,44 +83,5 @@ The mnemonic brain wallet implementation in xrpl-cli is a python re-write of the
 
 # mint.py
 
-Generates a wallet on faucet and attempts to mint an NFT but throws an error due to unsupported method
-in SDK.
-
-Traceback (most recent call last):
-  File "/home/developer/src/xrpl-cli/mint.py", line 37, in <module>
-    response = client.request(nft_mint)
-  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/clients/sync_client.py", line 28, in request
-    return asyncio.run(self.request_impl(request))
-  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
-    return loop.run_until_complete(main)
-  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
-    return future.result()
-  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/asyncio/clients/json_rpc_base.py", line 43, in request_impl
-    json=request_to_json_rpc(request),
-  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/asyncio/clients/utils.py", line 22, in request_to_json_rpc
-    method = params["method"]
-KeyError: 'method'
-
-the missing "method"  -   ACCOUNT_NFTS = "account_nfts" - this is a bug in JSON-RPC
-its missing the method for the request to mint an NFT. The NFT Token mint is missing
-from models/requests - which is correct as it's a "transaction_type" - JSON-RPC doesn't
-know it's a transaction for account_nfts method
-
-- the same issue is present in all JSON-RPC "transaction" type requests :(
-
-AccountDelete(account='rsWBpXEJrfNvnzv389qiUY8XgX7U5nj7QH', transaction_type=<TransactionType.ACCOUNT_DELETE: 'AccountDelete'>, fee=None, sequence=None, account_txn_id=None, flags=0, last_ledger_sequence=None, memos=None, signers=None, source_tag=None, signing_pub_key='', txn_signature=None, destination='rJAqHgRscDh8xCSwpKqkPwnzT4DwtnHUwL', destination_tag=None)
-Traceback (most recent call last):
-  File "/home/developer/src/xrpl-cli/delete.py", line 30, in <module>
-    response = client.request(acct_delete)
-  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/clients/sync_client.py", line 28, in request
-    return asyncio.run(self.request_impl(request))
-  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
-    return loop.run_until_complete(main)
-  File "/usr/lib/python3.10/asyncio/base_events.py", line 646, in run_until_complete
-    return future.result()
-  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/asyncio/clients/json_rpc_base.py", line 43, in request_impl
-    json=request_to_json_rpc(request),
-  File "/home/developer/.local/lib/python3.10/site-packages/xrpl/asyncio/clients/utils.py", line 22, in request_to_json_rpc
-    method = params["method"]
-KeyError: 'method'
-
+currently sending a transaction as a request, this will fail, transactions 
+are handled differently.
