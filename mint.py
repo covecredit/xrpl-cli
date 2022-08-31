@@ -51,9 +51,10 @@ if __name__ == "__main__":
     uriarg = sys.argv[1].encode('utf-8')
     uriarg_hex = uriarg.hex()
     nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
+    print(nft_mint) # the unsigned transaction
     print(nft_mint.is_valid())
     nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, test_wallet, client)
-    print(nft_mint_signed)
+    print(nft_mint_signed) # the signed transaction
     tx_response = send_reliable_submission(nft_mint_signed, client)
     print("response.status: ", tx_response.status)
     print(json.dumps(tx_response.result, indent=4, sort_keys=True))
