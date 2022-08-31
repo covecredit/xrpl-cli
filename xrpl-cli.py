@@ -9,6 +9,7 @@ import xrpl
 import argparse
 import hashlib
 import binascii
+import ipfsApi
 from xrpl.core import addresscodec
 from xrpl.clients import JsonRpcClient
 from xrpl.wallet import generate_faucet_wallet
