@@ -3,6 +3,7 @@
 import json
 import sys
 import argparse
+import binascii
 from xrpl.clients import JsonRpcClient
 from xrpl.wallet import generate_faucet_wallet
 from xrpl.core import addresscodec
@@ -14,6 +15,9 @@ from xrpl.ledger import get_latest_validated_ledger_sequence
 from xrpl.account import get_next_valid_seq_number
 
 if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Supply an NFT metadata to mint")
+        sys.exit(0)
     JSON_RPC_URL = "http://xls20-sandbox.rippletest.net:51234"
     client = JsonRpcClient(JSON_RPC_URL)
     test_wallet = generate_faucet_wallet(
@@ -42,7 +46,8 @@ if __name__ == "__main__":
 
     # nft_mint uri must be > 5 chars
     # nftoken_taxon = Required, but if you have no use for it, set to zero.
-    nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri="4142434445")
+    # uri needs to be hex-encoded data for the transaction
+    nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri=binascii.a2b_hex(sys.argv[1]))
     print(nft_mint)
     print(nft_mint.is_valid())
     nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, test_wallet, client)
