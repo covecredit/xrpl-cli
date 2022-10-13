@@ -1,3 +1,5 @@
 xrpl-py
 argparse
 ipfs-api
+asyncio
+websockets
