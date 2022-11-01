@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 # xrpl-cli - a command line tool for working with the XRPL ledger
 # e.g. 
+# list information on accounts
 # python3 xrpl-cli.py --network 2 --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
 # python3 xrpl-cli.py --account rEx2PsuEurkNQwQbiCeoj1rdAjzu1gX3XF  --network 3 -l
+# 
+# generate and fund a wallet, mint the token "abcdef" and list NFT's
+# python3 xrpl-cli.py -g -n 2 -t abcdef -l
+#
+# AUTHOR: cove.crypto
+# LICENSE: MIT! 
 import sys
 import json
 import xrpl
@@ -16,6 +23,9 @@ from xrpl.wallet import generate_faucet_wallet
 from xrpl.models.requests.account_info import AccountInfo
 from xrpl.models.transactions import NFTokenMint
 from xrpl.models.requests import AccountNFTs
+from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
+from xrpl.ledger import get_latest_validated_ledger_sequence
+from xrpl.account import get_next_valid_seq_number
 
 networks = {
 	"main":[
@@ -46,6 +56,7 @@ class XRPLobject:
 	account = ""
 	owner = ""
 	server = ""
+	wallet = ""
 	def __init__(self):
         	#self.secret = blah
 		pass
@@ -74,13 +85,19 @@ class XRPLobject:
 		print("response.status: ", response.status)
 		print(json.dumps(response.result, indent=4, sort_keys=True))
 	def mintnft(self,metauri):
-		nft_mint = NFTokenMint(account=self.account, token_taxon=0, uri=metauri)
-		print(nft_mint)
+		# get the current block height 
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		uriarg = metauri.encode('utf-8')
+		uriarg_hex = uriarg.hex()
+		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
+		print(nft_mint) # the unsigned transaction
 		print(nft_mint.is_valid())
-		response = self.client.request(nft_mint)
-		result = response.result
-		print("response.status: ", response.status)
-		print(json.dumps(response.result, indent=4, sort_keys=True))
+		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
+		print(nft_mint_signed) # the signed transaction
+		tx_response = send_reliable_submission(nft_mint_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	def getnft(self):
 		nft_info = AccountNFTs(account=self.account)
 		response = self.client.request(nft_info)
@@ -156,12 +173,15 @@ if __name__ == "__main__":
 	if args.generate_wallet:
 		xrplobj.genwallet()
 		print("Your secret seed is: %s" % xrplobj.secret)
+	# mint a URI
+	if args.tokenurl:
+		if xrplobj.account:
+			xrplobj.mintnft(args.tokenurl)
+	# list a URI
 	if args.listnft:
 		if xrplobj.account:
 			xrplobj.getnft()
-	# default get account 
-	if args.tokenurl:
-		xrplobj.mintnft(args.tokenurl)
+	# default get account details
 	if xrplobj.account:
 		xrplobj.getaccount()
 		sys.exit(0)
