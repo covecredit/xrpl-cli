@@ -17,7 +17,11 @@ The following examples can be used to test the xrpl-cli application.
 ```
 python3 xrpl-cli.py --network 2 --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
 python3 xrpl-cli.py --account rEx2PsuEurkNQwQbiCeoj1rdAjzu1gX3XF --network 3 -l
+python3 xrpl-cli.py -g -n 2 -t abcdef -l
 ```
+
+The last command will generate a wallet via faucet on the test network and
+mint the NFT string "abcdef" and then list the wallet contents to verify the NFT.
 
 # Security
 This program is under active development and should not be used on mainnet
