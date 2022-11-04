@@ -47,7 +47,7 @@ if __name__ == "__main__":
     os.stat(sys.argv[1]) 
     ipfsresult = ipfsclient.add(sys.argv[1])
     ipfshash = "ipfs://" + ipfsresult['Hash']
-    
+    print("your ipfs file is available at " + ipfshash)
     # get the current block height 
     current_validated_ledger = get_latest_validated_ledger_sequence(client)
     test_wallet.sequence = get_next_valid_seq_number(test_wallet.classic_address, client)
