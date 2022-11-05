@@ -43,8 +43,9 @@ if __name__ == "__main__":
                     # somebody minted a new...
                     tokens = metadata['AffectedNodes'][0]["CreatedNode"]["NewFields"]["NFTokens"]
                     for nftindex in range(0,len(tokens)-1):
-                        tokens[nftidex]["NFToken"]["URI"]
-                        print(binascii.unhexlify(a))            
+                        nfturihex = tokens[nftidex]["NFToken"]["URI"]
+                        nfturibin = binascii.unhexlify(nfturihex)
+                        print(nfturibin.decode('UTF-8'))
                 except:
                     a = 0
                     #print("not a new mint")
@@ -52,8 +53,9 @@ if __name__ == "__main__":
                     # extract the updated nft uri's, probably an exchange
                     tokens = metadata['AffectedNodes'][0]["ModifiedNode"]["FinalFields"]["NFTokens"]
                     for nftindex in range(0,len(tokens)-1):
-                        nfturi = tokens[nftindex]["NFToken"]["URI"]
-                        print(binascii.unhexlify(nfturi))
+                        nfturihex = tokens[nftindex]["NFToken"]["URI"]
+                        nfturibin = binascii.unhexlify(nfturihex)
+                        print(nfturibin.decode('UTF-8'))
                 except:
                     a = 0
                     #print("not an update")
