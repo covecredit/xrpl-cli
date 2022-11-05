@@ -21,6 +21,7 @@ from xrpl.account import get_next_valid_seq_number
 if __name__ == "__main__":
     JSON_RPC_URL = "https://s1.ripple.com:51234/"
     client = JsonRpcClient(JSON_RPC_URL)
+    print("Watching for NFT's...")
     while True:
         ledger_request = Ledger(ledger_index="validated", transactions=True)
         ledger_response = client.request(ledger_request)
@@ -33,11 +34,11 @@ if __name__ == "__main__":
             tx_request = Tx(transaction=transactions[index])
             tx_response = client.request(tx_request)
             result = tx_response.result
-            print(tx_response.result['TransactionType'])
+            #print(tx_response.result['TransactionType'])
             if tx_response.result['TransactionType'] == "NFTokenMint":
                 # the transaction is a new NFT token mint!
-                print("response.status: ", tx_response.status)
-                print(tx_response.result['TransactionType'])
+                #print("response.status: ", tx_response.status)
+                #print(tx_response.result['TransactionType'])
                 metadata = tx_response.result['meta']   
                 try:
                     # somebody minted a new...
