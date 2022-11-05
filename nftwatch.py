@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+#  
+# walks the main net, extracts each transaction, checks for NFT's, finds the metadata, outputs 
+#
 import json
 import sys
 import argparse
@@ -21,7 +24,7 @@ if __name__ == "__main__":
     while True:
         ledger_request = Ledger(ledger_index="validated", transactions=True)
         ledger_response = client.request(ledger_request)
-        print(ledger_response)
+        #print(ledger_response)
         transactions = ledger_response.result["ledger"]["transactions"]
         # walk all the transactions in the block
         if len(transactions)==0:
@@ -34,10 +37,8 @@ if __name__ == "__main__":
             if tx_response.result['TransactionType'] == "NFTokenMint":
                 # the transaction is a new NFT token mint!
                 print("response.status: ", tx_response.status)
-                print(json.dumps(tx_response.result, indent=4, sort_keys=True))
                 print(tx_response.result['TransactionType'])
                 metadata = tx_response.result['meta']   
-                print(metadata)
                 try:
                     # somebody minted a new...
                     tokens = metadata['AffectedNodes'][0]["CreatedNode"]["NewFields"]["NFTokens"]
@@ -45,12 +46,14 @@ if __name__ == "__main__":
                         tokens[nftidex]["NFToken"]["URI"]
                         print(binascii.unhexlify(a))            
                 except:
-                    print("not a new mint")
+                    a = 0
+                    #print("not a new mint")
                 try:
-                    # extract the updated nft uri's
+                    # extract the updated nft uri's, probably an exchange
                     tokens = metadata['AffectedNodes'][0]["ModifiedNode"]["FinalFields"]["NFTokens"]
                     for nftindex in range(0,len(tokens)-1):
                         nfturi = tokens[nftindex]["NFToken"]["URI"]
                         print(binascii.unhexlify(nfturi))
                 except:
-                    print("not an update")
+                    a = 0
+                    #print("not an update")
