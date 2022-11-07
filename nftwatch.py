@@ -44,7 +44,7 @@ if __name__ == "__main__":
                     # somebody minted a new...
                     tokens = metadata['AffectedNodes'][0]["CreatedNode"]["NewFields"]["NFTokens"]
                     for nftindex in range(0,len(tokens)-1):
-                        nfturihex = tokens[nftidex]["NFToken"]["URI"]
+                        nfturihex = tokens[nftindex]["NFToken"]["URI"]
                         nfturibin = binascii.unhexlify(nfturihex)
                         print(nfturibin.decode('UTF-8'))
                 except:
