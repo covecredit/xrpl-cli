@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 #  
 # walks the main net, extracts each transaction, checks for NFT's, finds the metadata, outputs 
+# - only grabbing from IPFS gateway metadata and not direct atm.
 #
+# mkdir /tmp/images # do this to create an output folder
+# convert -delay 1 -loop 1 *.png anim.gif # create an animated gif
+# for i in `ls`;do feh --scale --fullscreen $i;done # load each image in feh, hit esc for next image 
 import json
 import sys
 import argparse
