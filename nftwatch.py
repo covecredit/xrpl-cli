@@ -61,7 +61,7 @@ if __name__ == "__main__":
                                 #image data on web gateway 
                                       resp = requests.get(respjson["image"])
                                       print(respjson["image"])
-                                      output = open("/tmp/images/" + respjson["image"].split("/")[3],"wb")
+                                      output = open("/tmp/images/" + respjson["image"].split("/")[-1],"wb")
                                       output.write(resp.content)
                                       output.close()
                         if nfturistr.find("ipfs://") != -1:
@@ -86,7 +86,7 @@ if __name__ == "__main__":
                                 #image data on web gateway 
                                       resp = requests.get(respjson["image"])
                                       print(respjson["image"])
-                                      output = open("/tmp/images/" + respjson["image"].split("/")[3],"wb")
+                                      output = open("/tmp/images/" + respjson["image"].split("/")[-1],"wb")
                                       output.write(resp.content)
                                       output.close()
                         if nfturistr.find("ipfs://") != -1:
