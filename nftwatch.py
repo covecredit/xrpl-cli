@@ -6,6 +6,7 @@ import json
 import sys
 import argparse
 import binascii
+import requests
 from xrpl.clients import JsonRpcClient
 from xrpl.wallet import generate_faucet_wallet
 from xrpl.core import addresscodec
@@ -47,6 +48,7 @@ if __name__ == "__main__":
                         nfturihex = tokens[nftindex]["NFToken"]["URI"]
                         nfturibin = binascii.unhexlify(nfturihex)
                         print(nfturibin.decode('UTF-8'))
+                        # we dont get the new
                 except:
                     a = 0
                     #print("not a new mint")
@@ -56,7 +58,22 @@ if __name__ == "__main__":
                     for nftindex in range(0,len(tokens)-1):
                         nfturihex = tokens[nftindex]["NFToken"]["URI"]
                         nfturibin = binascii.unhexlify(nfturihex)
-                        print(nfturibin.decode('UTF-8'))
+                        nfturistr = nfturibin.decode('UTF-8')
+                        #print(nfturistr)
+                        if nfturistr.find("https://") != -1:
+				# this is a website
+                                resp = requests.get(url=nfturistr)
+                                respjson = resp.json()
+                                if respjson["image"].find("https://") != -1:
+                                #image data on web gateway 
+                                      resp = requests.get(respjson["image"])
+                                      print(respjson["image"])
+                                      output = open("/tmp/images/" + respjson["image"].split("/")[3],"wb")
+                                      output.write(resp.content)
+                                      output.close()
+                        if nfturistr.find("ipfs://") != -1:
+                                # this is an ipfs site
+                                a = 0
                 except:
                     a = 0
-                    #print("not an update")
+                    print("an error occured")
