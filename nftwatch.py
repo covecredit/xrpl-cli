@@ -39,11 +39,11 @@ if __name__ == "__main__":
             tx_request = Tx(transaction=transactions[index])
             tx_response = client.request(tx_request)
             result = tx_response.result
-            #print(tx_response.result['TransactionType'])
+            print(tx_response.result['TransactionType'])
             if tx_response.result['TransactionType'] == "NFTokenMint":
                 # the transaction is a new NFT token mint!
                 #print("response.status: ", tx_response.status)
-                #print(tx_response.result['TransactionType'])
+                print(tx_response.result)
                 metadata = tx_response.result['meta']   
                 try:
                     # somebody minted a new...
@@ -52,7 +52,7 @@ if __name__ == "__main__":
                         nfturihex = tokens[nftindex]["NFToken"]["URI"]
                         nfturibin = binascii.unhexlify(nfturihex)
                         print(nfturibin.decode('UTF-8'))
-                        #print(nfturistr)
+                        print(nfturistr)
                         if nfturistr.find("https://") != -1:
 				# this is a website
                                 resp = requests.get(url=nfturistr)
@@ -63,6 +63,9 @@ if __name__ == "__main__":
                                       print(respjson["image"])
                                       output = open("/tmp/images/" + respjson["image"].split("/")[-1],"wb")
                                       output.write(resp.content)
+                                      output.close()
+                                      output = open("/tmp/images/" + respjson["image"].split("/")[-1] + ".json","wb")
+                                      output.write(respjson)
                                       output.close()
                         if nfturistr.find("ipfs://") != -1:
                                 # this is an ipfs site
@@ -77,7 +80,7 @@ if __name__ == "__main__":
                         nfturihex = tokens[nftindex]["NFToken"]["URI"]
                         nfturibin = binascii.unhexlify(nfturihex)
                         nfturistr = nfturibin.decode('UTF-8')
-                        #print(nfturistr)
+                        print(nfturistr)
                         if nfturistr.find("https://") != -1:
 				# this is a website
                                 resp = requests.get(url=nfturistr)
@@ -88,6 +91,9 @@ if __name__ == "__main__":
                                       print(respjson["image"])
                                       output = open("/tmp/images/" + respjson["image"].split("/")[-1],"wb")
                                       output.write(resp.content)
+                                      output.close()
+                                      output = open("/tmp/images/" + respjson["image"].split("/")[-1] + ".json","wb")
+                                      output.write(respjson)
                                       output.close()
                         if nfturistr.find("ipfs://") != -1:
                                 # this is an ipfs site
