@@ -65,7 +65,9 @@ if __name__ == "__main__":
                                       output.write(resp.content)
                                       output.close()
                                       output = open("/tmp/images/" + respjson["image"].split("/")[-1] + ".json","w")
-                                      output.write(str(respjson))
+                                      jsonobj = json.loads(respjson)
+                                      json_formatted_str = json.dumps(jsonobj, indent=4)
+                                      output.write(json_formatted_str)
                                       output.close()
                         if nfturistr.find("ipfs://") != -1:
                                 # this is an ipfs site
@@ -93,7 +95,9 @@ if __name__ == "__main__":
                                       output.write(resp.content)
                                       output.close()
                                       output = open("/tmp/images/" + respjson["image"].split("/")[-1] + ".json","w")
-                                      output.write(str(respjson))
+                                      jsonobj = json.loads(respjson)
+                                      json_formatted_str = json.dumps(jsonobj, indent=4)
+                                      output.write(json_formatted_str)
                                       output.close()
                         if nfturistr.find("ipfs://") != -1:
                                 # this is an ipfs site
