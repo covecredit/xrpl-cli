@@ -84,3 +84,14 @@ The mnemonic brain wallet implementation in xrpl-cli is a python re-write of the
 # mint.py
 
 This will mint an arbitrary string as the uri on XLS-20 sandbox network and output the account details.
+
+harnesses todo:
+* NFTokenAcceptOffer
+* NFTokenBurn
+* NFTokenCancelOffer
+* NFTokenCreateOffer
+* NFTokenCreateOfferFlag
+* NFTokenCreateOfferFlagInterface
+* NFTokenMint
+* NFTokenMintFlag
+* NFTokenMintFlagInterface
