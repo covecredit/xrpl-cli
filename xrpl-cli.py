@@ -84,6 +84,17 @@ class XRPLobject:
 		result = response.result
 		print("response.status: ", response.status)
 		print(json.dumps(response.result, indent=4, sort_keys=True))
+	def delaccount(self,dest):
+		current_validated_ledger = get_latest_validated_ledger_sequence(client)
+		test_wallet.sequence = get_next_valid_seq_number(test_wallet.classic_address, client)
+		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
+		print(account_delete) # the unsigned transaction
+		print(account_delete.is_valid())
+		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, client)
+		print(account_delete_signed) # the signed transaction
+		tx_response = send_reliable_submission(account_delete_signed, client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	def mintnft(self,metauri):
 		# get the current block height 
 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
@@ -125,6 +136,7 @@ if __name__ == "__main__":
 	parser.add_argument("-a","--account", help="classic account address")
 	parser.add_argument("-s","--secret", help="seed key")
 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
+	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
 	parser.add_argument("-f","--flags", help="NFT flags")
@@ -173,6 +185,8 @@ if __name__ == "__main__":
 	if args.generate_wallet:
 		xrplobj.genwallet()
 		print("Your secret seed is: %s" % xrplobj.secret)
+	if args.delete:
+		xrplobj.delwallet(args.delete)
 	# mint a URI
 	if args.tokenurl:
 		if xrplobj.account:
