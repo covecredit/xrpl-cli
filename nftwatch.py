@@ -67,6 +67,7 @@ if __name__ == "__main__":
                                       output = open("/tmp/images/" + respjson["image"].split("/")[-1] + ".json","w")
                                       jsonobj = json.loads(respjson)
                                       json_formatted_str = json.dumps(jsonobj, indent=4)
+                                      print(json_formatted_str)
                                       output.write(json_formatted_str)
                                       output.close()
                         if nfturistr.find("ipfs://") != -1:
@@ -97,6 +98,7 @@ if __name__ == "__main__":
                                       output = open("/tmp/images/" + respjson["image"].split("/")[-1] + ".json","w")
                                       jsonobj = json.loads(respjson)
                                       json_formatted_str = json.dumps(jsonobj, indent=4)
+                                      print(json_formatted_str)
                                       output.write(json_formatted_str)
                                       output.close()
                         if nfturistr.find("ipfs://") != -1:

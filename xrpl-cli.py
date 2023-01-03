@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# xrpl-cli - a command line tool for working with the XRPL ledger
+# xrpl-cli - a command line tool for working with the XRPL
 # e.g. 
 # list information on accounts
 # python3 xrpl-cli.py --network 2 --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
@@ -131,7 +131,7 @@ class XRPLobject:
 		pass
 
 if __name__ == "__main__":
-	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL ledger")
+	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")
 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
 	parser.add_argument("-a","--account", help="classic account address")
 	parser.add_argument("-s","--secret", help="seed key")
