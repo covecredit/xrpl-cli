@@ -1,3 +1,5 @@
 seeds.txt
 seeds.db
 credentials.txt
+xrpl-cli
+manpage/xrpl-cli.1
