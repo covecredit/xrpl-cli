@@ -22,10 +22,10 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Supply a filename to mint and store on IPFS")
         sys.exit(0)
-    JSON_RPC_URL = "http://xls20-sandbox.rippletest.net:51234"
+    JSON_RPC_URL = "https://s.altnet.rippletest.net:51234"
     client = JsonRpcClient(JSON_RPC_URL)
     test_wallet = generate_faucet_wallet(
-        client, debug=True, faucet_host="faucet-nft.ripple.com")
+        client, debug=True)
     print(test_wallet)
     print(test_wallet.seed)
     acct_info = AccountInfo(

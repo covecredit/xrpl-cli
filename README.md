@@ -25,6 +25,15 @@ python3 xrpl-cli.py -g -n 2 -t abcdef -l
 The last command will generate a wallet via faucet on the test network and
 mint the NFT string "abcdef" and then list the wallet contents to verify the NFT.
 
+# Docker
+
+You can run this utility within a Docker container to ease configuration and use.
+
+```
+docker build -t xrpl-cli .
+docker run xrpl-cli
+```
+
 # Security
 This program is under active development and should not be used on mainnet
 until it reaches a stable release. For all currently known security issues
