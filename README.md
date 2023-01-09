@@ -35,6 +35,14 @@ docker run xrpl-cli
 docker run xrpl-cli -n 2 -g 
 ```
 
+# Compile
+
+You can create a stand-alone xrpl-cli (dynamic) binary for xrpl-cli using Cython.
+
+```
+make
+```
+
 # Security
 This program is under active development and should not be used on mainnet
 until it reaches a stable release. For all currently known security issues
