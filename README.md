@@ -32,6 +32,7 @@ You can run this utility within a Docker container to ease configuration and use
 ```
 docker build -t xrpl-cli .
 docker run xrpl-cli
+docker run xrpl-cli -n 2 -g 
 ```
 
 # Security
