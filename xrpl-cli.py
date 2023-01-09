@@ -1,6 +1,6 @@
 #!/usr/bin/python3 
 #
-# xrpl-cli - a command line tool for working with the XRPL
+# xrpl-cli - a command line tool for working with the XRPL, can build with cython.
 #
 # e.g. 
 # list information on accounts
@@ -30,6 +30,13 @@ from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_tr
 from xrpl.ledger import get_latest_validated_ledger_sequence
 from xrpl.account import get_next_valid_seq_number
 
+# module authorship
+__author__ = "Cove Crypto"
+__copyright__ = "Copyright Cove Crypto"
+__license__ = "MIT"
+__version__ = "0.02"
+
+# networks
 networks = {
 	"main":[
 		{"websocket":"wss://s1.ripple.com/"},
