@@ -1,5 +1,7 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3 
+#
 # xrpl-cli - a command line tool for working with the XRPL
+#
 # e.g. 
 # list information on accounts
 # python3 xrpl-cli.py --network 2 --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
@@ -21,6 +23,7 @@ from xrpl.core import addresscodec
 from xrpl.clients import JsonRpcClient
 from xrpl.wallet import generate_faucet_wallet
 from xrpl.models.requests.account_info import AccountInfo
+from xrpl.models.transactions import AccountDelete
 from xrpl.models.transactions import NFTokenMint
 from xrpl.models.requests import AccountNFTs
 from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
@@ -58,7 +61,7 @@ class XRPLobject:
 	server = ""
 	wallet = ""
 	def __init__(self):
-        	#self.secret = blah
+		#self.secret = blah
 		pass
 	def connectrpc(self):
 		self.client = JsonRpcClient(self.server)
@@ -85,14 +88,14 @@ class XRPLobject:
 		print("response.status: ", response.status)
 		print(json.dumps(response.result, indent=4, sort_keys=True))
 	def delaccount(self,dest):
-		current_validated_ledger = get_latest_validated_ledger_sequence(client)
-		test_wallet.sequence = get_next_valid_seq_number(test_wallet.classic_address, client)
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
 		print(account_delete) # the unsigned transaction
 		print(account_delete.is_valid())
-		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, client)
+		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
 		print(account_delete_signed) # the signed transaction
-		tx_response = send_reliable_submission(account_delete_signed, client)
+		tx_response = send_reliable_submission(account_delete_signed, self.client)
 		print("response.status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	def mintnft(self,metauri):
@@ -173,7 +176,7 @@ if __name__ == "__main__":
 	xrplobj.connectrpc()
 	# set an account
 	if args.account:
-                xrplobj.account = args.account
+		xrplobj.account = args.account
 	# make a brain wallet
 	if args.brainwallet:
 		xrplobj.brainwallet(args.brainwallet)
