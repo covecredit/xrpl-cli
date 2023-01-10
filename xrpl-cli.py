@@ -61,17 +61,21 @@ networks = {
 
 }
 
+# XRPL object wrapper around xrpl-py functions
 class XRPLobject:
 	secret = ""
 	account = ""
 	owner = ""
 	server = ""
 	wallet = ""
+	# object constructor
 	def __init__(self):
 		#self.secret = blah
 		pass
+	# connect over JSON-RPC (only for now, wss more secure for internet)
 	def connectrpc(self):
 		self.client = JsonRpcClient(self.server)
+	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
 	def brainwallet(self,seedkey):
 		myseed = hashlib.sha512(seedkey.encode("ascii"))
 		myrealseed = myseed.hexdigest().upper()
@@ -80,20 +84,24 @@ class XRPLobject:
 		self.wallet = xrpl.wallet.Wallet(seed1, 1)
 		self.account = self.wallet.classic_address
 		self.secret = self.wallet.seed
+	# set a wallet seed from cli argument (need to hide this from ps and histfile)
 	def seedwallet(self,secret):
 		self.wallet = xrpl.wallet.Wallet(secret,1)
 		self.account = self.wallet.classic_address
 		self.secret = secret
+	# use facuet to generate and fund a wallet
 	def genwallet(self):
 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
 		self.secret = self.wallet.seed
 		self.account = self.wallet.classic_address
+	# get the account information
 	def getaccount(self):
 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
 		response = self.client.request(acct_info)
 		result = response.result
 		print("response.status: ", response.status)
 		print(json.dumps(response.result, indent=4, sort_keys=True))
+	# delete the account
 	def delaccount(self,dest):
 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
@@ -105,12 +113,14 @@ class XRPLobject:
 		tx_response = send_reliable_submission(account_delete_signed, self.client)
 		print("response.status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	# should take taxon as an argument for collections, grouped by taxon as an ID. 
 	def mintnft(self,metauri):
 		# get the current block height 
 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
 		uriarg = metauri.encode('utf-8')
 		uriarg_hex = uriarg.hex()
+		# set to 0 by default for taxon, should contain collection ID.
 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
 		print(nft_mint) # the unsigned transaction
 		print(nft_mint.is_valid())
@@ -119,6 +129,7 @@ class XRPLobject:
 		tx_response = send_reliable_submission(nft_mint_signed, self.client)
 		print("response.status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	# list NFT tokens and information on account, don't parse any metadata here. 
 	def getnft(self):
 		nft_info = AccountNFTs(account=self.account)
 		response = self.client.request(nft_info)
@@ -140,7 +151,9 @@ class XRPLobject:
 	def cancel_offer():
 		pass
 
+# main function, entrypoint
 if __name__ == "__main__":
+	# cli parser and option handling
 	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")
 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
 	parser.add_argument("-a","--account", help="classic account address")
@@ -156,7 +169,9 @@ if __name__ == "__main__":
 	parser.add_argument("-o","--owner", help="owner")
 	parser.add_argument("-n","--network", help="use with list for server list")
 	args = parser.parse_args()
+	# create the XRPL object
 	xrplobj = XRPLobject()
+	# configure network node for interaction with XRPL
 	if str(args.network) == "list":
 		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
 		print(networks)
@@ -180,6 +195,7 @@ if __name__ == "__main__":
 	else:
 		print("fatal error, no network selected")
 		sys.exit(0)
+	# connect to XPRL
 	xrplobj.connectrpc()
 	# set an account
 	if args.account:
@@ -187,7 +203,7 @@ if __name__ == "__main__":
 	# make a brain wallet
 	if args.brainwallet:
 		xrplobj.brainwallet(args.brainwallet)
-	# use a wallet secret
+	# use a wallet secret (need to overwrite argv handler to scrub seed from memory via Cython) 
 	if args.secret:
 		xrplobj.secret = args.secret
 		xrplobj.seedwallet(xrplobj.secret)
