@@ -1457,12 +1457,15 @@ static const char __pyx_k_s[] = "-s";
 static const char __pyx_k_t[] = "-t";
 static const char __pyx_k_x[] = "-x";
 static const char __pyx_k__2[] = "";
+static const char __pyx_k_rm[] = "-rm";
 static const char __pyx_k_MIT[] = "MIT";
-static const char __pyx_k__32[] = "?";
+static const char __pyx_k__37[] = "?";
 static const char __pyx_k_doc[] = "__doc__";
 static const char __pyx_k_end[] = "end";
 static const char __pyx_k_hex[] = "hex";
+static const char __pyx_k_pay[] = "-pay";
 static const char __pyx_k_sys[] = "sys";
+static const char __pyx_k_tag[] = "tag";
 static const char __pyx_k_uri[] = "uri";
 static const char __pyx_k_0_02[] = "0.02";
 static const char __pyx_k_args[] = "args";
@@ -1490,10 +1493,12 @@ static const char __pyx_k_nargs[] = "nargs";
 static const char __pyx_k_owner[] = "owner";
 static const char __pyx_k_print[] = "print";
 static const char __pyx_k_seed1[] = "seed1";
+static const char __pyx_k_tag_2[] = "-tag";
+static const char __pyx_k_tag_3[] = "--tag";
 static const char __pyx_k_upper[] = "upper";
 static const char __pyx_k_utf_8[] = "utf-8";
 static const char __pyx_k_Wallet[] = "Wallet";
-static const char __pyx_k_amount[] = "--amount";
+static const char __pyx_k_amount[] = "amount";
 static const char __pyx_k_author[] = "__author__";
 static const char __pyx_k_client[] = "client";
 static const char __pyx_k_delete[] = "--delete";
@@ -1515,6 +1520,7 @@ static const char __pyx_k_status[] = "status";
 static const char __pyx_k_strict[] = "strict";
 static const char __pyx_k_uriarg[] = "uriarg";
 static const char __pyx_k_wallet[] = "wallet";
+static const char __pyx_k_Payment[] = "Payment";
 static const char __pyx_k_a2b_hex[] = "a2b_hex";
 static const char __pyx_k_account[] = "account";
 static const char __pyx_k_burnnft[] = "burnnft";
@@ -1527,6 +1533,7 @@ static const char __pyx_k_metauri[] = "metauri";
 static const char __pyx_k_mintnft[] = "mintnft";
 static const char __pyx_k_network[] = "--network";
 static const char __pyx_k_owner_2[] = "--owner";
+static const char __pyx_k_payment[] = "payment";
 static const char __pyx_k_prepare[] = "__prepare__";
 static const char __pyx_k_request[] = "request";
 static const char __pyx_k_seedkey[] = "seedkey";
@@ -1535,7 +1542,7 @@ static const char __pyx_k_tokenid[] = "--tokenid";
 static const char __pyx_k_version[] = "__version__";
 static const char __pyx_k_xrplcli[] = "xrplcli";
 static const char __pyx_k_xrplobj[] = "xrplobj";
-static const char __pyx_k_amount_2[] = "amount";
+static const char __pyx_k_amount_2[] = "--amount";
 static const char __pyx_k_argparse[] = "argparse";
 static const char __pyx_k_binascii[] = "binascii";
 static const char __pyx_k_delete_2[] = "delete";
@@ -1561,6 +1568,7 @@ static const char __pyx_k_hexdigest[] = "hexdigest";
 static const char __pyx_k_listnft_2[] = "listnft";
 static const char __pyx_k_metaclass[] = "__metaclass__";
 static const char __pyx_k_network_2[] = "network";
+static const char __pyx_k_payment_2[] = "--payment";
 static const char __pyx_k_secp256k1[] = "secp256k1";
 static const char __pyx_k_sort_keys[] = "sort_keys";
 static const char __pyx_k_validated[] = "validated";
@@ -1602,11 +1610,14 @@ static const char __pyx_k_xrpl_clients[] = "xrpl.clients";
 static const char __pyx_k_AccountDelete[] = "AccountDelete";
 static const char __pyx_k_JsonRpcClient[] = "JsonRpcClient";
 static const char __pyx_k_brainwallet_2[] = "--brainwallet";
+static const char __pyx_k_destination_2[] = "--destination";
 static const char __pyx_k_nftoken_taxon[] = "nftoken_taxon";
 static const char __pyx_k_ArgumentParser[] = "ArgumentParser";
 static const char __pyx_k_account_delete[] = "account_delete";
+static const char __pyx_k_payment_signed[] = "payment_signed";
 static const char __pyx_k_CryptoAlgorithm[] = "CryptoAlgorithm";
 static const char __pyx_k_classic_address[] = "classic_address";
+static const char __pyx_k_destination_tag[] = "destination_tag";
 static const char __pyx_k_generate_wallet[] = "--generate_wallet";
 static const char __pyx_k_nft_mint_signed[] = "nft_mint_signed";
 static const char __pyx_k_response_status[] = "response.status: ";
@@ -1615,10 +1626,12 @@ static const char __pyx_k_xrpl_transaction[] = "xrpl.transaction";
 static const char __pyx_k_XRPLobject___init[] = "XRPLobject.__init__";
 static const char __pyx_k_XRPLobject_getnft[] = "XRPLobject.getnft";
 static const char __pyx_k_generate_wallet_2[] = "generate_wallet";
+static const char __pyx_k_response_status_2[] = "response status: ";
 static const char __pyx_k_tokenofferindex_2[] = "tokenofferindex";
 static const char __pyx_k_wss_s1_ripple_com[] = "wss://s1.ripple.com/";
 static const char __pyx_k_XRPLobject_burnnft[] = "XRPLobject.burnnft";
 static const char __pyx_k_XRPLobject_mintnft[] = "XRPLobject.mintnft";
+static const char __pyx_k_XRPLobject_payment[] = "XRPLobject.payment";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
 static const char __pyx_k_wss_127_0_0_1_6006[] = "wss://127.0.0.1:6006";
 static const char __pyx_k_http_127_0_0_1_5005[] = "http://127.0.0.1:5005";
@@ -1641,9 +1654,11 @@ static const char __pyx_k_XRPLobject_accept_sell[] = "XRPLobject.accept_sell";
 static const char __pyx_k_XRPLobject_brainwallet[] = "XRPLobject.brainwallet";
 static const char __pyx_k_XRPLobject_create_sell[] = "XRPLobject.create_sell";
 static const char __pyx_k_generate_faucet_wallet[] = "generate_faucet_wallet";
+static const char __pyx_k_send_payment_of_amount[] = "send payment of amount";
 static const char __pyx_k_XRPLobject_cancel_offer[] = "XRPLobject.cancel_offer";
 static const char __pyx_k_classic_account_address[] = "classic account address";
 static const char __pyx_k_current_validated_ledger[] = "current_validated_ledger";
+static const char __pyx_k_optional_tag_for_payment[] = "optional tag for payment";
 static const char __pyx_k_send_reliable_submission[] = "send_reliable_submission";
 static const char __pyx_k_xrpl_models_transactions[] = "xrpl.models.transactions";
 static const char __pyx_k_get_next_valid_seq_number[] = "get_next_valid_seq_number";
@@ -1655,7 +1670,9 @@ static const char __pyx_k_use_with_list_for_server_list[] = "use with list for s
 static const char __pyx_k_fatal_error_no_network_selected[] = "fatal error, no network selected";
 static const char __pyx_k_0_main_1_testnet_2_devnet_3_nftd[] = "0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local";
 static const char __pyx_k_A_command_line_interface_for_wor[] = "A command-line interface for working with the XRPL";
+static const char __pyx_k_Not_enough_parameters_for_paymen[] = "Not enough parameters for payment, check your command";
 static const char __pyx_k_delete_wallet_and_send_balance_t[] = "delete wallet and send balance to destination";
+static const char __pyx_k_destination_wallet_for_transacti[] = "destination wallet for transaction";
 static const char __pyx_k_get_latest_validated_ledger_sequ[] = "get_latest_validated_ledger_sequence";
 static const char __pyx_k_http_xls20_sandbox_rippletest_ne[] = "http://xls20-sandbox.rippletest.net:51234";
 static const char __pyx_k_https_s_altnet_rippletest_net_51[] = "https://s.altnet.rippletest.net:51234";
@@ -1679,6 +1696,8 @@ static PyObject *__pyx_n_s_JsonRpcClient;
 static PyObject *__pyx_n_s_MIT;
 static PyObject *__pyx_kp_s_NFT_flags;
 static PyObject *__pyx_n_s_NFTokenMint;
+static PyObject *__pyx_kp_s_Not_enough_parameters_for_paymen;
+static PyObject *__pyx_n_s_Payment;
 static PyObject *__pyx_n_s_Wallet;
 static PyObject *__pyx_n_s_XRPLobject;
 static PyObject *__pyx_n_s_XRPLobject___init;
@@ -1696,10 +1715,11 @@ static PyObject *__pyx_n_s_XRPLobject_get_offers;
 static PyObject *__pyx_n_s_XRPLobject_getaccount;
 static PyObject *__pyx_n_s_XRPLobject_getnft;
 static PyObject *__pyx_n_s_XRPLobject_mintnft;
+static PyObject *__pyx_n_s_XRPLobject_payment;
 static PyObject *__pyx_n_s_XRPLobject_seedwallet;
 static PyObject *__pyx_kp_s_Your_secret_seed_is_s;
 static PyObject *__pyx_kp_s__2;
-static PyObject *__pyx_kp_s__32;
+static PyObject *__pyx_kp_s__37;
 static PyObject *__pyx_kp_s_a;
 static PyObject *__pyx_n_s_a2b_hex;
 static PyObject *__pyx_n_s_accept_buy;
@@ -1711,8 +1731,8 @@ static PyObject *__pyx_n_s_account_delete_signed;
 static PyObject *__pyx_n_s_acct_info;
 static PyObject *__pyx_n_s_add_argument;
 static PyObject *__pyx_n_s_addresscodec;
-static PyObject *__pyx_kp_s_amount;
-static PyObject *__pyx_n_s_amount_2;
+static PyObject *__pyx_n_s_amount;
+static PyObject *__pyx_kp_s_amount_2;
 static PyObject *__pyx_n_s_argparse;
 static PyObject *__pyx_n_s_args;
 static PyObject *__pyx_n_s_ascii;
@@ -1745,6 +1765,9 @@ static PyObject *__pyx_n_s_delwallet;
 static PyObject *__pyx_n_s_description;
 static PyObject *__pyx_n_s_dest;
 static PyObject *__pyx_n_s_destination;
+static PyObject *__pyx_kp_s_destination_2;
+static PyObject *__pyx_n_s_destination_tag;
+static PyObject *__pyx_kp_s_destination_wallet_for_transacti;
 static PyObject *__pyx_n_s_devnet;
 static PyObject *__pyx_n_s_doc;
 static PyObject *__pyx_n_s_dumps;
@@ -1815,17 +1838,24 @@ static PyObject *__pyx_n_s_nft_mint_signed;
 static PyObject *__pyx_n_s_nftdev;
 static PyObject *__pyx_n_s_nftoken_taxon;
 static PyObject *__pyx_kp_s_o;
+static PyObject *__pyx_kp_s_optional_tag_for_payment;
 static PyObject *__pyx_n_s_owner;
 static PyObject *__pyx_kp_s_owner_2;
 static PyObject *__pyx_n_s_parse_args;
 static PyObject *__pyx_n_s_parser;
+static PyObject *__pyx_kp_s_pay;
+static PyObject *__pyx_n_s_payment;
+static PyObject *__pyx_kp_s_payment_2;
+static PyObject *__pyx_n_s_payment_signed;
 static PyObject *__pyx_n_s_prepare;
 static PyObject *__pyx_n_s_print;
 static PyObject *__pyx_n_s_qualname;
 static PyObject *__pyx_n_s_request;
 static PyObject *__pyx_n_s_response;
 static PyObject *__pyx_kp_s_response_status;
+static PyObject *__pyx_kp_s_response_status_2;
 static PyObject *__pyx_n_s_result;
+static PyObject *__pyx_kp_s_rm;
 static PyObject *__pyx_kp_s_s;
 static PyObject *__pyx_n_s_safe_sign_and_autofill_transacti;
 static PyObject *__pyx_n_s_safe_sign_transaction;
@@ -1839,6 +1869,7 @@ static PyObject *__pyx_n_s_seedkey;
 static PyObject *__pyx_n_s_seedwallet;
 static PyObject *__pyx_kp_s_select_a_network_use_help;
 static PyObject *__pyx_n_s_self;
+static PyObject *__pyx_kp_s_send_payment_of_amount;
 static PyObject *__pyx_n_s_send_reliable_submission;
 static PyObject *__pyx_n_s_sequence;
 static PyObject *__pyx_n_s_server;
@@ -1848,6 +1879,9 @@ static PyObject *__pyx_n_s_status;
 static PyObject *__pyx_n_s_strict;
 static PyObject *__pyx_n_s_sys;
 static PyObject *__pyx_kp_s_t;
+static PyObject *__pyx_n_s_tag;
+static PyObject *__pyx_kp_s_tag_2;
+static PyObject *__pyx_kp_s_tag_3;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_s_testnet;
 static PyObject *__pyx_kp_s_token_id;
@@ -1894,15 +1928,16 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_6seedwallet(CYTHON_UNUSED PyObje
 static PyObject *__pyx_pf_7xrplcli_10XRPLobject_8genwallet(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_7xrplcli_10XRPLobject_10getaccount(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
 static PyObject *__pyx_pf_7xrplcli_10XRPLobject_12delaccount(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_dest); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_metauri); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16getnft(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_18burnnft(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_20create_sell(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_22create_buy(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_24get_offers(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_26accept_sell(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_28accept_buy(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_30cancel_offer(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14payment(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_dest, PyObject *__pyx_v_amount, PyObject *__pyx_v_tag); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16mintnft(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_metauri); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_18getnft(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_20burnnft(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_22create_sell(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_24create_buy(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_26get_offers(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_28accept_sell(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_30accept_buy(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_32cancel_offer(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
@@ -1920,20 +1955,24 @@ static PyObject *__pyx_tuple__13;
 static PyObject *__pyx_tuple__15;
 static PyObject *__pyx_tuple__17;
 static PyObject *__pyx_tuple__19;
-static PyObject *__pyx_tuple__28;
-static PyObject *__pyx_tuple__29;
+static PyObject *__pyx_tuple__21;
 static PyObject *__pyx_tuple__30;
 static PyObject *__pyx_tuple__31;
+static PyObject *__pyx_tuple__32;
 static PyObject *__pyx_tuple__33;
 static PyObject *__pyx_tuple__34;
 static PyObject *__pyx_tuple__35;
 static PyObject *__pyx_tuple__36;
-static PyObject *__pyx_tuple__37;
 static PyObject *__pyx_tuple__38;
 static PyObject *__pyx_tuple__39;
 static PyObject *__pyx_tuple__40;
 static PyObject *__pyx_tuple__41;
 static PyObject *__pyx_tuple__42;
+static PyObject *__pyx_tuple__43;
+static PyObject *__pyx_tuple__44;
+static PyObject *__pyx_tuple__45;
+static PyObject *__pyx_tuple__46;
+static PyObject *__pyx_tuple__47;
 static PyObject *__pyx_codeobj__4;
 static PyObject *__pyx_codeobj__6;
 static PyObject *__pyx_codeobj__8;
@@ -1943,18 +1982,19 @@ static PyObject *__pyx_codeobj__14;
 static PyObject *__pyx_codeobj__16;
 static PyObject *__pyx_codeobj__18;
 static PyObject *__pyx_codeobj__20;
-static PyObject *__pyx_codeobj__21;
 static PyObject *__pyx_codeobj__22;
 static PyObject *__pyx_codeobj__23;
 static PyObject *__pyx_codeobj__24;
 static PyObject *__pyx_codeobj__25;
 static PyObject *__pyx_codeobj__26;
 static PyObject *__pyx_codeobj__27;
+static PyObject *__pyx_codeobj__28;
+static PyObject *__pyx_codeobj__29;
 /* Late includes */
 
-/* "xrplcli.py":70
- * 	server = ""
+/* "xrplcli.py":76
  * 	wallet = ""
+ * 	# object constructor
  * 	def __init__(self):             # <<<<<<<<<<<<<<
  * 		#self.secret = blah
  * 		pass
@@ -1986,12 +2026,12 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject___init__(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "xrplcli.py":73
- * 		#self.secret = blah
+/* "xrplcli.py":80
  * 		pass
+ * 	# connect over JSON-RPC (only for now, wss more secure for internet)
  * 	def connectrpc(self):             # <<<<<<<<<<<<<<
  * 		self.client = JsonRpcClient(self.server)
- * 	def brainwallet(self,seedkey):
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  */
 
 /* Python wrapper */
@@ -2020,16 +2060,16 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_2connectrpc(CYTHON_UNUSED PyObje
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("connectrpc", 0);
 
-  /* "xrplcli.py":74
- * 		pass
+  /* "xrplcli.py":81
+ * 	# connect over JSON-RPC (only for now, wss more secure for internet)
  * 	def connectrpc(self):
  * 		self.client = JsonRpcClient(self.server)             # <<<<<<<<<<<<<<
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  * 	def brainwallet(self,seedkey):
- * 		myseed = hashlib.sha512(seedkey.encode("ascii"))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_JsonRpcClient); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 74, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_JsonRpcClient); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_server); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 74, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_server); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
@@ -2044,18 +2084,18 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_2connectrpc(CYTHON_UNUSED PyObje
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 74, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_client, __pyx_t_1) < 0) __PYX_ERR(0, 74, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_client, __pyx_t_1) < 0) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":73
- * 		#self.secret = blah
+  /* "xrplcli.py":80
  * 		pass
+ * 	# connect over JSON-RPC (only for now, wss more secure for internet)
  * 	def connectrpc(self):             # <<<<<<<<<<<<<<
  * 		self.client = JsonRpcClient(self.server)
- * 	def brainwallet(self,seedkey):
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  */
 
   /* function exit code */
@@ -2074,9 +2114,9 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_2connectrpc(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "xrplcli.py":75
- * 	def connectrpc(self):
+/* "xrplcli.py":83
  * 		self.client = JsonRpcClient(self.server)
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  * 	def brainwallet(self,seedkey):             # <<<<<<<<<<<<<<
  * 		myseed = hashlib.sha512(seedkey.encode("ascii"))
  * 		myrealseed = myseed.hexdigest().upper()
@@ -2117,11 +2157,11 @@ static PyObject *__pyx_pw_7xrplcli_10XRPLobject_5brainwallet(PyObject *__pyx_sel
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_seedkey)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("brainwallet", 1, 2, 2, 1); __PYX_ERR(0, 75, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("brainwallet", 1, 2, 2, 1); __PYX_ERR(0, 83, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "brainwallet") < 0)) __PYX_ERR(0, 75, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "brainwallet") < 0)) __PYX_ERR(0, 83, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -2134,7 +2174,7 @@ static PyObject *__pyx_pw_7xrplcli_10XRPLobject_5brainwallet(PyObject *__pyx_sel
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("brainwallet", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 75, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("brainwallet", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 83, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("xrplcli.XRPLobject.brainwallet", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -2165,19 +2205,19 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("brainwallet", 0);
 
-  /* "xrplcli.py":76
- * 		self.client = JsonRpcClient(self.server)
+  /* "xrplcli.py":84
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  * 	def brainwallet(self,seedkey):
  * 		myseed = hashlib.sha512(seedkey.encode("ascii"))             # <<<<<<<<<<<<<<
  * 		myrealseed = myseed.hexdigest().upper()
  * 		seed = binascii.a2b_hex(myrealseed[0:32])
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_hashlib); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_hashlib); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 84, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sha512); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_sha512); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 84, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_seedkey, __pyx_n_s_encode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_seedkey, __pyx_n_s_encode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 84, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
@@ -2191,7 +2231,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   }
   __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_n_s_ascii) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_n_s_ascii);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 76, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 84, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = NULL;
@@ -2207,20 +2247,20 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 76, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_myseed = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "xrplcli.py":77
+  /* "xrplcli.py":85
  * 	def brainwallet(self,seedkey):
  * 		myseed = hashlib.sha512(seedkey.encode("ascii"))
  * 		myrealseed = myseed.hexdigest().upper()             # <<<<<<<<<<<<<<
  * 		seed = binascii.a2b_hex(myrealseed[0:32])
  * 		seed1 = xrpl.core.addresscodec.encode_seed(seed, xrpl.constants.CryptoAlgorithm('secp256k1'))
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_myseed, __pyx_n_s_hexdigest); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_myseed, __pyx_n_s_hexdigest); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -2234,10 +2274,10 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   }
   __pyx_t_3 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 77, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 85, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_upper); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 77, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_upper); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -2252,25 +2292,25 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 77, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 85, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_myrealseed = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "xrplcli.py":78
+  /* "xrplcli.py":86
  * 		myseed = hashlib.sha512(seedkey.encode("ascii"))
  * 		myrealseed = myseed.hexdigest().upper()
  * 		seed = binascii.a2b_hex(myrealseed[0:32])             # <<<<<<<<<<<<<<
  * 		seed1 = xrpl.core.addresscodec.encode_seed(seed, xrpl.constants.CryptoAlgorithm('secp256k1'))
  * 		self.wallet = xrpl.wallet.Wallet(seed1, 1)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_binascii); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_binascii); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_a2b_hex); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_a2b_hex); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 86, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_myrealseed, 0, 32, NULL, NULL, &__pyx_slice_, 1, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetSlice(__pyx_v_myrealseed, 0, 32, NULL, NULL, &__pyx_slice_, 1, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 86, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -2285,36 +2325,36 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 78, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 86, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_seed = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "xrplcli.py":79
+  /* "xrplcli.py":87
  * 		myrealseed = myseed.hexdigest().upper()
  * 		seed = binascii.a2b_hex(myrealseed[0:32])
  * 		seed1 = xrpl.core.addresscodec.encode_seed(seed, xrpl.constants.CryptoAlgorithm('secp256k1'))             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.Wallet(seed1, 1)
  * 		self.account = self.wallet.classic_address
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_core); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_core); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_addresscodec); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_addresscodec); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_encode_seed); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_encode_seed); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_constants); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_constants); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_CryptoAlgorithm); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_CryptoAlgorithm); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = NULL;
@@ -2329,7 +2369,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   }
   __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_n_s_secp256k1) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_n_s_secp256k1);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 79, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 87, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __pyx_t_4 = NULL;
@@ -2347,7 +2387,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_v_seed, __pyx_t_3};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 79, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 87, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -2356,14 +2396,14 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_v_seed, __pyx_t_3};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 79, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 87, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   } else
   #endif
   {
-    __pyx_t_5 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 79, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 87, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     if (__pyx_t_4) {
       __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -2374,7 +2414,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
     __Pyx_GIVEREF(__pyx_t_3);
     PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_6, __pyx_t_3);
     __pyx_t_3 = 0;
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 79, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 87, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
@@ -2382,19 +2422,19 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   __pyx_v_seed1 = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "xrplcli.py":80
+  /* "xrplcli.py":88
  * 		seed = binascii.a2b_hex(myrealseed[0:32])
  * 		seed1 = xrpl.core.addresscodec.encode_seed(seed, xrpl.constants.CryptoAlgorithm('secp256k1'))
  * 		self.wallet = xrpl.wallet.Wallet(seed1, 1)             # <<<<<<<<<<<<<<
  * 		self.account = self.wallet.classic_address
  * 		self.secret = self.wallet.seed
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_wallet); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_wallet); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_Wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_Wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = NULL;
@@ -2412,7 +2452,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_seed1, __pyx_int_1};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 80, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
@@ -2420,13 +2460,13 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_v_seed1, __pyx_int_1};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 80, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
   #endif
   {
-    __pyx_t_3 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 80, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     if (__pyx_t_5) {
       __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -2437,47 +2477,47 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
     __Pyx_INCREF(__pyx_int_1);
     __Pyx_GIVEREF(__pyx_int_1);
     PyTuple_SET_ITEM(__pyx_t_3, 1+__pyx_t_6, __pyx_int_1);
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 80, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_wallet, __pyx_t_1) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_wallet, __pyx_t_1) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":81
+  /* "xrplcli.py":89
  * 		seed1 = xrpl.core.addresscodec.encode_seed(seed, xrpl.constants.CryptoAlgorithm('secp256k1'))
  * 		self.wallet = xrpl.wallet.Wallet(seed1, 1)
  * 		self.account = self.wallet.classic_address             # <<<<<<<<<<<<<<
  * 		self.secret = self.wallet.seed
- * 	def seedwallet(self,secret):
+ * 	# set a wallet seed from cli argument (need to hide this from ps and histfile)
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 81, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 89, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 81, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 89, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_account, __pyx_t_2) < 0) __PYX_ERR(0, 81, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_account, __pyx_t_2) < 0) __PYX_ERR(0, 89, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":82
+  /* "xrplcli.py":90
  * 		self.wallet = xrpl.wallet.Wallet(seed1, 1)
  * 		self.account = self.wallet.classic_address
  * 		self.secret = self.wallet.seed             # <<<<<<<<<<<<<<
+ * 	# set a wallet seed from cli argument (need to hide this from ps and histfile)
  * 	def seedwallet(self,secret):
- * 		self.wallet = xrpl.wallet.Wallet(secret,1)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 82, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 90, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_seed); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 82, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_seed); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 90, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_secret, __pyx_t_1) < 0) __PYX_ERR(0, 82, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_secret, __pyx_t_1) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":75
- * 	def connectrpc(self):
+  /* "xrplcli.py":83
  * 		self.client = JsonRpcClient(self.server)
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  * 	def brainwallet(self,seedkey):             # <<<<<<<<<<<<<<
  * 		myseed = hashlib.sha512(seedkey.encode("ascii"))
  * 		myrealseed = myseed.hexdigest().upper()
@@ -2504,9 +2544,9 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_4brainwallet(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "xrplcli.py":83
- * 		self.account = self.wallet.classic_address
+/* "xrplcli.py":92
  * 		self.secret = self.wallet.seed
+ * 	# set a wallet seed from cli argument (need to hide this from ps and histfile)
  * 	def seedwallet(self,secret):             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.Wallet(secret,1)
  * 		self.account = self.wallet.classic_address
@@ -2547,11 +2587,11 @@ static PyObject *__pyx_pw_7xrplcli_10XRPLobject_7seedwallet(PyObject *__pyx_self
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_secret)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("seedwallet", 1, 2, 2, 1); __PYX_ERR(0, 83, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("seedwallet", 1, 2, 2, 1); __PYX_ERR(0, 92, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "seedwallet") < 0)) __PYX_ERR(0, 83, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "seedwallet") < 0)) __PYX_ERR(0, 92, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -2564,7 +2604,7 @@ static PyObject *__pyx_pw_7xrplcli_10XRPLobject_7seedwallet(PyObject *__pyx_self
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("seedwallet", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 83, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("seedwallet", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 92, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("xrplcli.XRPLobject.seedwallet", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -2590,19 +2630,19 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_6seedwallet(CYTHON_UNUSED PyObje
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("seedwallet", 0);
 
-  /* "xrplcli.py":84
- * 		self.secret = self.wallet.seed
+  /* "xrplcli.py":93
+ * 	# set a wallet seed from cli argument (need to hide this from ps and histfile)
  * 	def seedwallet(self,secret):
  * 		self.wallet = xrpl.wallet.Wallet(secret,1)             # <<<<<<<<<<<<<<
  * 		self.account = self.wallet.classic_address
  * 		self.secret = secret
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 93, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_wallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_wallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 93, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 93, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -2620,7 +2660,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_6seedwallet(CYTHON_UNUSED PyObje
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_v_secret, __pyx_int_1};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 93, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
@@ -2628,13 +2668,13 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_6seedwallet(CYTHON_UNUSED PyObje
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
     PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_v_secret, __pyx_int_1};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 93, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
   #endif
   {
-    __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 84, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 93, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     if (__pyx_t_3) {
       __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_3); __pyx_t_3 = NULL;
@@ -2645,41 +2685,41 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_6seedwallet(CYTHON_UNUSED PyObje
     __Pyx_INCREF(__pyx_int_1);
     __Pyx_GIVEREF(__pyx_int_1);
     PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_4, __pyx_int_1);
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 93, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_wallet, __pyx_t_1) < 0) __PYX_ERR(0, 84, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_wallet, __pyx_t_1) < 0) __PYX_ERR(0, 93, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":85
+  /* "xrplcli.py":94
  * 	def seedwallet(self,secret):
  * 		self.wallet = xrpl.wallet.Wallet(secret,1)
  * 		self.account = self.wallet.classic_address             # <<<<<<<<<<<<<<
  * 		self.secret = secret
- * 	def genwallet(self):
+ * 	# use facuet to generate and fund a wallet
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 85, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 94, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 85, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 94, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_account, __pyx_t_2) < 0) __PYX_ERR(0, 85, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_account, __pyx_t_2) < 0) __PYX_ERR(0, 94, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":86
+  /* "xrplcli.py":95
  * 		self.wallet = xrpl.wallet.Wallet(secret,1)
  * 		self.account = self.wallet.classic_address
  * 		self.secret = secret             # <<<<<<<<<<<<<<
+ * 	# use facuet to generate and fund a wallet
  * 	def genwallet(self):
- * 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
  */
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_secret, __pyx_v_secret) < 0) __PYX_ERR(0, 86, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_secret, __pyx_v_secret) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
 
-  /* "xrplcli.py":83
- * 		self.account = self.wallet.classic_address
+  /* "xrplcli.py":92
  * 		self.secret = self.wallet.seed
+ * 	# set a wallet seed from cli argument (need to hide this from ps and histfile)
  * 	def seedwallet(self,secret):             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.Wallet(secret,1)
  * 		self.account = self.wallet.classic_address
@@ -2701,9 +2741,9 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_6seedwallet(CYTHON_UNUSED PyObje
   return __pyx_r;
 }
 
-/* "xrplcli.py":87
- * 		self.account = self.wallet.classic_address
+/* "xrplcli.py":97
  * 		self.secret = secret
+ * 	# use facuet to generate and fund a wallet
  * 	def genwallet(self):             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
  * 		self.secret = self.wallet.seed
@@ -2735,72 +2775,72 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_8genwallet(CYTHON_UNUSED PyObjec
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("genwallet", 0);
 
-  /* "xrplcli.py":88
- * 		self.secret = secret
+  /* "xrplcli.py":98
+ * 	# use facuet to generate and fund a wallet
  * 	def genwallet(self):
  * 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)             # <<<<<<<<<<<<<<
  * 		self.secret = self.wallet.seed
  * 		self.account = self.wallet.classic_address
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_xrpl); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_generate_faucet_wallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_generate_faucet_wallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2);
   __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 88, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_debug, Py_True) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 88, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_debug, Py_True) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_wallet, __pyx_t_4) < 0) __PYX_ERR(0, 88, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_wallet, __pyx_t_4) < 0) __PYX_ERR(0, 98, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":89
+  /* "xrplcli.py":99
  * 	def genwallet(self):
  * 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
  * 		self.secret = self.wallet.seed             # <<<<<<<<<<<<<<
  * 		self.account = self.wallet.classic_address
- * 	def getaccount(self):
+ * 	# get the account information
  */
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_seed); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 89, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_seed); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_secret, __pyx_t_2) < 0) __PYX_ERR(0, 89, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_secret, __pyx_t_2) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":90
+  /* "xrplcli.py":100
  * 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
  * 		self.secret = self.wallet.seed
  * 		self.account = self.wallet.classic_address             # <<<<<<<<<<<<<<
+ * 	# get the account information
  * 	def getaccount(self):
- * 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 90, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 90, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_account, __pyx_t_4) < 0) __PYX_ERR(0, 90, __pyx_L1_error)
+  if (__Pyx_PyObject_SetAttrStr(__pyx_v_self, __pyx_n_s_account, __pyx_t_4) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":87
- * 		self.account = self.wallet.classic_address
+  /* "xrplcli.py":97
  * 		self.secret = secret
+ * 	# use facuet to generate and fund a wallet
  * 	def genwallet(self):             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
  * 		self.secret = self.wallet.seed
@@ -2822,9 +2862,9 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_8genwallet(CYTHON_UNUSED PyObjec
   return __pyx_r;
 }
 
-/* "xrplcli.py":91
- * 		self.secret = self.wallet.seed
+/* "xrplcli.py":102
  * 		self.account = self.wallet.classic_address
+ * 	# get the account information
  * 	def getaccount(self):             # <<<<<<<<<<<<<<
  * 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
  * 		response = self.client.request(acct_info)
@@ -2859,40 +2899,40 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_10getaccount(CYTHON_UNUSED PyObj
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("getaccount", 0);
 
-  /* "xrplcli.py":92
- * 		self.account = self.wallet.classic_address
+  /* "xrplcli.py":103
+ * 	# get the account information
  * 	def getaccount(self):
  * 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)             # <<<<<<<<<<<<<<
  * 		response = self.client.request(acct_info)
  * 		result = response.result
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_AccountInfo); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 92, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_AccountInfo); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 92, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_account); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_account); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 92, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_ledger_index, __pyx_n_s_validated) < 0) __PYX_ERR(0, 92, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_strict, Py_True) < 0) __PYX_ERR(0, 92, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 92, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_ledger_index, __pyx_n_s_validated) < 0) __PYX_ERR(0, 103, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_strict, Py_True) < 0) __PYX_ERR(0, 103, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 103, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_acct_info = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":93
+  /* "xrplcli.py":104
  * 	def getaccount(self):
  * 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
  * 		response = self.client.request(acct_info)             # <<<<<<<<<<<<<<
  * 		result = response.result
  * 		print("response.status: ", response.status)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 93, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_request); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 93, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_request); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -2907,34 +2947,34 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_10getaccount(CYTHON_UNUSED PyObj
   }
   __pyx_t_3 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_2, __pyx_v_acct_info) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_acct_info);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 93, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 104, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_response = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":94
+  /* "xrplcli.py":105
  * 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
  * 		response = self.client.request(acct_info)
  * 		result = response.result             # <<<<<<<<<<<<<<
  * 		print("response.status: ", response.status)
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_result); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 94, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_result); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 105, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_v_result = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":95
+  /* "xrplcli.py":106
  * 		response = self.client.request(acct_info)
  * 		result = response.result
  * 		print("response.status: ", response.status)             # <<<<<<<<<<<<<<
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
- * 	def delaccount(self,dest):
+ * 	# delete the account
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 95, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 95, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 106, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_kp_s_response_status);
   __Pyx_GIVEREF(__pyx_kp_s_response_status);
@@ -2942,43 +2982,43 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_10getaccount(CYTHON_UNUSED PyObj
   __Pyx_GIVEREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_3);
   __pyx_t_3 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 95, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 106, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":96
+  /* "xrplcli.py":107
  * 		result = response.result
  * 		print("response.status: ", response.status)
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))             # <<<<<<<<<<<<<<
+ * 	# delete the account
  * 	def delaccount(self,dest):
- * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 96, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 96, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 96, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 96, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 107, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 107, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_4) < 0) __PYX_ERR(0, 96, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_4) < 0) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":91
- * 		self.secret = self.wallet.seed
+  /* "xrplcli.py":102
  * 		self.account = self.wallet.classic_address
+ * 	# get the account information
  * 	def getaccount(self):             # <<<<<<<<<<<<<<
  * 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
  * 		response = self.client.request(acct_info)
@@ -3003,9 +3043,9 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_10getaccount(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "xrplcli.py":97
- * 		print("response.status: ", response.status)
+/* "xrplcli.py":109
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
+ * 	# delete the account
  * 	def delaccount(self,dest):             # <<<<<<<<<<<<<<
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
  * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
@@ -3046,11 +3086,11 @@ static PyObject *__pyx_pw_7xrplcli_10XRPLobject_13delaccount(PyObject *__pyx_sel
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_dest)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("delaccount", 1, 2, 2, 1); __PYX_ERR(0, 97, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("delaccount", 1, 2, 2, 1); __PYX_ERR(0, 109, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "delaccount") < 0)) __PYX_ERR(0, 97, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "delaccount") < 0)) __PYX_ERR(0, 109, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -3063,7 +3103,7 @@ static PyObject *__pyx_pw_7xrplcli_10XRPLobject_13delaccount(PyObject *__pyx_sel
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("delaccount", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 97, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("delaccount", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 109, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("xrplcli.XRPLobject.delaccount", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -3095,488 +3135,12 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_12delaccount(CYTHON_UNUSED PyObj
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("delaccount", 0);
 
-  /* "xrplcli.py":98
- * 		print(json.dumps(response.result, indent=4, sort_keys=True))
- * 	def delaccount(self,dest):
- * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)             # <<<<<<<<<<<<<<
- * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
- * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_get_latest_validated_ledger_sequ); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 98, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 98, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_4)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_4);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
-    }
-  }
-  __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 98, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_v_current_validated_ledger = __pyx_t_1;
-  __pyx_t_1 = 0;
-
-  /* "xrplcli.py":99
- * 	def delaccount(self,dest):
- * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
- * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)             # <<<<<<<<<<<<<<
- * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
- * 		print(account_delete) # the unsigned transaction
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_get_next_valid_seq_number); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 99, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 99, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 99, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 99, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = NULL;
-  __pyx_t_6 = 0;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_5)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_5);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
-      __pyx_t_6 = 1;
-    }
-  }
-  #if CYTHON_FAST_PYCALL
-  if (PyFunction_Check(__pyx_t_2)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_4, __pyx_t_3};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 99, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  } else
-  #endif
-  #if CYTHON_FAST_PYCCALL
-  if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_4, __pyx_t_3};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 99, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  } else
-  #endif
-  {
-    __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 99, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_7);
-    if (__pyx_t_5) {
-      __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
-    }
-    __Pyx_GIVEREF(__pyx_t_4);
-    PyTuple_SET_ITEM(__pyx_t_7, 0+__pyx_t_6, __pyx_t_4);
-    __Pyx_GIVEREF(__pyx_t_3);
-    PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, __pyx_t_3);
-    __pyx_t_4 = 0;
-    __pyx_t_3 = 0;
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 99, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  }
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 99, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_sequence, __pyx_t_1) < 0) __PYX_ERR(0, 99, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-  /* "xrplcli.py":100
- * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
- * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
- * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)             # <<<<<<<<<<<<<<
- * 		print(account_delete) # the unsigned transaction
- * 		print(account_delete.is_valid())
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_AccountDelete); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 100, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 100, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 100, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_destination, __pyx_v_dest) < 0) __PYX_ERR(0, 100, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 100, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_account_delete = __pyx_t_3;
-  __pyx_t_3 = 0;
-
-  /* "xrplcli.py":101
- * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
- * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
- * 		print(account_delete) # the unsigned transaction             # <<<<<<<<<<<<<<
- * 		print(account_delete.is_valid())
- * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
- */
-  if (__Pyx_PrintOne(0, __pyx_v_account_delete) < 0) __PYX_ERR(0, 101, __pyx_L1_error)
-
-  /* "xrplcli.py":102
- * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
- * 		print(account_delete) # the unsigned transaction
- * 		print(account_delete.is_valid())             # <<<<<<<<<<<<<<
- * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
- * 		print(account_delete_signed) # the signed transaction
- */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_account_delete, __pyx_n_s_is_valid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 102, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = NULL;
-  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_2)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_2);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_1, function);
-    }
-  }
-  __pyx_t_3 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 102, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 102, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-
-  /* "xrplcli.py":103
- * 		print(account_delete) # the unsigned transaction
- * 		print(account_delete.is_valid())
- * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)             # <<<<<<<<<<<<<<
- * 		print(account_delete_signed) # the signed transaction
- * 		tx_response = send_reliable_submission(account_delete_signed, self.client)
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_safe_sign_and_autofill_transacti); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 103, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 103, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 103, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_4 = NULL;
-  __pyx_t_6 = 0;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_4)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_4);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_1, function);
-      __pyx_t_6 = 1;
-    }
-  }
-  #if CYTHON_FAST_PYCALL
-  if (PyFunction_Check(__pyx_t_1)) {
-    PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_account_delete, __pyx_t_2, __pyx_t_7};
-    __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 103, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  } else
-  #endif
-  #if CYTHON_FAST_PYCCALL
-  if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
-    PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_account_delete, __pyx_t_2, __pyx_t_7};
-    __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 103, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  } else
-  #endif
-  {
-    __pyx_t_5 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 103, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    if (__pyx_t_4) {
-      __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
-    }
-    __Pyx_INCREF(__pyx_v_account_delete);
-    __Pyx_GIVEREF(__pyx_v_account_delete);
-    PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_6, __pyx_v_account_delete);
-    __Pyx_GIVEREF(__pyx_t_2);
-    PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_6, __pyx_t_2);
-    __Pyx_GIVEREF(__pyx_t_7);
-    PyTuple_SET_ITEM(__pyx_t_5, 2+__pyx_t_6, __pyx_t_7);
-    __pyx_t_2 = 0;
-    __pyx_t_7 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_5, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 103, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  }
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_account_delete_signed = __pyx_t_3;
-  __pyx_t_3 = 0;
-
-  /* "xrplcli.py":104
- * 		print(account_delete.is_valid())
- * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
- * 		print(account_delete_signed) # the signed transaction             # <<<<<<<<<<<<<<
- * 		tx_response = send_reliable_submission(account_delete_signed, self.client)
- * 		print("response.status: ", tx_response.status)
- */
-  if (__Pyx_PrintOne(0, __pyx_v_account_delete_signed) < 0) __PYX_ERR(0, 104, __pyx_L1_error)
-
-  /* "xrplcli.py":105
- * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
- * 		print(account_delete_signed) # the signed transaction
- * 		tx_response = send_reliable_submission(account_delete_signed, self.client)             # <<<<<<<<<<<<<<
- * 		print("response.status: ", tx_response.status)
- * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_send_reliable_submission); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 105, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 105, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_7 = NULL;
-  __pyx_t_6 = 0;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_7)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_7);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_1, function);
-      __pyx_t_6 = 1;
-    }
-  }
-  #if CYTHON_FAST_PYCALL
-  if (PyFunction_Check(__pyx_t_1)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_account_delete_signed, __pyx_t_5};
-    __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 105, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  } else
-  #endif
-  #if CYTHON_FAST_PYCCALL
-  if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_account_delete_signed, __pyx_t_5};
-    __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 105, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  } else
-  #endif
-  {
-    __pyx_t_2 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 105, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    if (__pyx_t_7) {
-      __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_7); __pyx_t_7 = NULL;
-    }
-    __Pyx_INCREF(__pyx_v_account_delete_signed);
-    __Pyx_GIVEREF(__pyx_v_account_delete_signed);
-    PyTuple_SET_ITEM(__pyx_t_2, 0+__pyx_t_6, __pyx_v_account_delete_signed);
-    __Pyx_GIVEREF(__pyx_t_5);
-    PyTuple_SET_ITEM(__pyx_t_2, 1+__pyx_t_6, __pyx_t_5);
-    __pyx_t_5 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 105, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  }
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_tx_response = __pyx_t_3;
-  __pyx_t_3 = 0;
-
-  /* "xrplcli.py":106
- * 		print(account_delete_signed) # the signed transaction
- * 		tx_response = send_reliable_submission(account_delete_signed, self.client)
- * 		print("response.status: ", tx_response.status)             # <<<<<<<<<<<<<<
- * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
- * 	def mintnft(self,metauri):
- */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_status); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 106, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 106, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_kp_s_response_status);
-  __Pyx_GIVEREF(__pyx_kp_s_response_status);
-  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_kp_s_response_status);
-  __Pyx_GIVEREF(__pyx_t_3);
-  PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_3);
-  __pyx_t_3 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 106, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-
-  /* "xrplcli.py":107
- * 		tx_response = send_reliable_submission(account_delete_signed, self.client)
- * 		print("response.status: ", tx_response.status)
- * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))             # <<<<<<<<<<<<<<
- * 	def mintnft(self,metauri):
- * 		# get the current block height
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 107, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 107, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_GIVEREF(__pyx_t_1);
-  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
-  __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 107, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 107, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 107, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 107, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-
-  /* "xrplcli.py":97
- * 		print("response.status: ", response.status)
- * 		print(json.dumps(response.result, indent=4, sort_keys=True))
- * 	def delaccount(self,dest):             # <<<<<<<<<<<<<<
- * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
- * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
- */
-
-  /* function exit code */
-  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
-  goto __pyx_L0;
-  __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_2);
-  __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_4);
-  __Pyx_XDECREF(__pyx_t_5);
-  __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("xrplcli.XRPLobject.delaccount", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __pyx_r = NULL;
-  __pyx_L0:;
-  __Pyx_XDECREF(__pyx_v_current_validated_ledger);
-  __Pyx_XDECREF(__pyx_v_account_delete);
-  __Pyx_XDECREF(__pyx_v_account_delete_signed);
-  __Pyx_XDECREF(__pyx_v_tx_response);
-  __Pyx_XGIVEREF(__pyx_r);
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-/* "xrplcli.py":108
- * 		print("response.status: ", tx_response.status)
- * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
- * 	def mintnft(self,metauri):             # <<<<<<<<<<<<<<
- * 		# get the current block height
- * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
- */
-
-/* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_15mintnft(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_15mintnft = {"mintnft", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_7xrplcli_10XRPLobject_15mintnft, METH_VARARGS|METH_KEYWORDS, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_15mintnft(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
-  PyObject *__pyx_v_self = 0;
-  PyObject *__pyx_v_metauri = 0;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  PyObject *__pyx_r = 0;
-  __Pyx_RefNannyDeclarations
-  __Pyx_RefNannySetupContext("mintnft (wrapper)", 0);
-  {
-    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_self,&__pyx_n_s_metauri,0};
-    PyObject* values[2] = {0,0};
-    if (unlikely(__pyx_kwds)) {
-      Py_ssize_t kw_args;
-      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
-      switch (pos_args) {
-        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-        CYTHON_FALLTHROUGH;
-        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
-        CYTHON_FALLTHROUGH;
-        case  0: break;
-        default: goto __pyx_L5_argtuple_error;
-      }
-      kw_args = PyDict_Size(__pyx_kwds);
-      switch (pos_args) {
-        case  0:
-        if (likely((values[0] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_self)) != 0)) kw_args--;
-        else goto __pyx_L5_argtuple_error;
-        CYTHON_FALLTHROUGH;
-        case  1:
-        if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_metauri)) != 0)) kw_args--;
-        else {
-          __Pyx_RaiseArgtupleInvalid("mintnft", 1, 2, 2, 1); __PYX_ERR(0, 108, __pyx_L3_error)
-        }
-      }
-      if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "mintnft") < 0)) __PYX_ERR(0, 108, __pyx_L3_error)
-      }
-    } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
-      goto __pyx_L5_argtuple_error;
-    } else {
-      values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
-      values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
-    }
-    __pyx_v_self = values[0];
-    __pyx_v_metauri = values[1];
-  }
-  goto __pyx_L4_argument_unpacking_done;
-  __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("mintnft", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 108, __pyx_L3_error)
-  __pyx_L3_error:;
-  __Pyx_AddTraceback("xrplcli.XRPLobject.mintnft", __pyx_clineno, __pyx_lineno, __pyx_filename);
-  __Pyx_RefNannyFinishContext();
-  return NULL;
-  __pyx_L4_argument_unpacking_done:;
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_14mintnft(__pyx_self, __pyx_v_self, __pyx_v_metauri);
-
-  /* function exit code */
-  __Pyx_RefNannyFinishContext();
-  return __pyx_r;
-}
-
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_metauri) {
-  CYTHON_UNUSED PyObject *__pyx_v_current_validated_ledger = NULL;
-  PyObject *__pyx_v_uriarg = NULL;
-  PyObject *__pyx_v_uriarg_hex = NULL;
-  PyObject *__pyx_v_nft_mint = NULL;
-  PyObject *__pyx_v_nft_mint_signed = NULL;
-  PyObject *__pyx_v_tx_response = NULL;
-  PyObject *__pyx_r = NULL;
-  __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
-  PyObject *__pyx_t_2 = NULL;
-  PyObject *__pyx_t_3 = NULL;
-  PyObject *__pyx_t_4 = NULL;
-  PyObject *__pyx_t_5 = NULL;
-  int __pyx_t_6;
-  PyObject *__pyx_t_7 = NULL;
-  int __pyx_lineno = 0;
-  const char *__pyx_filename = NULL;
-  int __pyx_clineno = 0;
-  __Pyx_RefNannySetupContext("mintnft", 0);
-
   /* "xrplcli.py":110
- * 	def mintnft(self,metauri):
- * 		# get the current block height
+ * 	# delete the account
+ * 	def delaccount(self,dest):
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)             # <<<<<<<<<<<<<<
  * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
- * 		uriarg = metauri.encode('utf-8')
+ * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_get_latest_validated_ledger_sequ); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 110, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3602,11 +3166,11 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   __pyx_t_1 = 0;
 
   /* "xrplcli.py":111
- * 		# get the current block height
+ * 	def delaccount(self,dest):
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
  * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)             # <<<<<<<<<<<<<<
- * 		uriarg = metauri.encode('utf-8')
- * 		uriarg_hex = uriarg.hex()
+ * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
+ * 		print(account_delete) # the unsigned transaction
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_get_next_valid_seq_number); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 111, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3675,101 +3239,46 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   /* "xrplcli.py":112
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
  * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
- * 		uriarg = metauri.encode('utf-8')             # <<<<<<<<<<<<<<
- * 		uriarg_hex = uriarg.hex()
- * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
+ * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)             # <<<<<<<<<<<<<<
+ * 		print(account_delete) # the unsigned transaction
+ * 		print(account_delete.is_valid())
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_metauri, __pyx_n_s_encode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 112, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_7 = NULL;
-  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_7)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_7);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_1, function);
-    }
-  }
-  __pyx_t_2 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_7, __pyx_kp_s_utf_8) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_kp_s_utf_8);
-  __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 112, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_AccountDelete); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_uriarg = __pyx_t_2;
-  __pyx_t_2 = 0;
-
-  /* "xrplcli.py":113
- * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
- * 		uriarg = metauri.encode('utf-8')
- * 		uriarg_hex = uriarg.hex()             # <<<<<<<<<<<<<<
- * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
- * 		print(nft_mint) # the unsigned transaction
- */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_uriarg, __pyx_n_s_hex); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 113, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_7 = NULL;
-  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
-    __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
-    if (likely(__pyx_t_7)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-      __Pyx_INCREF(__pyx_t_7);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_1, function);
-    }
-  }
-  __pyx_t_2 = (__pyx_t_7) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_7) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 113, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_uriarg_hex = __pyx_t_2;
-  __pyx_t_2 = 0;
-
-  /* "xrplcli.py":114
- * 		uriarg = metauri.encode('utf-8')
- * 		uriarg_hex = uriarg.hex()
- * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)             # <<<<<<<<<<<<<<
- * 		print(nft_mint) # the unsigned transaction
- * 		print(nft_mint.is_valid())
- */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_NFTokenMint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 114, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 114, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 114, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 114, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_nftoken_taxon, __pyx_int_0) < 0) __PYX_ERR(0, 114, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_uri, __pyx_v_uriarg_hex) < 0) __PYX_ERR(0, 114, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_destination, __pyx_v_dest) < 0) __PYX_ERR(0, 112, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 112, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_v_nft_mint = __pyx_t_3;
+  __pyx_v_account_delete = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":115
- * 		uriarg_hex = uriarg.hex()
- * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
- * 		print(nft_mint) # the unsigned transaction             # <<<<<<<<<<<<<<
- * 		print(nft_mint.is_valid())
- * 		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
+  /* "xrplcli.py":113
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
+ * 		print(account_delete) # the unsigned transaction             # <<<<<<<<<<<<<<
+ * 		print(account_delete.is_valid())
+ * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
  */
-  if (__Pyx_PrintOne(0, __pyx_v_nft_mint) < 0) __PYX_ERR(0, 115, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_v_account_delete) < 0) __PYX_ERR(0, 113, __pyx_L1_error)
 
-  /* "xrplcli.py":116
- * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
- * 		print(nft_mint) # the unsigned transaction
- * 		print(nft_mint.is_valid())             # <<<<<<<<<<<<<<
- * 		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
- * 		print(nft_mint_signed) # the signed transaction
+  /* "xrplcli.py":114
+ * 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
+ * 		print(account_delete) # the unsigned transaction
+ * 		print(account_delete.is_valid())             # <<<<<<<<<<<<<<
+ * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
+ * 		print(account_delete_signed) # the signed transaction
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_nft_mint, __pyx_n_s_is_valid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 116, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_account_delete, __pyx_n_s_is_valid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
@@ -3783,24 +3292,1106 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   }
   __pyx_t_3 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 116, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 116, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 114, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
+  /* "xrplcli.py":115
+ * 		print(account_delete) # the unsigned transaction
+ * 		print(account_delete.is_valid())
+ * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)             # <<<<<<<<<<<<<<
+ * 		print(account_delete_signed) # the signed transaction
+ * 		tx_response = send_reliable_submission(account_delete_signed, self.client)
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_safe_sign_and_autofill_transacti); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 115, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_4 = NULL;
+  __pyx_t_6 = 0;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_4)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_4);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+      __pyx_t_6 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_1)) {
+    PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_account_delete, __pyx_t_2, __pyx_t_7};
+    __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
+    PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_account_delete, __pyx_t_2, __pyx_t_7};
+    __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  } else
+  #endif
+  {
+    __pyx_t_5 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    if (__pyx_t_4) {
+      __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
+    }
+    __Pyx_INCREF(__pyx_v_account_delete);
+    __Pyx_GIVEREF(__pyx_v_account_delete);
+    PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_6, __pyx_v_account_delete);
+    __Pyx_GIVEREF(__pyx_t_2);
+    PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_6, __pyx_t_2);
+    __Pyx_GIVEREF(__pyx_t_7);
+    PyTuple_SET_ITEM(__pyx_t_5, 2+__pyx_t_6, __pyx_t_7);
+    __pyx_t_2 = 0;
+    __pyx_t_7 = 0;
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_5, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 115, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_account_delete_signed = __pyx_t_3;
+  __pyx_t_3 = 0;
+
+  /* "xrplcli.py":116
+ * 		print(account_delete.is_valid())
+ * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
+ * 		print(account_delete_signed) # the signed transaction             # <<<<<<<<<<<<<<
+ * 		tx_response = send_reliable_submission(account_delete_signed, self.client)
+ * 		print("response.status: ", tx_response.status)
+ */
+  if (__Pyx_PrintOne(0, __pyx_v_account_delete_signed) < 0) __PYX_ERR(0, 116, __pyx_L1_error)
+
   /* "xrplcli.py":117
+ * 		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
+ * 		print(account_delete_signed) # the signed transaction
+ * 		tx_response = send_reliable_submission(account_delete_signed, self.client)             # <<<<<<<<<<<<<<
+ * 		print("response.status: ", tx_response.status)
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_send_reliable_submission); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 117, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 117, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_7 = NULL;
+  __pyx_t_6 = 0;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_7)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_7);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+      __pyx_t_6 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_1)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_account_delete_signed, __pyx_t_5};
+    __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_account_delete_signed, __pyx_t_5};
+    __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  } else
+  #endif
+  {
+    __pyx_t_2 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (__pyx_t_7) {
+      __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_7); __pyx_t_7 = NULL;
+    }
+    __Pyx_INCREF(__pyx_v_account_delete_signed);
+    __Pyx_GIVEREF(__pyx_v_account_delete_signed);
+    PyTuple_SET_ITEM(__pyx_t_2, 0+__pyx_t_6, __pyx_v_account_delete_signed);
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_2, 1+__pyx_t_6, __pyx_t_5);
+    __pyx_t_5 = 0;
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_tx_response = __pyx_t_3;
+  __pyx_t_3 = 0;
+
+  /* "xrplcli.py":118
+ * 		print(account_delete_signed) # the signed transaction
+ * 		tx_response = send_reliable_submission(account_delete_signed, self.client)
+ * 		print("response.status: ", tx_response.status)             # <<<<<<<<<<<<<<
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	def payment(self,dest,amount,tag):
+ */
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_status); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 118, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 118, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_kp_s_response_status);
+  __Pyx_GIVEREF(__pyx_kp_s_response_status);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_kp_s_response_status);
+  __Pyx_GIVEREF(__pyx_t_3);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_3);
+  __pyx_t_3 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 118, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "xrplcli.py":119
+ * 		tx_response = send_reliable_submission(account_delete_signed, self.client)
+ * 		print("response.status: ", tx_response.status)
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))             # <<<<<<<<<<<<<<
+ * 	def payment(self,dest,amount,tag):
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 119, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 119, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 119, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "xrplcli.py":109
+ * 		print(json.dumps(response.result, indent=4, sort_keys=True))
+ * 	# delete the account
+ * 	def delaccount(self,dest):             # <<<<<<<<<<<<<<
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ */
+
+  /* function exit code */
+  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_AddTraceback("xrplcli.XRPLobject.delaccount", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XDECREF(__pyx_v_current_validated_ledger);
+  __Pyx_XDECREF(__pyx_v_account_delete);
+  __Pyx_XDECREF(__pyx_v_account_delete_signed);
+  __Pyx_XDECREF(__pyx_v_tx_response);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "xrplcli.py":120
+ * 		print("response.status: ", tx_response.status)
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	def payment(self,dest,amount,tag):             # <<<<<<<<<<<<<<
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_15payment(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_15payment = {"payment", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_7xrplcli_10XRPLobject_15payment, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_15payment(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  PyObject *__pyx_v_self = 0;
+  PyObject *__pyx_v_dest = 0;
+  PyObject *__pyx_v_amount = 0;
+  PyObject *__pyx_v_tag = 0;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("payment (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_self,&__pyx_n_s_dest,&__pyx_n_s_amount,&__pyx_n_s_tag,0};
+    PyObject* values[4] = {0,0,0,0};
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case  4: values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
+        CYTHON_FALLTHROUGH;
+        case  3: values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+        CYTHON_FALLTHROUGH;
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        CYTHON_FALLTHROUGH;
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        CYTHON_FALLTHROUGH;
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_self)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        CYTHON_FALLTHROUGH;
+        case  1:
+        if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_dest)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("payment", 1, 4, 4, 1); __PYX_ERR(0, 120, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case  2:
+        if (likely((values[2] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_amount)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("payment", 1, 4, 4, 2); __PYX_ERR(0, 120, __pyx_L3_error)
+        }
+        CYTHON_FALLTHROUGH;
+        case  3:
+        if (likely((values[3] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_tag)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("payment", 1, 4, 4, 3); __PYX_ERR(0, 120, __pyx_L3_error)
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "payment") < 0)) __PYX_ERR(0, 120, __pyx_L3_error)
+      }
+    } else if (PyTuple_GET_SIZE(__pyx_args) != 4) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+      values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+      values[2] = PyTuple_GET_ITEM(__pyx_args, 2);
+      values[3] = PyTuple_GET_ITEM(__pyx_args, 3);
+    }
+    __pyx_v_self = values[0];
+    __pyx_v_dest = values[1];
+    __pyx_v_amount = values[2];
+    __pyx_v_tag = values[3];
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("payment", 1, 4, 4, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 120, __pyx_L3_error)
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("xrplcli.XRPLobject.payment", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_14payment(__pyx_self, __pyx_v_self, __pyx_v_dest, __pyx_v_amount, __pyx_v_tag);
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14payment(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_dest, PyObject *__pyx_v_amount, PyObject *__pyx_v_tag) {
+  CYTHON_UNUSED PyObject *__pyx_v_current_validated_ledger = NULL;
+  PyObject *__pyx_v_payment = NULL;
+  PyObject *__pyx_v_payment_signed = NULL;
+  PyObject *__pyx_v_tx_response = NULL;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  PyObject *__pyx_t_4 = NULL;
+  PyObject *__pyx_t_5 = NULL;
+  int __pyx_t_6;
+  PyObject *__pyx_t_7 = NULL;
+  int __pyx_t_8;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("payment", 0);
+
+  /* "xrplcli.py":121
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	def payment(self,dest,amount,tag):
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)             # <<<<<<<<<<<<<<
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ * 		if tag == None:
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_get_latest_validated_ledger_sequ); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_4)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_4);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+    }
+  }
+  __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_v_current_validated_ledger = __pyx_t_1;
+  __pyx_t_1 = 0;
+
+  /* "xrplcli.py":122
+ * 	def payment(self,dest,amount,tag):
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)             # <<<<<<<<<<<<<<
+ * 		if tag == None:
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest)
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_get_next_valid_seq_number); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_5 = NULL;
+  __pyx_t_6 = 0;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+      __pyx_t_6 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_2)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_4, __pyx_t_3};
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_4, __pyx_t_3};
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  } else
+  #endif
+  {
+    __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    if (__pyx_t_5) {
+      __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
+    }
+    __Pyx_GIVEREF(__pyx_t_4);
+    PyTuple_SET_ITEM(__pyx_t_7, 0+__pyx_t_6, __pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, __pyx_t_3);
+    __pyx_t_4 = 0;
+    __pyx_t_3 = 0;
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 122, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_sequence, __pyx_t_1) < 0) __PYX_ERR(0, 122, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "xrplcli.py":123
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ * 		if tag == None:             # <<<<<<<<<<<<<<
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest)
+ * 		else:
+ */
+  __pyx_t_2 = PyObject_RichCompare(__pyx_v_tag, Py_None, Py_EQ); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 123, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(0, 123, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (__pyx_t_8) {
+
+    /* "xrplcli.py":124
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ * 		if tag == None:
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest)             # <<<<<<<<<<<<<<
+ * 		else:
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest, destination_tag = tag)
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_Payment); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_amount, __pyx_v_amount) < 0) __PYX_ERR(0, 124, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_destination, __pyx_v_dest) < 0) __PYX_ERR(0, 124, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_v_payment = __pyx_t_3;
+    __pyx_t_3 = 0;
+
+    /* "xrplcli.py":123
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ * 		if tag == None:             # <<<<<<<<<<<<<<
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest)
+ * 		else:
+ */
+    goto __pyx_L3;
+  }
+
+  /* "xrplcli.py":126
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest)
+ * 		else:
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest, destination_tag = tag)             # <<<<<<<<<<<<<<
+ * 		print(payment) # the unsigned transaction
+ * 		print(payment.is_valid())
+ */
+  /*else*/ {
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Payment); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 126, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 126, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 126, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_account, __pyx_t_7) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_amount, __pyx_v_amount) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_destination, __pyx_v_dest) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_destination_tag, __pyx_v_tag) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 126, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_v_payment = __pyx_t_7;
+    __pyx_t_7 = 0;
+  }
+  __pyx_L3:;
+
+  /* "xrplcli.py":127
+ * 		else:
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest, destination_tag = tag)
+ * 		print(payment) # the unsigned transaction             # <<<<<<<<<<<<<<
+ * 		print(payment.is_valid())
+ * 		payment_signed = safe_sign_and_autofill_transaction(payment, self.wallet, self.client)
+ */
+  if (__Pyx_PrintOne(0, __pyx_v_payment) < 0) __PYX_ERR(0, 127, __pyx_L1_error)
+
+  /* "xrplcli.py":128
+ * 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest, destination_tag = tag)
+ * 		print(payment) # the unsigned transaction
+ * 		print(payment.is_valid())             # <<<<<<<<<<<<<<
+ * 		payment_signed = safe_sign_and_autofill_transaction(payment, self.wallet, self.client)
+ * 		print(payment_signed) # the signed transaction
+ */
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_payment, __pyx_n_s_is_valid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_3)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_3);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  __pyx_t_7 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_7) < 0) __PYX_ERR(0, 128, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+
+  /* "xrplcli.py":129
+ * 		print(payment) # the unsigned transaction
+ * 		print(payment.is_valid())
+ * 		payment_signed = safe_sign_and_autofill_transaction(payment, self.wallet, self.client)             # <<<<<<<<<<<<<<
+ * 		print(payment_signed) # the signed transaction
+ * 		tx_response = send_reliable_submission(payment_signed, self.client)
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_safe_sign_and_autofill_transacti); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 129, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_4 = NULL;
+  __pyx_t_6 = 0;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_4)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_4);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+      __pyx_t_6 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_1)) {
+    PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_payment, __pyx_t_3, __pyx_t_2};
+    __pyx_t_7 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 129, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
+    PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_payment, __pyx_t_3, __pyx_t_2};
+    __pyx_t_7 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 129, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  } else
+  #endif
+  {
+    __pyx_t_5 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 129, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    if (__pyx_t_4) {
+      __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
+    }
+    __Pyx_INCREF(__pyx_v_payment);
+    __Pyx_GIVEREF(__pyx_v_payment);
+    PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_6, __pyx_v_payment);
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_6, __pyx_t_3);
+    __Pyx_GIVEREF(__pyx_t_2);
+    PyTuple_SET_ITEM(__pyx_t_5, 2+__pyx_t_6, __pyx_t_2);
+    __pyx_t_3 = 0;
+    __pyx_t_2 = 0;
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_5, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 129, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_payment_signed = __pyx_t_7;
+  __pyx_t_7 = 0;
+
+  /* "xrplcli.py":130
+ * 		print(payment.is_valid())
+ * 		payment_signed = safe_sign_and_autofill_transaction(payment, self.wallet, self.client)
+ * 		print(payment_signed) # the signed transaction             # <<<<<<<<<<<<<<
+ * 		tx_response = send_reliable_submission(payment_signed, self.client)
+ * 		print("response status: ", tx_response.status)
+ */
+  if (__Pyx_PrintOne(0, __pyx_v_payment_signed) < 0) __PYX_ERR(0, 130, __pyx_L1_error)
+
+  /* "xrplcli.py":131
+ * 		payment_signed = safe_sign_and_autofill_transaction(payment, self.wallet, self.client)
+ * 		print(payment_signed) # the signed transaction
+ * 		tx_response = send_reliable_submission(payment_signed, self.client)             # <<<<<<<<<<<<<<
+ * 		print("response status: ", tx_response.status)
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_send_reliable_submission); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 131, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 131, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_2 = NULL;
+  __pyx_t_6 = 0;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_2)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_2);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+      __pyx_t_6 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_1)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_v_payment_signed, __pyx_t_5};
+    __pyx_t_7 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 131, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_v_payment_signed, __pyx_t_5};
+    __pyx_t_7 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 131, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  } else
+  #endif
+  {
+    __pyx_t_3 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 131, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    if (__pyx_t_2) {
+      __Pyx_GIVEREF(__pyx_t_2); PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_2); __pyx_t_2 = NULL;
+    }
+    __Pyx_INCREF(__pyx_v_payment_signed);
+    __Pyx_GIVEREF(__pyx_v_payment_signed);
+    PyTuple_SET_ITEM(__pyx_t_3, 0+__pyx_t_6, __pyx_v_payment_signed);
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_3, 1+__pyx_t_6, __pyx_t_5);
+    __pyx_t_5 = 0;
+    __pyx_t_7 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_3, NULL); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 131, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_tx_response = __pyx_t_7;
+  __pyx_t_7 = 0;
+
+  /* "xrplcli.py":132
+ * 		print(payment_signed) # the signed transaction
+ * 		tx_response = send_reliable_submission(payment_signed, self.client)
+ * 		print("response status: ", tx_response.status)             # <<<<<<<<<<<<<<
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# should take taxon as an argument for collections, grouped by taxon as an ID.
+ */
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_status); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 132, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 132, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_kp_s_response_status_2);
+  __Pyx_GIVEREF(__pyx_kp_s_response_status_2);
+  PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_kp_s_response_status_2);
+  __Pyx_GIVEREF(__pyx_t_7);
+  PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_7);
+  __pyx_t_7 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 132, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "xrplcli.py":133
+ * 		tx_response = send_reliable_submission(payment_signed, self.client)
+ * 		print("response status: ", tx_response.status)
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))             # <<<<<<<<<<<<<<
+ * 	# should take taxon as an argument for collections, grouped by taxon as an ID.
+ * 	def mintnft(self,metauri):
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_3 = PyTuple_New(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_1);
+  __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 133, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 133, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 133, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+  /* "xrplcli.py":120
+ * 		print("response.status: ", tx_response.status)
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	def payment(self,dest,amount,tag):             # <<<<<<<<<<<<<<
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ */
+
+  /* function exit code */
+  __pyx_r = Py_None; __Pyx_INCREF(Py_None);
+  goto __pyx_L0;
+  __pyx_L1_error:;
+  __Pyx_XDECREF(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_7);
+  __Pyx_AddTraceback("xrplcli.XRPLobject.payment", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __pyx_r = NULL;
+  __pyx_L0:;
+  __Pyx_XDECREF(__pyx_v_current_validated_ledger);
+  __Pyx_XDECREF(__pyx_v_payment);
+  __Pyx_XDECREF(__pyx_v_payment_signed);
+  __Pyx_XDECREF(__pyx_v_tx_response);
+  __Pyx_XGIVEREF(__pyx_r);
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+/* "xrplcli.py":135
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# should take taxon as an argument for collections, grouped by taxon as an ID.
+ * 	def mintnft(self,metauri):             # <<<<<<<<<<<<<<
+ * 		# get the current block height
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ */
+
+/* Python wrapper */
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_17mintnft(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_17mintnft = {"mintnft", (PyCFunction)(void*)(PyCFunctionWithKeywords)__pyx_pw_7xrplcli_10XRPLobject_17mintnft, METH_VARARGS|METH_KEYWORDS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_17mintnft(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {
+  PyObject *__pyx_v_self = 0;
+  PyObject *__pyx_v_metauri = 0;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  PyObject *__pyx_r = 0;
+  __Pyx_RefNannyDeclarations
+  __Pyx_RefNannySetupContext("mintnft (wrapper)", 0);
+  {
+    static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_self,&__pyx_n_s_metauri,0};
+    PyObject* values[2] = {0,0};
+    if (unlikely(__pyx_kwds)) {
+      Py_ssize_t kw_args;
+      const Py_ssize_t pos_args = PyTuple_GET_SIZE(__pyx_args);
+      switch (pos_args) {
+        case  2: values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+        CYTHON_FALLTHROUGH;
+        case  1: values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+        CYTHON_FALLTHROUGH;
+        case  0: break;
+        default: goto __pyx_L5_argtuple_error;
+      }
+      kw_args = PyDict_Size(__pyx_kwds);
+      switch (pos_args) {
+        case  0:
+        if (likely((values[0] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_self)) != 0)) kw_args--;
+        else goto __pyx_L5_argtuple_error;
+        CYTHON_FALLTHROUGH;
+        case  1:
+        if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_metauri)) != 0)) kw_args--;
+        else {
+          __Pyx_RaiseArgtupleInvalid("mintnft", 1, 2, 2, 1); __PYX_ERR(0, 135, __pyx_L3_error)
+        }
+      }
+      if (unlikely(kw_args > 0)) {
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "mintnft") < 0)) __PYX_ERR(0, 135, __pyx_L3_error)
+      }
+    } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
+      goto __pyx_L5_argtuple_error;
+    } else {
+      values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
+      values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
+    }
+    __pyx_v_self = values[0];
+    __pyx_v_metauri = values[1];
+  }
+  goto __pyx_L4_argument_unpacking_done;
+  __pyx_L5_argtuple_error:;
+  __Pyx_RaiseArgtupleInvalid("mintnft", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 135, __pyx_L3_error)
+  __pyx_L3_error:;
+  __Pyx_AddTraceback("xrplcli.XRPLobject.mintnft", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_RefNannyFinishContext();
+  return NULL;
+  __pyx_L4_argument_unpacking_done:;
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_16mintnft(__pyx_self, __pyx_v_self, __pyx_v_metauri);
+
+  /* function exit code */
+  __Pyx_RefNannyFinishContext();
+  return __pyx_r;
+}
+
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16mintnft(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self, PyObject *__pyx_v_metauri) {
+  CYTHON_UNUSED PyObject *__pyx_v_current_validated_ledger = NULL;
+  PyObject *__pyx_v_uriarg = NULL;
+  PyObject *__pyx_v_uriarg_hex = NULL;
+  PyObject *__pyx_v_nft_mint = NULL;
+  PyObject *__pyx_v_nft_mint_signed = NULL;
+  PyObject *__pyx_v_tx_response = NULL;
+  PyObject *__pyx_r = NULL;
+  __Pyx_RefNannyDeclarations
+  PyObject *__pyx_t_1 = NULL;
+  PyObject *__pyx_t_2 = NULL;
+  PyObject *__pyx_t_3 = NULL;
+  PyObject *__pyx_t_4 = NULL;
+  PyObject *__pyx_t_5 = NULL;
+  int __pyx_t_6;
+  PyObject *__pyx_t_7 = NULL;
+  int __pyx_lineno = 0;
+  const char *__pyx_filename = NULL;
+  int __pyx_clineno = 0;
+  __Pyx_RefNannySetupContext("mintnft", 0);
+
+  /* "xrplcli.py":137
+ * 	def mintnft(self,metauri):
+ * 		# get the current block height
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)             # <<<<<<<<<<<<<<
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ * 		uriarg = metauri.encode('utf-8')
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_get_latest_validated_ledger_sequ); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = NULL;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_4)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_4);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+    }
+  }
+  __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3);
+  __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 137, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_v_current_validated_ledger = __pyx_t_1;
+  __pyx_t_1 = 0;
+
+  /* "xrplcli.py":138
+ * 		# get the current block height
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)             # <<<<<<<<<<<<<<
+ * 		uriarg = metauri.encode('utf-8')
+ * 		uriarg_hex = uriarg.hex()
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_get_next_valid_seq_number); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __pyx_t_5 = NULL;
+  __pyx_t_6 = 0;
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_2))) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_2);
+    if (likely(__pyx_t_5)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_5);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_2, function);
+      __pyx_t_6 = 1;
+    }
+  }
+  #if CYTHON_FAST_PYCALL
+  if (PyFunction_Check(__pyx_t_2)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_4, __pyx_t_3};
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  } else
+  #endif
+  #if CYTHON_FAST_PYCCALL
+  if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
+    PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_4, __pyx_t_3};
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  } else
+  #endif
+  {
+    __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 138, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_7);
+    if (__pyx_t_5) {
+      __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
+    }
+    __Pyx_GIVEREF(__pyx_t_4);
+    PyTuple_SET_ITEM(__pyx_t_7, 0+__pyx_t_6, __pyx_t_4);
+    __Pyx_GIVEREF(__pyx_t_3);
+    PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, __pyx_t_3);
+    __pyx_t_4 = 0;
+    __pyx_t_3 = 0;
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 138, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  }
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_sequence, __pyx_t_1) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "xrplcli.py":139
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ * 		uriarg = metauri.encode('utf-8')             # <<<<<<<<<<<<<<
+ * 		uriarg_hex = uriarg.hex()
+ * 		# set to 0 by default for taxon, should contain collection ID.
+ */
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_metauri, __pyx_n_s_encode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 139, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_7 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_7)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_7);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_7, __pyx_kp_s_utf_8) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_kp_s_utf_8);
+  __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 139, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_uriarg = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "xrplcli.py":140
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ * 		uriarg = metauri.encode('utf-8')
+ * 		uriarg_hex = uriarg.hex()             # <<<<<<<<<<<<<<
+ * 		# set to 0 by default for taxon, should contain collection ID.
+ * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
+ */
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_uriarg, __pyx_n_s_hex); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 140, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_7 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_7)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_7);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  __pyx_t_2 = (__pyx_t_7) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_7) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 140, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_uriarg_hex = __pyx_t_2;
+  __pyx_t_2 = 0;
+
+  /* "xrplcli.py":142
+ * 		uriarg_hex = uriarg.hex()
+ * 		# set to 0 by default for taxon, should contain collection ID.
+ * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)             # <<<<<<<<<<<<<<
+ * 		print(nft_mint) # the unsigned transaction
+ * 		print(nft_mint.is_valid())
+ */
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_NFTokenMint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 142, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 142, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 142, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_classic_address); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 142, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 142, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_nftoken_taxon, __pyx_int_0) < 0) __PYX_ERR(0, 142, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_uri, __pyx_v_uriarg_hex) < 0) __PYX_ERR(0, 142, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 142, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_v_nft_mint = __pyx_t_3;
+  __pyx_t_3 = 0;
+
+  /* "xrplcli.py":143
+ * 		# set to 0 by default for taxon, should contain collection ID.
+ * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
+ * 		print(nft_mint) # the unsigned transaction             # <<<<<<<<<<<<<<
+ * 		print(nft_mint.is_valid())
+ * 		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
+ */
+  if (__Pyx_PrintOne(0, __pyx_v_nft_mint) < 0) __PYX_ERR(0, 143, __pyx_L1_error)
+
+  /* "xrplcli.py":144
+ * 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
+ * 		print(nft_mint) # the unsigned transaction
+ * 		print(nft_mint.is_valid())             # <<<<<<<<<<<<<<
+ * 		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
+ * 		print(nft_mint_signed) # the signed transaction
+ */
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_nft_mint, __pyx_n_s_is_valid); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = NULL;
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
+    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
+    if (likely(__pyx_t_2)) {
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_2);
+      __Pyx_INCREF(function);
+      __Pyx_DECREF_SET(__pyx_t_1, function);
+    }
+  }
+  __pyx_t_3 = (__pyx_t_2) ? __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_2) : __Pyx_PyObject_CallNoArg(__pyx_t_1);
+  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 144, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+  /* "xrplcli.py":145
  * 		print(nft_mint) # the unsigned transaction
  * 		print(nft_mint.is_valid())
  * 		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)             # <<<<<<<<<<<<<<
  * 		print(nft_mint_signed) # the signed transaction
  * 		tx_response = send_reliable_submission(nft_mint_signed, self.client)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_safe_sign_and_autofill_transacti); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 117, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_safe_sign_and_autofill_transacti); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 117, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_wallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 117, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __pyx_t_4 = NULL;
   __pyx_t_6 = 0;
@@ -3817,7 +4408,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_1)) {
     PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_nft_mint, __pyx_t_2, __pyx_t_7};
-    __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3827,7 +4418,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
     PyObject *__pyx_temp[4] = {__pyx_t_4, __pyx_v_nft_mint, __pyx_t_2, __pyx_t_7};
-    __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -3835,7 +4426,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   } else
   #endif
   {
-    __pyx_t_5 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     if (__pyx_t_4) {
       __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -3849,7 +4440,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
     PyTuple_SET_ITEM(__pyx_t_5, 2+__pyx_t_6, __pyx_t_7);
     __pyx_t_2 = 0;
     __pyx_t_7 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_5, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 117, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_5, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 145, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
@@ -3857,25 +4448,25 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   __pyx_v_nft_mint_signed = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":118
+  /* "xrplcli.py":146
  * 		print(nft_mint.is_valid())
  * 		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
  * 		print(nft_mint_signed) # the signed transaction             # <<<<<<<<<<<<<<
  * 		tx_response = send_reliable_submission(nft_mint_signed, self.client)
  * 		print("response.status: ", tx_response.status)
  */
-  if (__Pyx_PrintOne(0, __pyx_v_nft_mint_signed) < 0) __PYX_ERR(0, 118, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_v_nft_mint_signed) < 0) __PYX_ERR(0, 146, __pyx_L1_error)
 
-  /* "xrplcli.py":119
+  /* "xrplcli.py":147
  * 		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
  * 		print(nft_mint_signed) # the signed transaction
  * 		tx_response = send_reliable_submission(nft_mint_signed, self.client)             # <<<<<<<<<<<<<<
  * 		print("response.status: ", tx_response.status)
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_send_reliable_submission); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_send_reliable_submission); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 147, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 119, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 147, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __pyx_t_7 = NULL;
   __pyx_t_6 = 0;
@@ -3892,7 +4483,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_1)) {
     PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_nft_mint_signed, __pyx_t_5};
-    __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 119, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 147, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -3901,14 +4492,14 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
     PyObject *__pyx_temp[3] = {__pyx_t_7, __pyx_v_nft_mint_signed, __pyx_t_5};
-    __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 119, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 147, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   } else
   #endif
   {
-    __pyx_t_2 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 119, __pyx_L1_error)
+    __pyx_t_2 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 147, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     if (__pyx_t_7) {
       __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_7); __pyx_t_7 = NULL;
@@ -3919,7 +4510,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
     __Pyx_GIVEREF(__pyx_t_5);
     PyTuple_SET_ITEM(__pyx_t_2, 1+__pyx_t_6, __pyx_t_5);
     __pyx_t_5 = 0;
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 119, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 147, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
@@ -3927,16 +4518,16 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   __pyx_v_tx_response = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":120
+  /* "xrplcli.py":148
  * 		print(nft_mint_signed) # the signed transaction
  * 		tx_response = send_reliable_submission(nft_mint_signed, self.client)
  * 		print("response.status: ", tx_response.status)             # <<<<<<<<<<<<<<
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
- * 	def getnft(self):
+ * 	# list NFT tokens and information on account, don't parse any metadata here.
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_status); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 120, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_status); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 120, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_kp_s_response_status);
   __Pyx_GIVEREF(__pyx_kp_s_response_status);
@@ -3944,43 +4535,43 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   __Pyx_GIVEREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_3);
   __pyx_t_3 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 120, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 148, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":121
+  /* "xrplcli.py":149
  * 		tx_response = send_reliable_submission(nft_mint_signed, self.client)
  * 		print("response.status: ", tx_response.status)
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))             # <<<<<<<<<<<<<<
+ * 	# list NFT tokens and information on account, don't parse any metadata here.
  * 	def getnft(self):
- * 		nft_info = AccountNFTs(account=self.account)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_tx_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 121, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 121, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 121, __pyx_L1_error)
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 121, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 149, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 149, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 121, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_5) < 0) __PYX_ERR(0, 149, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "xrplcli.py":108
- * 		print("response.status: ", tx_response.status)
+  /* "xrplcli.py":135
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# should take taxon as an argument for collections, grouped by taxon as an ID.
  * 	def mintnft(self,metauri):             # <<<<<<<<<<<<<<
  * 		# get the current block height
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
@@ -4010,29 +4601,29 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_14mintnft(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "xrplcli.py":122
- * 		print("response.status: ", tx_response.status)
+/* "xrplcli.py":151
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# list NFT tokens and information on account, don't parse any metadata here.
  * 	def getnft(self):             # <<<<<<<<<<<<<<
  * 		nft_info = AccountNFTs(account=self.account)
  * 		response = self.client.request(nft_info)
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_17getnft(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_17getnft = {"getnft", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_17getnft, METH_O, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_17getnft(PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_19getnft(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_19getnft = {"getnft", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_19getnft, METH_O, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_19getnft(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("getnft (wrapper)", 0);
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_16getnft(__pyx_self, ((PyObject *)__pyx_v_self));
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_18getnft(__pyx_self, ((PyObject *)__pyx_v_self));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16getnft(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_18getnft(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_v_nft_info = NULL;
   PyObject *__pyx_v_response = NULL;
   CYTHON_UNUSED PyObject *__pyx_v_result = NULL;
@@ -4047,38 +4638,38 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16getnft(CYTHON_UNUSED PyObject 
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("getnft", 0);
 
-  /* "xrplcli.py":123
- * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+  /* "xrplcli.py":152
+ * 	# list NFT tokens and information on account, don't parse any metadata here.
  * 	def getnft(self):
  * 		nft_info = AccountNFTs(account=self.account)             # <<<<<<<<<<<<<<
  * 		response = self.client.request(nft_info)
  * 		result = response.result
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_AccountNFTs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 123, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_AccountNFTs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 123, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_account); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 123, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_account); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 123, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_account, __pyx_t_3) < 0) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 123, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 152, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_nft_info = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":124
+  /* "xrplcli.py":153
  * 	def getnft(self):
  * 		nft_info = AccountNFTs(account=self.account)
  * 		response = self.client.request(nft_info)             # <<<<<<<<<<<<<<
  * 		result = response.result
  * 		print("response.status: ", response.status)
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_self, __pyx_n_s_client); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 153, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_request); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 124, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_request); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 153, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -4093,34 +4684,34 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16getnft(CYTHON_UNUSED PyObject 
   }
   __pyx_t_3 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_2, __pyx_v_nft_info) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_nft_info);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 124, __pyx_L1_error)
+  if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 153, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_response = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":125
+  /* "xrplcli.py":154
  * 		nft_info = AccountNFTs(account=self.account)
  * 		response = self.client.request(nft_info)
  * 		result = response.result             # <<<<<<<<<<<<<<
  * 		print("response.status: ", response.status)
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_result); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 125, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_result); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 154, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __pyx_v_result = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "xrplcli.py":126
+  /* "xrplcli.py":155
  * 		response = self.client.request(nft_info)
  * 		result = response.result
  * 		print("response.status: ", response.status)             # <<<<<<<<<<<<<<
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
  * 	def burnnft():
  */
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_status); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 155, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 126, __pyx_L1_error)
+  __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 155, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_kp_s_response_status);
   __Pyx_GIVEREF(__pyx_kp_s_response_status);
@@ -4128,43 +4719,43 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16getnft(CYTHON_UNUSED PyObject 
   __Pyx_GIVEREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_3);
   __pyx_t_3 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 126, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_1) < 0) __PYX_ERR(0, 155, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":127
+  /* "xrplcli.py":156
  * 		result = response.result
  * 		print("response.status: ", response.status)
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))             # <<<<<<<<<<<<<<
  * 	def burnnft():
  * 		pass
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 127, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_json); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 127, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dumps); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 127, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_response, __pyx_n_s_result); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 127, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_1);
   __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 127, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 127, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 127, __pyx_L1_error)
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 127, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_indent, __pyx_int_4) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_sort_keys, Py_True) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_2, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (__Pyx_PrintOne(0, __pyx_t_4) < 0) __PYX_ERR(0, 127, __pyx_L1_error)
+  if (__Pyx_PrintOne(0, __pyx_t_4) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":122
- * 		print("response.status: ", tx_response.status)
+  /* "xrplcli.py":151
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# list NFT tokens and information on account, don't parse any metadata here.
  * 	def getnft(self):             # <<<<<<<<<<<<<<
  * 		nft_info = AccountNFTs(account=self.account)
  * 		response = self.client.request(nft_info)
@@ -4189,7 +4780,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16getnft(CYTHON_UNUSED PyObject 
   return __pyx_r;
 }
 
-/* "xrplcli.py":128
+/* "xrplcli.py":157
  * 		print("response.status: ", response.status)
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
  * 	def burnnft():             # <<<<<<<<<<<<<<
@@ -4198,20 +4789,20 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_16getnft(CYTHON_UNUSED PyObject 
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_19burnnft(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_19burnnft = {"burnnft", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_19burnnft, METH_NOARGS, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_19burnnft(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_21burnnft(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_21burnnft = {"burnnft", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_21burnnft, METH_NOARGS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_21burnnft(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("burnnft (wrapper)", 0);
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_18burnnft(__pyx_self);
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_20burnnft(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_18burnnft(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_20burnnft(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("burnnft", 0);
@@ -4223,7 +4814,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_18burnnft(CYTHON_UNUSED PyObject
   return __pyx_r;
 }
 
-/* "xrplcli.py":130
+/* "xrplcli.py":159
  * 	def burnnft():
  * 		pass
  * 	def create_sell():             # <<<<<<<<<<<<<<
@@ -4232,20 +4823,20 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_18burnnft(CYTHON_UNUSED PyObject
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_21create_sell(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_21create_sell = {"create_sell", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_21create_sell, METH_NOARGS, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_21create_sell(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_23create_sell(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_23create_sell = {"create_sell", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_23create_sell, METH_NOARGS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_23create_sell(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("create_sell (wrapper)", 0);
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_20create_sell(__pyx_self);
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_22create_sell(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_20create_sell(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_22create_sell(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("create_sell", 0);
@@ -4257,7 +4848,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_20create_sell(CYTHON_UNUSED PyOb
   return __pyx_r;
 }
 
-/* "xrplcli.py":132
+/* "xrplcli.py":161
  * 	def create_sell():
  * 		pass
  * 	def create_buy():             # <<<<<<<<<<<<<<
@@ -4266,20 +4857,20 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_20create_sell(CYTHON_UNUSED PyOb
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_23create_buy(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_23create_buy = {"create_buy", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_23create_buy, METH_NOARGS, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_23create_buy(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_25create_buy(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_25create_buy = {"create_buy", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_25create_buy, METH_NOARGS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_25create_buy(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("create_buy (wrapper)", 0);
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_22create_buy(__pyx_self);
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_24create_buy(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_22create_buy(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_24create_buy(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("create_buy", 0);
@@ -4291,7 +4882,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_22create_buy(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "xrplcli.py":134
+/* "xrplcli.py":163
  * 	def create_buy():
  * 		pass
  * 	def get_offers():             # <<<<<<<<<<<<<<
@@ -4300,20 +4891,20 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_22create_buy(CYTHON_UNUSED PyObj
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_25get_offers(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_25get_offers = {"get_offers", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_25get_offers, METH_NOARGS, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_25get_offers(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_27get_offers(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_27get_offers = {"get_offers", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_27get_offers, METH_NOARGS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_27get_offers(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_offers (wrapper)", 0);
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_24get_offers(__pyx_self);
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_26get_offers(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_24get_offers(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_26get_offers(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("get_offers", 0);
@@ -4325,7 +4916,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_24get_offers(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "xrplcli.py":136
+/* "xrplcli.py":165
  * 	def get_offers():
  * 		pass
  * 	def accept_sell():             # <<<<<<<<<<<<<<
@@ -4334,20 +4925,20 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_24get_offers(CYTHON_UNUSED PyObj
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_27accept_sell(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_27accept_sell = {"accept_sell", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_27accept_sell, METH_NOARGS, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_27accept_sell(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_29accept_sell(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_29accept_sell = {"accept_sell", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_29accept_sell, METH_NOARGS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_29accept_sell(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("accept_sell (wrapper)", 0);
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_26accept_sell(__pyx_self);
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_28accept_sell(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_26accept_sell(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_28accept_sell(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("accept_sell", 0);
@@ -4359,7 +4950,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_26accept_sell(CYTHON_UNUSED PyOb
   return __pyx_r;
 }
 
-/* "xrplcli.py":138
+/* "xrplcli.py":167
  * 	def accept_sell():
  * 		pass
  * 	def accept_buy():             # <<<<<<<<<<<<<<
@@ -4368,20 +4959,20 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_26accept_sell(CYTHON_UNUSED PyOb
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_29accept_buy(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_29accept_buy = {"accept_buy", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_29accept_buy, METH_NOARGS, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_29accept_buy(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_31accept_buy(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_31accept_buy = {"accept_buy", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_31accept_buy, METH_NOARGS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_31accept_buy(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("accept_buy (wrapper)", 0);
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_28accept_buy(__pyx_self);
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_30accept_buy(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_28accept_buy(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_30accept_buy(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("accept_buy", 0);
@@ -4393,7 +4984,7 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_28accept_buy(CYTHON_UNUSED PyObj
   return __pyx_r;
 }
 
-/* "xrplcli.py":140
+/* "xrplcli.py":169
  * 	def accept_buy():
  * 		pass
  * 	def cancel_offer():             # <<<<<<<<<<<<<<
@@ -4402,20 +4993,20 @@ static PyObject *__pyx_pf_7xrplcli_10XRPLobject_28accept_buy(CYTHON_UNUSED PyObj
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_31cancel_offer(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
-static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_31cancel_offer = {"cancel_offer", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_31cancel_offer, METH_NOARGS, 0};
-static PyObject *__pyx_pw_7xrplcli_10XRPLobject_31cancel_offer(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_33cancel_offer(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused); /*proto*/
+static PyMethodDef __pyx_mdef_7xrplcli_10XRPLobject_33cancel_offer = {"cancel_offer", (PyCFunction)__pyx_pw_7xrplcli_10XRPLobject_33cancel_offer, METH_NOARGS, 0};
+static PyObject *__pyx_pw_7xrplcli_10XRPLobject_33cancel_offer(PyObject *__pyx_self, CYTHON_UNUSED PyObject *unused) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("cancel_offer (wrapper)", 0);
-  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_30cancel_offer(__pyx_self);
+  __pyx_r = __pyx_pf_7xrplcli_10XRPLobject_32cancel_offer(__pyx_self);
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_7xrplcli_10XRPLobject_30cancel_offer(CYTHON_UNUSED PyObject *__pyx_self) {
+static PyObject *__pyx_pf_7xrplcli_10XRPLobject_32cancel_offer(CYTHON_UNUSED PyObject *__pyx_self) {
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("cancel_offer", 0);
@@ -4487,6 +5078,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_MIT, __pyx_k_MIT, sizeof(__pyx_k_MIT), 0, 0, 1, 1},
   {&__pyx_kp_s_NFT_flags, __pyx_k_NFT_flags, sizeof(__pyx_k_NFT_flags), 0, 0, 1, 0},
   {&__pyx_n_s_NFTokenMint, __pyx_k_NFTokenMint, sizeof(__pyx_k_NFTokenMint), 0, 0, 1, 1},
+  {&__pyx_kp_s_Not_enough_parameters_for_paymen, __pyx_k_Not_enough_parameters_for_paymen, sizeof(__pyx_k_Not_enough_parameters_for_paymen), 0, 0, 1, 0},
+  {&__pyx_n_s_Payment, __pyx_k_Payment, sizeof(__pyx_k_Payment), 0, 0, 1, 1},
   {&__pyx_n_s_Wallet, __pyx_k_Wallet, sizeof(__pyx_k_Wallet), 0, 0, 1, 1},
   {&__pyx_n_s_XRPLobject, __pyx_k_XRPLobject, sizeof(__pyx_k_XRPLobject), 0, 0, 1, 1},
   {&__pyx_n_s_XRPLobject___init, __pyx_k_XRPLobject___init, sizeof(__pyx_k_XRPLobject___init), 0, 0, 1, 1},
@@ -4504,10 +5097,11 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_XRPLobject_getaccount, __pyx_k_XRPLobject_getaccount, sizeof(__pyx_k_XRPLobject_getaccount), 0, 0, 1, 1},
   {&__pyx_n_s_XRPLobject_getnft, __pyx_k_XRPLobject_getnft, sizeof(__pyx_k_XRPLobject_getnft), 0, 0, 1, 1},
   {&__pyx_n_s_XRPLobject_mintnft, __pyx_k_XRPLobject_mintnft, sizeof(__pyx_k_XRPLobject_mintnft), 0, 0, 1, 1},
+  {&__pyx_n_s_XRPLobject_payment, __pyx_k_XRPLobject_payment, sizeof(__pyx_k_XRPLobject_payment), 0, 0, 1, 1},
   {&__pyx_n_s_XRPLobject_seedwallet, __pyx_k_XRPLobject_seedwallet, sizeof(__pyx_k_XRPLobject_seedwallet), 0, 0, 1, 1},
   {&__pyx_kp_s_Your_secret_seed_is_s, __pyx_k_Your_secret_seed_is_s, sizeof(__pyx_k_Your_secret_seed_is_s), 0, 0, 1, 0},
   {&__pyx_kp_s__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 0, 1, 0},
-  {&__pyx_kp_s__32, __pyx_k__32, sizeof(__pyx_k__32), 0, 0, 1, 0},
+  {&__pyx_kp_s__37, __pyx_k__37, sizeof(__pyx_k__37), 0, 0, 1, 0},
   {&__pyx_kp_s_a, __pyx_k_a, sizeof(__pyx_k_a), 0, 0, 1, 0},
   {&__pyx_n_s_a2b_hex, __pyx_k_a2b_hex, sizeof(__pyx_k_a2b_hex), 0, 0, 1, 1},
   {&__pyx_n_s_accept_buy, __pyx_k_accept_buy, sizeof(__pyx_k_accept_buy), 0, 0, 1, 1},
@@ -4519,8 +5113,8 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_acct_info, __pyx_k_acct_info, sizeof(__pyx_k_acct_info), 0, 0, 1, 1},
   {&__pyx_n_s_add_argument, __pyx_k_add_argument, sizeof(__pyx_k_add_argument), 0, 0, 1, 1},
   {&__pyx_n_s_addresscodec, __pyx_k_addresscodec, sizeof(__pyx_k_addresscodec), 0, 0, 1, 1},
-  {&__pyx_kp_s_amount, __pyx_k_amount, sizeof(__pyx_k_amount), 0, 0, 1, 0},
-  {&__pyx_n_s_amount_2, __pyx_k_amount_2, sizeof(__pyx_k_amount_2), 0, 0, 1, 1},
+  {&__pyx_n_s_amount, __pyx_k_amount, sizeof(__pyx_k_amount), 0, 0, 1, 1},
+  {&__pyx_kp_s_amount_2, __pyx_k_amount_2, sizeof(__pyx_k_amount_2), 0, 0, 1, 0},
   {&__pyx_n_s_argparse, __pyx_k_argparse, sizeof(__pyx_k_argparse), 0, 0, 1, 1},
   {&__pyx_n_s_args, __pyx_k_args, sizeof(__pyx_k_args), 0, 0, 1, 1},
   {&__pyx_n_s_ascii, __pyx_k_ascii, sizeof(__pyx_k_ascii), 0, 0, 1, 1},
@@ -4553,6 +5147,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_description, __pyx_k_description, sizeof(__pyx_k_description), 0, 0, 1, 1},
   {&__pyx_n_s_dest, __pyx_k_dest, sizeof(__pyx_k_dest), 0, 0, 1, 1},
   {&__pyx_n_s_destination, __pyx_k_destination, sizeof(__pyx_k_destination), 0, 0, 1, 1},
+  {&__pyx_kp_s_destination_2, __pyx_k_destination_2, sizeof(__pyx_k_destination_2), 0, 0, 1, 0},
+  {&__pyx_n_s_destination_tag, __pyx_k_destination_tag, sizeof(__pyx_k_destination_tag), 0, 0, 1, 1},
+  {&__pyx_kp_s_destination_wallet_for_transacti, __pyx_k_destination_wallet_for_transacti, sizeof(__pyx_k_destination_wallet_for_transacti), 0, 0, 1, 0},
   {&__pyx_n_s_devnet, __pyx_k_devnet, sizeof(__pyx_k_devnet), 0, 0, 1, 1},
   {&__pyx_n_s_doc, __pyx_k_doc, sizeof(__pyx_k_doc), 0, 0, 1, 1},
   {&__pyx_n_s_dumps, __pyx_k_dumps, sizeof(__pyx_k_dumps), 0, 0, 1, 1},
@@ -4623,17 +5220,24 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_nftdev, __pyx_k_nftdev, sizeof(__pyx_k_nftdev), 0, 0, 1, 1},
   {&__pyx_n_s_nftoken_taxon, __pyx_k_nftoken_taxon, sizeof(__pyx_k_nftoken_taxon), 0, 0, 1, 1},
   {&__pyx_kp_s_o, __pyx_k_o, sizeof(__pyx_k_o), 0, 0, 1, 0},
+  {&__pyx_kp_s_optional_tag_for_payment, __pyx_k_optional_tag_for_payment, sizeof(__pyx_k_optional_tag_for_payment), 0, 0, 1, 0},
   {&__pyx_n_s_owner, __pyx_k_owner, sizeof(__pyx_k_owner), 0, 0, 1, 1},
   {&__pyx_kp_s_owner_2, __pyx_k_owner_2, sizeof(__pyx_k_owner_2), 0, 0, 1, 0},
   {&__pyx_n_s_parse_args, __pyx_k_parse_args, sizeof(__pyx_k_parse_args), 0, 0, 1, 1},
   {&__pyx_n_s_parser, __pyx_k_parser, sizeof(__pyx_k_parser), 0, 0, 1, 1},
+  {&__pyx_kp_s_pay, __pyx_k_pay, sizeof(__pyx_k_pay), 0, 0, 1, 0},
+  {&__pyx_n_s_payment, __pyx_k_payment, sizeof(__pyx_k_payment), 0, 0, 1, 1},
+  {&__pyx_kp_s_payment_2, __pyx_k_payment_2, sizeof(__pyx_k_payment_2), 0, 0, 1, 0},
+  {&__pyx_n_s_payment_signed, __pyx_k_payment_signed, sizeof(__pyx_k_payment_signed), 0, 0, 1, 1},
   {&__pyx_n_s_prepare, __pyx_k_prepare, sizeof(__pyx_k_prepare), 0, 0, 1, 1},
   {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
   {&__pyx_n_s_qualname, __pyx_k_qualname, sizeof(__pyx_k_qualname), 0, 0, 1, 1},
   {&__pyx_n_s_request, __pyx_k_request, sizeof(__pyx_k_request), 0, 0, 1, 1},
   {&__pyx_n_s_response, __pyx_k_response, sizeof(__pyx_k_response), 0, 0, 1, 1},
   {&__pyx_kp_s_response_status, __pyx_k_response_status, sizeof(__pyx_k_response_status), 0, 0, 1, 0},
+  {&__pyx_kp_s_response_status_2, __pyx_k_response_status_2, sizeof(__pyx_k_response_status_2), 0, 0, 1, 0},
   {&__pyx_n_s_result, __pyx_k_result, sizeof(__pyx_k_result), 0, 0, 1, 1},
+  {&__pyx_kp_s_rm, __pyx_k_rm, sizeof(__pyx_k_rm), 0, 0, 1, 0},
   {&__pyx_kp_s_s, __pyx_k_s, sizeof(__pyx_k_s), 0, 0, 1, 0},
   {&__pyx_n_s_safe_sign_and_autofill_transacti, __pyx_k_safe_sign_and_autofill_transacti, sizeof(__pyx_k_safe_sign_and_autofill_transacti), 0, 0, 1, 1},
   {&__pyx_n_s_safe_sign_transaction, __pyx_k_safe_sign_transaction, sizeof(__pyx_k_safe_sign_transaction), 0, 0, 1, 1},
@@ -4647,6 +5251,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_seedwallet, __pyx_k_seedwallet, sizeof(__pyx_k_seedwallet), 0, 0, 1, 1},
   {&__pyx_kp_s_select_a_network_use_help, __pyx_k_select_a_network_use_help, sizeof(__pyx_k_select_a_network_use_help), 0, 0, 1, 0},
   {&__pyx_n_s_self, __pyx_k_self, sizeof(__pyx_k_self), 0, 0, 1, 1},
+  {&__pyx_kp_s_send_payment_of_amount, __pyx_k_send_payment_of_amount, sizeof(__pyx_k_send_payment_of_amount), 0, 0, 1, 0},
   {&__pyx_n_s_send_reliable_submission, __pyx_k_send_reliable_submission, sizeof(__pyx_k_send_reliable_submission), 0, 0, 1, 1},
   {&__pyx_n_s_sequence, __pyx_k_sequence, sizeof(__pyx_k_sequence), 0, 0, 1, 1},
   {&__pyx_n_s_server, __pyx_k_server, sizeof(__pyx_k_server), 0, 0, 1, 1},
@@ -4656,6 +5261,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_strict, __pyx_k_strict, sizeof(__pyx_k_strict), 0, 0, 1, 1},
   {&__pyx_n_s_sys, __pyx_k_sys, sizeof(__pyx_k_sys), 0, 0, 1, 1},
   {&__pyx_kp_s_t, __pyx_k_t, sizeof(__pyx_k_t), 0, 0, 1, 0},
+  {&__pyx_n_s_tag, __pyx_k_tag, sizeof(__pyx_k_tag), 0, 0, 1, 1},
+  {&__pyx_kp_s_tag_2, __pyx_k_tag_2, sizeof(__pyx_k_tag_2), 0, 0, 1, 0},
+  {&__pyx_kp_s_tag_3, __pyx_k_tag_3, sizeof(__pyx_k_tag_3), 0, 0, 1, 0},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
   {&__pyx_n_s_testnet, __pyx_k_testnet, sizeof(__pyx_k_testnet), 0, 0, 1, 1},
   {&__pyx_kp_s_token_id, __pyx_k_token_id, sizeof(__pyx_k_token_id), 0, 0, 1, 0},
@@ -4705,341 +5313,386 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "xrplcli.py":78
+  /* "xrplcli.py":86
  * 		myseed = hashlib.sha512(seedkey.encode("ascii"))
  * 		myrealseed = myseed.hexdigest().upper()
  * 		seed = binascii.a2b_hex(myrealseed[0:32])             # <<<<<<<<<<<<<<
  * 		seed1 = xrpl.core.addresscodec.encode_seed(seed, xrpl.constants.CryptoAlgorithm('secp256k1'))
  * 		self.wallet = xrpl.wallet.Wallet(seed1, 1)
  */
-  __pyx_slice_ = PySlice_New(__pyx_int_0, __pyx_int_32, Py_None); if (unlikely(!__pyx_slice_)) __PYX_ERR(0, 78, __pyx_L1_error)
+  __pyx_slice_ = PySlice_New(__pyx_int_0, __pyx_int_32, Py_None); if (unlikely(!__pyx_slice_)) __PYX_ERR(0, 86, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_slice_);
   __Pyx_GIVEREF(__pyx_slice_);
 
-  /* "xrplcli.py":70
- * 	server = ""
+  /* "xrplcli.py":76
  * 	wallet = ""
+ * 	# object constructor
  * 	def __init__(self):             # <<<<<<<<<<<<<<
  * 		#self.secret = blah
  * 		pass
  */
-  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 70, __pyx_L1_error)
+  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 76, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
-  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_init, 70, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 70, __pyx_L1_error)
+  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_init, 76, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) __PYX_ERR(0, 76, __pyx_L1_error)
 
-  /* "xrplcli.py":73
- * 		#self.secret = blah
+  /* "xrplcli.py":80
  * 		pass
+ * 	# connect over JSON-RPC (only for now, wss more secure for internet)
  * 	def connectrpc(self):             # <<<<<<<<<<<<<<
  * 		self.client = JsonRpcClient(self.server)
- * 	def brainwallet(self,seedkey):
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  */
-  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_connectrpc, 73, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_connectrpc, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) __PYX_ERR(0, 80, __pyx_L1_error)
 
-  /* "xrplcli.py":75
- * 	def connectrpc(self):
+  /* "xrplcli.py":83
  * 		self.client = JsonRpcClient(self.server)
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  * 	def brainwallet(self,seedkey):             # <<<<<<<<<<<<<<
  * 		myseed = hashlib.sha512(seedkey.encode("ascii"))
  * 		myrealseed = myseed.hexdigest().upper()
  */
-  __pyx_tuple__7 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_seedkey, __pyx_n_s_myseed, __pyx_n_s_myrealseed, __pyx_n_s_seed, __pyx_n_s_seed1); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 75, __pyx_L1_error)
+  __pyx_tuple__7 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_seedkey, __pyx_n_s_myseed, __pyx_n_s_myrealseed, __pyx_n_s_seed, __pyx_n_s_seed1); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__7);
   __Pyx_GIVEREF(__pyx_tuple__7);
-  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_brainwallet, 75, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(0, 75, __pyx_L1_error)
+  __pyx_codeobj__8 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__7, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_brainwallet, 83, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__8)) __PYX_ERR(0, 83, __pyx_L1_error)
 
-  /* "xrplcli.py":83
- * 		self.account = self.wallet.classic_address
+  /* "xrplcli.py":92
  * 		self.secret = self.wallet.seed
+ * 	# set a wallet seed from cli argument (need to hide this from ps and histfile)
  * 	def seedwallet(self,secret):             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.Wallet(secret,1)
  * 		self.account = self.wallet.classic_address
  */
-  __pyx_tuple__9 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_secret); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 83, __pyx_L1_error)
+  __pyx_tuple__9 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_secret); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 92, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__9);
   __Pyx_GIVEREF(__pyx_tuple__9);
-  __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_seedwallet, 83, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) __PYX_ERR(0, 83, __pyx_L1_error)
+  __pyx_codeobj__10 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__9, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_seedwallet, 92, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__10)) __PYX_ERR(0, 92, __pyx_L1_error)
 
-  /* "xrplcli.py":87
- * 		self.account = self.wallet.classic_address
+  /* "xrplcli.py":97
  * 		self.secret = secret
+ * 	# use facuet to generate and fund a wallet
  * 	def genwallet(self):             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
  * 		self.secret = self.wallet.seed
  */
-  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 87, __pyx_L1_error)
+  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__11);
   __Pyx_GIVEREF(__pyx_tuple__11);
-  __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__11, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_genwallet, 87, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) __PYX_ERR(0, 87, __pyx_L1_error)
+  __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__11, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_genwallet, 97, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) __PYX_ERR(0, 97, __pyx_L1_error)
 
-  /* "xrplcli.py":91
- * 		self.secret = self.wallet.seed
+  /* "xrplcli.py":102
  * 		self.account = self.wallet.classic_address
+ * 	# get the account information
  * 	def getaccount(self):             # <<<<<<<<<<<<<<
  * 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
  * 		response = self.client.request(acct_info)
  */
-  __pyx_tuple__13 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_acct_info, __pyx_n_s_response, __pyx_n_s_result); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(0, 91, __pyx_L1_error)
+  __pyx_tuple__13 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_acct_info, __pyx_n_s_response, __pyx_n_s_result); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(0, 102, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__13);
   __Pyx_GIVEREF(__pyx_tuple__13);
-  __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__13, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_getaccount, 91, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) __PYX_ERR(0, 91, __pyx_L1_error)
+  __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__13, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_getaccount, 102, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) __PYX_ERR(0, 102, __pyx_L1_error)
 
-  /* "xrplcli.py":97
- * 		print("response.status: ", response.status)
+  /* "xrplcli.py":109
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
+ * 	# delete the account
  * 	def delaccount(self,dest):             # <<<<<<<<<<<<<<
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
  * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
  */
-  __pyx_tuple__15 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_dest, __pyx_n_s_current_validated_ledger, __pyx_n_s_account_delete, __pyx_n_s_account_delete_signed, __pyx_n_s_tx_response); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_tuple__15 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_dest, __pyx_n_s_current_validated_ledger, __pyx_n_s_account_delete, __pyx_n_s_account_delete_signed, __pyx_n_s_tx_response); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(0, 109, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__15);
   __Pyx_GIVEREF(__pyx_tuple__15);
-  __pyx_codeobj__16 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_delaccount, 97, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__16)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_codeobj__16 = (PyObject*)__Pyx_PyCode_New(2, 0, 6, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__15, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_delaccount, 109, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__16)) __PYX_ERR(0, 109, __pyx_L1_error)
 
-  /* "xrplcli.py":108
+  /* "xrplcli.py":120
  * 		print("response.status: ", tx_response.status)
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	def payment(self,dest,amount,tag):             # <<<<<<<<<<<<<<
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ */
+  __pyx_tuple__17 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_dest, __pyx_n_s_amount, __pyx_n_s_tag, __pyx_n_s_current_validated_ledger, __pyx_n_s_payment, __pyx_n_s_payment_signed, __pyx_n_s_tx_response); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 120, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__17);
+  __Pyx_GIVEREF(__pyx_tuple__17);
+  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(4, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_payment, 120, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 120, __pyx_L1_error)
+
+  /* "xrplcli.py":135
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# should take taxon as an argument for collections, grouped by taxon as an ID.
  * 	def mintnft(self,metauri):             # <<<<<<<<<<<<<<
  * 		# get the current block height
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
  */
-  __pyx_tuple__17 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_metauri, __pyx_n_s_current_validated_ledger, __pyx_n_s_uriarg, __pyx_n_s_uriarg_hex, __pyx_n_s_nft_mint, __pyx_n_s_nft_mint_signed, __pyx_n_s_tx_response); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 108, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__17);
-  __Pyx_GIVEREF(__pyx_tuple__17);
-  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_mintnft, 108, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 108, __pyx_L1_error)
+  __pyx_tuple__19 = PyTuple_Pack(8, __pyx_n_s_self, __pyx_n_s_metauri, __pyx_n_s_current_validated_ledger, __pyx_n_s_uriarg, __pyx_n_s_uriarg_hex, __pyx_n_s_nft_mint, __pyx_n_s_nft_mint_signed, __pyx_n_s_tx_response); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 135, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__19);
+  __Pyx_GIVEREF(__pyx_tuple__19);
+  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(2, 0, 8, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_mintnft, 135, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) __PYX_ERR(0, 135, __pyx_L1_error)
 
-  /* "xrplcli.py":122
- * 		print("response.status: ", tx_response.status)
+  /* "xrplcli.py":151
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# list NFT tokens and information on account, don't parse any metadata here.
  * 	def getnft(self):             # <<<<<<<<<<<<<<
  * 		nft_info = AccountNFTs(account=self.account)
  * 		response = self.client.request(nft_info)
  */
-  __pyx_tuple__19 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_nft_info, __pyx_n_s_response, __pyx_n_s_result); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 122, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__19);
-  __Pyx_GIVEREF(__pyx_tuple__19);
-  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_getnft, 122, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __pyx_tuple__21 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_nft_info, __pyx_n_s_response, __pyx_n_s_result); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(0, 151, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__21);
+  __Pyx_GIVEREF(__pyx_tuple__21);
+  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_getnft, 151, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(0, 151, __pyx_L1_error)
 
-  /* "xrplcli.py":128
+  /* "xrplcli.py":157
  * 		print("response.status: ", response.status)
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
  * 	def burnnft():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def create_sell():
  */
-  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_burnnft, 128, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_burnnft, 157, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 157, __pyx_L1_error)
 
-  /* "xrplcli.py":130
+  /* "xrplcli.py":159
  * 	def burnnft():
  * 		pass
  * 	def create_sell():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def create_buy():
  */
-  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_create_sell, 130, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_create_sell, 159, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 159, __pyx_L1_error)
 
-  /* "xrplcli.py":132
+  /* "xrplcli.py":161
  * 	def create_sell():
  * 		pass
  * 	def create_buy():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def get_offers():
  */
-  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_create_buy, 132, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) __PYX_ERR(0, 132, __pyx_L1_error)
+  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_create_buy, 161, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 161, __pyx_L1_error)
 
-  /* "xrplcli.py":134
+  /* "xrplcli.py":163
  * 	def create_buy():
  * 		pass
  * 	def get_offers():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def accept_sell():
  */
-  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_get_offers, 134, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) __PYX_ERR(0, 134, __pyx_L1_error)
+  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_get_offers, 163, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 163, __pyx_L1_error)
 
-  /* "xrplcli.py":136
+  /* "xrplcli.py":165
  * 	def get_offers():
  * 		pass
  * 	def accept_sell():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def accept_buy():
  */
-  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_accept_sell, 136, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_accept_sell, 165, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 165, __pyx_L1_error)
 
-  /* "xrplcli.py":138
+  /* "xrplcli.py":167
  * 	def accept_sell():
  * 		pass
  * 	def accept_buy():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def cancel_offer():
  */
-  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_accept_buy, 138, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __pyx_codeobj__28 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_accept_buy, 167, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__28)) __PYX_ERR(0, 167, __pyx_L1_error)
 
-  /* "xrplcli.py":140
+  /* "xrplcli.py":169
  * 	def accept_buy():
  * 		pass
  * 	def cancel_offer():             # <<<<<<<<<<<<<<
  * 		pass
  * 
  */
-  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_cancel_offer, 140, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) __PYX_ERR(0, 140, __pyx_L1_error)
+  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(0, 0, 0, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_xrplcli_py, __pyx_n_s_cancel_offer, 169, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) __PYX_ERR(0, 169, __pyx_L1_error)
 
-  /* "xrplcli.py":145
- * if __name__ == "__main__":
+  /* "xrplcli.py":176
+ * 	# cli parser and option handling
  * 	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")
  * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-a","--account", help="classic account address")
  * 	parser.add_argument("-s","--secret", help="seed key")
  */
-  __pyx_tuple__28 = PyTuple_Pack(2, __pyx_kp_s_b, __pyx_kp_s_brainwallet_2); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(0, 145, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__28);
-  __Pyx_GIVEREF(__pyx_tuple__28);
+  __pyx_tuple__30 = PyTuple_Pack(2, __pyx_kp_s_b, __pyx_kp_s_brainwallet_2); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 176, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__30);
+  __Pyx_GIVEREF(__pyx_tuple__30);
 
-  /* "xrplcli.py":146
+  /* "xrplcli.py":177
  * 	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")
  * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
  * 	parser.add_argument("-a","--account", help="classic account address")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-s","--secret", help="seed key")
- * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")
  */
-  __pyx_tuple__29 = PyTuple_Pack(2, __pyx_kp_s_a, __pyx_kp_s_account_2); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(0, 146, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__29);
-  __Pyx_GIVEREF(__pyx_tuple__29);
-
-  /* "xrplcli.py":147
- * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
- * 	parser.add_argument("-a","--account", help="classic account address")
- * 	parser.add_argument("-s","--secret", help="seed key")             # <<<<<<<<<<<<<<
- * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
- */
-  __pyx_tuple__30 = PyTuple_Pack(2, __pyx_kp_s_s, __pyx_kp_s_secret_2); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(0, 147, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__30);
-  __Pyx_GIVEREF(__pyx_tuple__30);
-
-  /* "xrplcli.py":148
- * 	parser.add_argument("-a","--account", help="classic account address")
- * 	parser.add_argument("-s","--secret", help="seed key")
- * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)             # <<<<<<<<<<<<<<
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
- * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
- */
-  __pyx_tuple__31 = PyTuple_Pack(2, __pyx_kp_s_g, __pyx_kp_s_generate_wallet); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 148, __pyx_L1_error)
+  __pyx_tuple__31 = PyTuple_Pack(2, __pyx_kp_s_a, __pyx_kp_s_account_2); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(0, 177, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__31);
   __Pyx_GIVEREF(__pyx_tuple__31);
 
-  /* "xrplcli.py":149
- * 	parser.add_argument("-s","--secret", help="seed key")
- * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')             # <<<<<<<<<<<<<<
- * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
- * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
+  /* "xrplcli.py":178
+ * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
+ * 	parser.add_argument("-a","--account", help="classic account address")
+ * 	parser.add_argument("-s","--secret", help="seed key")             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")
  */
-  __pyx_tuple__33 = PyTuple_Pack(2, __pyx_kp_s_d, __pyx_kp_s_delete); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 149, __pyx_L1_error)
+  __pyx_tuple__32 = PyTuple_Pack(2, __pyx_kp_s_s, __pyx_kp_s_secret_2); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(0, 178, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__32);
+  __Pyx_GIVEREF(__pyx_tuple__32);
+
+  /* "xrplcli.py":179
+ * 	parser.add_argument("-a","--account", help="classic account address")
+ * 	parser.add_argument("-s","--secret", help="seed key")
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")
+ */
+  __pyx_tuple__33 = PyTuple_Pack(2, __pyx_kp_s_pay, __pyx_kp_s_payment_2); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(0, 179, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__33);
   __Pyx_GIVEREF(__pyx_tuple__33);
 
-  /* "xrplcli.py":150
+  /* "xrplcli.py":180
+ * 	parser.add_argument("-s","--secret", help="seed key")
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")
  * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
+ */
+  __pyx_tuple__34 = PyTuple_Pack(2, __pyx_kp_s_tag_2, __pyx_kp_s_tag_3); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 180, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__34);
+  __Pyx_GIVEREF(__pyx_tuple__34);
+
+  /* "xrplcli.py":181
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
+ */
+  __pyx_tuple__35 = PyTuple_Pack(2, __pyx_kp_s_d, __pyx_kp_s_destination_2); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 181, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__35);
+  __Pyx_GIVEREF(__pyx_tuple__35);
+
+  /* "xrplcli.py":182
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")
+ * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
+ * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
+ */
+  __pyx_tuple__36 = PyTuple_Pack(2, __pyx_kp_s_g, __pyx_kp_s_generate_wallet); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 182, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__36);
+  __Pyx_GIVEREF(__pyx_tuple__36);
+
+  /* "xrplcli.py":183
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")
+ * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
+ * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
+ */
+  __pyx_tuple__38 = PyTuple_Pack(2, __pyx_kp_s_rm, __pyx_kp_s_delete); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 183, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__38);
+  __Pyx_GIVEREF(__pyx_tuple__38);
+
+  /* "xrplcli.py":184
+ * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
  * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
  * 	parser.add_argument("-f","--flags", help="NFT flags")
  */
-  __pyx_tuple__34 = PyTuple_Pack(2, __pyx_kp_s_l, __pyx_kp_s_listnft); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(0, 150, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__34);
-  __Pyx_GIVEREF(__pyx_tuple__34);
+  __pyx_tuple__39 = PyTuple_Pack(2, __pyx_kp_s_l, __pyx_kp_s_listnft); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(0, 184, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__39);
+  __Pyx_GIVEREF(__pyx_tuple__39);
 
-  /* "xrplcli.py":151
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
+  /* "xrplcli.py":185
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
  * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-f","--flags", help="NFT flags")
  * 	parser.add_argument("-i","--tokenid", help="token id")
  */
-  __pyx_tuple__35 = PyTuple_Pack(2, __pyx_kp_s_t, __pyx_kp_s_tokenurl); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(0, 151, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__35);
-  __Pyx_GIVEREF(__pyx_tuple__35);
+  __pyx_tuple__40 = PyTuple_Pack(2, __pyx_kp_s_t, __pyx_kp_s_tokenurl); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 185, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__40);
+  __Pyx_GIVEREF(__pyx_tuple__40);
 
-  /* "xrplcli.py":152
+  /* "xrplcli.py":186
  * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
  * 	parser.add_argument("-f","--flags", help="NFT flags")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-i","--tokenid", help="token id")
  * 	parser.add_argument("-m","--amount", help="amount")
  */
-  __pyx_tuple__36 = PyTuple_Pack(2, __pyx_kp_s_f, __pyx_kp_s_flags); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(0, 152, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__36);
-  __Pyx_GIVEREF(__pyx_tuple__36);
+  __pyx_tuple__41 = PyTuple_Pack(2, __pyx_kp_s_f, __pyx_kp_s_flags); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 186, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__41);
+  __Pyx_GIVEREF(__pyx_tuple__41);
 
-  /* "xrplcli.py":153
+  /* "xrplcli.py":187
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
  * 	parser.add_argument("-f","--flags", help="NFT flags")
  * 	parser.add_argument("-i","--tokenid", help="token id")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-m","--amount", help="amount")
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
  */
-  __pyx_tuple__37 = PyTuple_Pack(2, __pyx_kp_s_i, __pyx_kp_s_tokenid); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(0, 153, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__37);
-  __Pyx_GIVEREF(__pyx_tuple__37);
+  __pyx_tuple__42 = PyTuple_Pack(2, __pyx_kp_s_i, __pyx_kp_s_tokenid); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(0, 187, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__42);
+  __Pyx_GIVEREF(__pyx_tuple__42);
 
-  /* "xrplcli.py":154
+  /* "xrplcli.py":188
  * 	parser.add_argument("-f","--flags", help="NFT flags")
  * 	parser.add_argument("-i","--tokenid", help="token id")
  * 	parser.add_argument("-m","--amount", help="amount")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
  * 	parser.add_argument("-o","--owner", help="owner")
  */
-  __pyx_tuple__38 = PyTuple_Pack(2, __pyx_kp_s_m, __pyx_kp_s_amount); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(0, 154, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__38);
-  __Pyx_GIVEREF(__pyx_tuple__38);
+  __pyx_tuple__43 = PyTuple_Pack(2, __pyx_kp_s_m, __pyx_kp_s_amount_2); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(0, 188, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__43);
+  __Pyx_GIVEREF(__pyx_tuple__43);
 
-  /* "xrplcli.py":155
+  /* "xrplcli.py":189
  * 	parser.add_argument("-i","--tokenid", help="token id")
  * 	parser.add_argument("-m","--amount", help="amount")
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-o","--owner", help="owner")
  * 	parser.add_argument("-n","--network", help="use with list for server list")
  */
-  __pyx_tuple__39 = PyTuple_Pack(2, __pyx_kp_s_x, __pyx_kp_s_tokenofferindex); if (unlikely(!__pyx_tuple__39)) __PYX_ERR(0, 155, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__39);
-  __Pyx_GIVEREF(__pyx_tuple__39);
+  __pyx_tuple__44 = PyTuple_Pack(2, __pyx_kp_s_x, __pyx_kp_s_tokenofferindex); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(0, 189, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__44);
+  __Pyx_GIVEREF(__pyx_tuple__44);
 
-  /* "xrplcli.py":156
+  /* "xrplcli.py":190
  * 	parser.add_argument("-m","--amount", help="amount")
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
  * 	parser.add_argument("-o","--owner", help="owner")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-n","--network", help="use with list for server list")
  * 	args = parser.parse_args()
  */
-  __pyx_tuple__40 = PyTuple_Pack(2, __pyx_kp_s_o, __pyx_kp_s_owner_2); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(0, 156, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__40);
-  __Pyx_GIVEREF(__pyx_tuple__40);
+  __pyx_tuple__45 = PyTuple_Pack(2, __pyx_kp_s_o, __pyx_kp_s_owner_2); if (unlikely(!__pyx_tuple__45)) __PYX_ERR(0, 190, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__45);
+  __Pyx_GIVEREF(__pyx_tuple__45);
 
-  /* "xrplcli.py":157
+  /* "xrplcli.py":191
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
  * 	parser.add_argument("-o","--owner", help="owner")
  * 	parser.add_argument("-n","--network", help="use with list for server list")             # <<<<<<<<<<<<<<
  * 	args = parser.parse_args()
- * 	xrplobj = XRPLobject()
+ * 	# create the XRPL object
  */
-  __pyx_tuple__41 = PyTuple_Pack(2, __pyx_kp_s_n, __pyx_kp_s_network); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(0, 157, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__41);
-  __Pyx_GIVEREF(__pyx_tuple__41);
+  __pyx_tuple__46 = PyTuple_Pack(2, __pyx_kp_s_n, __pyx_kp_s_network); if (unlikely(!__pyx_tuple__46)) __PYX_ERR(0, 191, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__46);
+  __Pyx_GIVEREF(__pyx_tuple__46);
 
-  /* "xrplcli.py":163
+  /* "xrplcli.py":199
  * 		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
  * 		print(networks)
  * 		sys.exit(0)             # <<<<<<<<<<<<<<
  * 	try:
  * 		networkint = int(args.network)
  */
-  __pyx_tuple__42 = PyTuple_Pack(1, __pyx_int_0); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(0, 163, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__42);
-  __Pyx_GIVEREF(__pyx_tuple__42);
+  __pyx_tuple__47 = PyTuple_Pack(1, __pyx_int_0); if (unlikely(!__pyx_tuple__47)) __PYX_ERR(0, 199, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__47);
+  __Pyx_GIVEREF(__pyx_tuple__47);
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -5228,6 +5881,8 @@ static CYTHON_SMALL_CODE int __pyx_pymod_exec_xrplcli(PyObject *__pyx_pyinit_mod
   PyObject *__pyx_t_7 = NULL;
   PyObject *__pyx_t_8 = NULL;
   PyObject *__pyx_t_9 = NULL;
+  int __pyx_t_10;
+  int __pyx_t_11;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -5333,1235 +5988,1331 @@ if (!__Pyx_RefNanny) {
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "xrplcli.py":15
+  /* "xrplcli.py":18
  * # AUTHOR: cove.crypto
  * # LICENSE: MIT!
  * import sys             # <<<<<<<<<<<<<<
  * import json
  * import xrpl
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_sys, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 15, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_sys, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_1) < 0) __PYX_ERR(0, 15, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_sys, __pyx_t_1) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":16
+  /* "xrplcli.py":19
  * # LICENSE: MIT!
  * import sys
  * import json             # <<<<<<<<<<<<<<
  * import xrpl
  * import argparse
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_json, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 16, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_json, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_json, __pyx_t_1) < 0) __PYX_ERR(0, 16, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_json, __pyx_t_1) < 0) __PYX_ERR(0, 19, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":17
+  /* "xrplcli.py":20
  * import sys
  * import json
  * import xrpl             # <<<<<<<<<<<<<<
  * import argparse
  * import hashlib
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 17, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_xrpl, __pyx_t_1) < 0) __PYX_ERR(0, 17, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_xrpl, __pyx_t_1) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":18
+  /* "xrplcli.py":21
  * import json
  * import xrpl
  * import argparse             # <<<<<<<<<<<<<<
  * import hashlib
  * import binascii
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_argparse, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 18, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_argparse, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_argparse, __pyx_t_1) < 0) __PYX_ERR(0, 18, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_argparse, __pyx_t_1) < 0) __PYX_ERR(0, 21, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":19
+  /* "xrplcli.py":22
  * import xrpl
  * import argparse
  * import hashlib             # <<<<<<<<<<<<<<
  * import binascii
  * import ipfsApi
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_hashlib, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 19, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_hashlib, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 22, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_hashlib, __pyx_t_1) < 0) __PYX_ERR(0, 19, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_hashlib, __pyx_t_1) < 0) __PYX_ERR(0, 22, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":20
+  /* "xrplcli.py":23
  * import argparse
  * import hashlib
  * import binascii             # <<<<<<<<<<<<<<
  * import ipfsApi
  * from xrpl.core import addresscodec
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_binascii, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 20, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_binascii, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_binascii, __pyx_t_1) < 0) __PYX_ERR(0, 20, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_binascii, __pyx_t_1) < 0) __PYX_ERR(0, 23, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":21
+  /* "xrplcli.py":24
  * import hashlib
  * import binascii
  * import ipfsApi             # <<<<<<<<<<<<<<
  * from xrpl.core import addresscodec
  * from xrpl.clients import JsonRpcClient
  */
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_ipfsApi, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 21, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_ipfsApi, 0, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_ipfsApi, __pyx_t_1) < 0) __PYX_ERR(0, 21, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_ipfsApi, __pyx_t_1) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":22
+  /* "xrplcli.py":25
  * import binascii
  * import ipfsApi
  * from xrpl.core import addresscodec             # <<<<<<<<<<<<<<
  * from xrpl.clients import JsonRpcClient
  * from xrpl.wallet import generate_faucet_wallet
  */
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 22, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_addresscodec);
   __Pyx_GIVEREF(__pyx_n_s_addresscodec);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_addresscodec);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_core, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 22, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_core, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_addresscodec); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 22, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_addresscodec); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_addresscodec, __pyx_t_1) < 0) __PYX_ERR(0, 22, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_addresscodec, __pyx_t_1) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":23
+  /* "xrplcli.py":26
  * import ipfsApi
  * from xrpl.core import addresscodec
  * from xrpl.clients import JsonRpcClient             # <<<<<<<<<<<<<<
  * from xrpl.wallet import generate_faucet_wallet
  * from xrpl.models.requests.account_info import AccountInfo
  */
-  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_n_s_JsonRpcClient);
   __Pyx_GIVEREF(__pyx_n_s_JsonRpcClient);
   PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_JsonRpcClient);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_clients, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_clients, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_JsonRpcClient); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 23, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_JsonRpcClient); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_JsonRpcClient, __pyx_t_2) < 0) __PYX_ERR(0, 23, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_JsonRpcClient, __pyx_t_2) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":24
+  /* "xrplcli.py":27
  * from xrpl.core import addresscodec
  * from xrpl.clients import JsonRpcClient
  * from xrpl.wallet import generate_faucet_wallet             # <<<<<<<<<<<<<<
  * from xrpl.models.requests.account_info import AccountInfo
  * from xrpl.models.transactions import AccountDelete
  */
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_generate_faucet_wallet);
   __Pyx_GIVEREF(__pyx_n_s_generate_faucet_wallet);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_generate_faucet_wallet);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_wallet, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_wallet, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_generate_faucet_wallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 24, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_generate_faucet_wallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_generate_faucet_wallet, __pyx_t_1) < 0) __PYX_ERR(0, 24, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_generate_faucet_wallet, __pyx_t_1) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":25
+  /* "xrplcli.py":28
  * from xrpl.clients import JsonRpcClient
  * from xrpl.wallet import generate_faucet_wallet
  * from xrpl.models.requests.account_info import AccountInfo             # <<<<<<<<<<<<<<
  * from xrpl.models.transactions import AccountDelete
  * from xrpl.models.transactions import NFTokenMint
  */
-  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_n_s_AccountInfo);
   __Pyx_GIVEREF(__pyx_n_s_AccountInfo);
   PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_AccountInfo);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_models_requests_account_inf, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 25, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_models_requests_account_inf, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_AccountInfo); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 25, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_AccountInfo); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_AccountInfo, __pyx_t_2) < 0) __PYX_ERR(0, 25, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_AccountInfo, __pyx_t_2) < 0) __PYX_ERR(0, 28, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":26
+  /* "xrplcli.py":29
  * from xrpl.wallet import generate_faucet_wallet
  * from xrpl.models.requests.account_info import AccountInfo
  * from xrpl.models.transactions import AccountDelete             # <<<<<<<<<<<<<<
  * from xrpl.models.transactions import NFTokenMint
- * from xrpl.models.requests import AccountNFTs
+ * from xrpl.models.transactions import Payment
  */
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_AccountDelete);
   __Pyx_GIVEREF(__pyx_n_s_AccountDelete);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_AccountDelete);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_models_transactions, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_models_transactions, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_AccountDelete); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 26, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_AccountDelete); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_AccountDelete, __pyx_t_1) < 0) __PYX_ERR(0, 26, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_AccountDelete, __pyx_t_1) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":27
+  /* "xrplcli.py":30
  * from xrpl.models.requests.account_info import AccountInfo
  * from xrpl.models.transactions import AccountDelete
  * from xrpl.models.transactions import NFTokenMint             # <<<<<<<<<<<<<<
+ * from xrpl.models.transactions import Payment
  * from xrpl.models.requests import AccountNFTs
- * from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
  */
-  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_n_s_NFTokenMint);
   __Pyx_GIVEREF(__pyx_n_s_NFTokenMint);
   PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_NFTokenMint);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_models_transactions, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_models_transactions, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_NFTokenMint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 27, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_NFTokenMint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_NFTokenMint, __pyx_t_2) < 0) __PYX_ERR(0, 27, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_NFTokenMint, __pyx_t_2) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":28
+  /* "xrplcli.py":31
  * from xrpl.models.transactions import AccountDelete
  * from xrpl.models.transactions import NFTokenMint
+ * from xrpl.models.transactions import Payment             # <<<<<<<<<<<<<<
+ * from xrpl.models.requests import AccountNFTs
+ * from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
+ */
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_INCREF(__pyx_n_s_Payment);
+  __Pyx_GIVEREF(__pyx_n_s_Payment);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_Payment);
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_models_transactions, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_Payment); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_Payment, __pyx_t_1) < 0) __PYX_ERR(0, 31, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "xrplcli.py":32
+ * from xrpl.models.transactions import NFTokenMint
+ * from xrpl.models.transactions import Payment
  * from xrpl.models.requests import AccountNFTs             # <<<<<<<<<<<<<<
  * from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
  * from xrpl.ledger import get_latest_validated_ledger_sequence
  */
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 32, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_n_s_AccountNFTs);
   __Pyx_GIVEREF(__pyx_n_s_AccountNFTs);
-  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_AccountNFTs);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_models_requests, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 28, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_AccountNFTs); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 28, __pyx_L1_error)
+  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_AccountNFTs);
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_models_requests, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 32, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_AccountNFTs, __pyx_t_1) < 0) __PYX_ERR(0, 28, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_AccountNFTs); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 32, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_AccountNFTs, __pyx_t_2) < 0) __PYX_ERR(0, 32, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":29
- * from xrpl.models.transactions import NFTokenMint
+  /* "xrplcli.py":33
+ * from xrpl.models.transactions import Payment
  * from xrpl.models.requests import AccountNFTs
  * from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction             # <<<<<<<<<<<<<<
  * from xrpl.ledger import get_latest_validated_ledger_sequence
  * from xrpl.account import get_next_valid_seq_number
  */
-  __pyx_t_2 = PyList_New(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = PyList_New(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_send_reliable_submission);
   __Pyx_GIVEREF(__pyx_n_s_send_reliable_submission);
-  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_send_reliable_submission);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_send_reliable_submission);
   __Pyx_INCREF(__pyx_n_s_safe_sign_and_autofill_transacti);
   __Pyx_GIVEREF(__pyx_n_s_safe_sign_and_autofill_transacti);
-  PyList_SET_ITEM(__pyx_t_2, 1, __pyx_n_s_safe_sign_and_autofill_transacti);
+  PyList_SET_ITEM(__pyx_t_1, 1, __pyx_n_s_safe_sign_and_autofill_transacti);
   __Pyx_INCREF(__pyx_n_s_safe_sign_transaction);
   __Pyx_GIVEREF(__pyx_n_s_safe_sign_transaction);
-  PyList_SET_ITEM(__pyx_t_2, 2, __pyx_n_s_safe_sign_transaction);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_transaction, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 29, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_send_reliable_submission); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
+  PyList_SET_ITEM(__pyx_t_1, 2, __pyx_n_s_safe_sign_transaction);
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_transaction, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 33, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_send_reliable_submission, __pyx_t_2) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_safe_sign_and_autofill_transacti); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_safe_sign_and_autofill_transacti, __pyx_t_2) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_safe_sign_transaction); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 29, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_safe_sign_transaction, __pyx_t_2) < 0) __PYX_ERR(0, 29, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_send_reliable_submission); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_send_reliable_submission, __pyx_t_1) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_safe_sign_and_autofill_transacti); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_safe_sign_and_autofill_transacti, __pyx_t_1) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_safe_sign_transaction); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_safe_sign_transaction, __pyx_t_1) < 0) __PYX_ERR(0, 33, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":30
+  /* "xrplcli.py":34
  * from xrpl.models.requests import AccountNFTs
  * from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
  * from xrpl.ledger import get_latest_validated_ledger_sequence             # <<<<<<<<<<<<<<
  * from xrpl.account import get_next_valid_seq_number
  * 
  */
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_INCREF(__pyx_n_s_get_latest_validated_ledger_sequ);
   __Pyx_GIVEREF(__pyx_n_s_get_latest_validated_ledger_sequ);
-  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_get_latest_validated_ledger_sequ);
-  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_ledger, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 30, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_get_latest_validated_ledger_sequ); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 30, __pyx_L1_error)
+  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_get_latest_validated_ledger_sequ);
+  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_ledger, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 34, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_latest_validated_ledger_sequ, __pyx_t_1) < 0) __PYX_ERR(0, 30, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_get_latest_validated_ledger_sequ); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_latest_validated_ledger_sequ, __pyx_t_2) < 0) __PYX_ERR(0, 34, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":31
+  /* "xrplcli.py":35
  * from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
  * from xrpl.ledger import get_latest_validated_ledger_sequence
  * from xrpl.account import get_next_valid_seq_number             # <<<<<<<<<<<<<<
  * 
  * # module authorship
  */
-  __pyx_t_2 = PyList_New(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 35, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_n_s_get_next_valid_seq_number);
   __Pyx_GIVEREF(__pyx_n_s_get_next_valid_seq_number);
-  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_n_s_get_next_valid_seq_number);
-  __pyx_t_1 = __Pyx_Import(__pyx_n_s_xrpl_account, __pyx_t_2, -1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 31, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_ImportFrom(__pyx_t_1, __pyx_n_s_get_next_valid_seq_number); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 31, __pyx_L1_error)
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_get_next_valid_seq_number);
+  __pyx_t_2 = __Pyx_Import(__pyx_n_s_xrpl_account, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 35, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_next_valid_seq_number, __pyx_t_2) < 0) __PYX_ERR(0, 31, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_get_next_valid_seq_number); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 35, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_get_next_valid_seq_number, __pyx_t_1) < 0) __PYX_ERR(0, 35, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":34
+  /* "xrplcli.py":38
  * 
  * # module authorship
  * __author__ = "Cove Crypto"             # <<<<<<<<<<<<<<
  * __copyright__ = "Copyright Cove Crypto"
  * __license__ = "MIT"
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_author, __pyx_kp_s_Cove_Crypto) < 0) __PYX_ERR(0, 34, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_author, __pyx_kp_s_Cove_Crypto) < 0) __PYX_ERR(0, 38, __pyx_L1_error)
 
-  /* "xrplcli.py":35
+  /* "xrplcli.py":39
  * # module authorship
  * __author__ = "Cove Crypto"
  * __copyright__ = "Copyright Cove Crypto"             # <<<<<<<<<<<<<<
  * __license__ = "MIT"
  * __version__ = "0.02"
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_copyright, __pyx_kp_s_Copyright_Cove_Crypto) < 0) __PYX_ERR(0, 35, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_copyright, __pyx_kp_s_Copyright_Cove_Crypto) < 0) __PYX_ERR(0, 39, __pyx_L1_error)
 
-  /* "xrplcli.py":36
+  /* "xrplcli.py":40
  * __author__ = "Cove Crypto"
  * __copyright__ = "Copyright Cove Crypto"
  * __license__ = "MIT"             # <<<<<<<<<<<<<<
  * __version__ = "0.02"
  * 
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_license, __pyx_n_s_MIT) < 0) __PYX_ERR(0, 36, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_license, __pyx_n_s_MIT) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
 
-  /* "xrplcli.py":37
+  /* "xrplcli.py":41
  * __copyright__ = "Copyright Cove Crypto"
  * __license__ = "MIT"
  * __version__ = "0.02"             # <<<<<<<<<<<<<<
  * 
  * # networks
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_version, __pyx_kp_s_0_02) < 0) __PYX_ERR(0, 37, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_version, __pyx_kp_s_0_02) < 0) __PYX_ERR(0, 41, __pyx_L1_error)
 
-  /* "xrplcli.py":41
+  /* "xrplcli.py":45
  * # networks
  * networks = {
  * 	"main":[             # <<<<<<<<<<<<<<
  * 		{"websocket":"wss://s1.ripple.com/"},
  * 		{"jsonrpc":"https://s1.ripple.com:51234/"}
  */
-  __pyx_t_1 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 41, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 45, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
 
-  /* "xrplcli.py":42
+  /* "xrplcli.py":46
  * networks = {
  * 	"main":[
  * 		{"websocket":"wss://s1.ripple.com/"},             # <<<<<<<<<<<<<<
  * 		{"jsonrpc":"https://s1.ripple.com:51234/"}
  * 	],
  */
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 42, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_websocket, __pyx_kp_s_wss_s1_ripple_com) < 0) __PYX_ERR(0, 42, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 46, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_websocket, __pyx_kp_s_wss_s1_ripple_com) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
 
-  /* "xrplcli.py":43
+  /* "xrplcli.py":47
  * 	"main":[
  * 		{"websocket":"wss://s1.ripple.com/"},
  * 		{"jsonrpc":"https://s1.ripple.com:51234/"}             # <<<<<<<<<<<<<<
  * 	],
  * 	"testnet":[
  */
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 43, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_https_s1_ripple_com_51234) < 0) __PYX_ERR(0, 43, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_https_s1_ripple_com_51234) < 0) __PYX_ERR(0, 47, __pyx_L1_error)
 
-  /* "xrplcli.py":41
+  /* "xrplcli.py":45
  * # networks
  * networks = {
  * 	"main":[             # <<<<<<<<<<<<<<
  * 		{"websocket":"wss://s1.ripple.com/"},
  * 		{"jsonrpc":"https://s1.ripple.com:51234/"}
  */
-  __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 41, __pyx_L1_error)
+  __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GIVEREF(__pyx_t_2);
-  PyList_SET_ITEM(__pyx_t_4, 0, __pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyList_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_3);
   PyList_SET_ITEM(__pyx_t_4, 1, __pyx_t_3);
-  __pyx_t_2 = 0;
+  __pyx_t_1 = 0;
   __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_main_2, __pyx_t_4) < 0) __PYX_ERR(0, 41, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_main_2, __pyx_t_4) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":46
+  /* "xrplcli.py":50
  * 	],
  * 	"testnet":[
  * 		{"websocket":"wss://s.altnet.rippletest.net:51233"},             # <<<<<<<<<<<<<<
  * 		{"jsonrpc":"https://s.altnet.rippletest.net:51234"}
  * 	],
  */
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 46, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 50, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_websocket, __pyx_kp_s_wss_s_altnet_rippletest_net_5123) < 0) __PYX_ERR(0, 46, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_websocket, __pyx_kp_s_wss_s_altnet_rippletest_net_5123) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
 
-  /* "xrplcli.py":47
+  /* "xrplcli.py":51
  * 	"testnet":[
  * 		{"websocket":"wss://s.altnet.rippletest.net:51233"},
  * 		{"jsonrpc":"https://s.altnet.rippletest.net:51234"}             # <<<<<<<<<<<<<<
  * 	],
  * 	"devnet":[
  */
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 51, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_https_s_altnet_rippletest_net_51) < 0) __PYX_ERR(0, 47, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_https_s_altnet_rippletest_net_51) < 0) __PYX_ERR(0, 51, __pyx_L1_error)
 
-  /* "xrplcli.py":45
+  /* "xrplcli.py":49
  * 		{"jsonrpc":"https://s1.ripple.com:51234/"}
  * 	],
  * 	"testnet":[             # <<<<<<<<<<<<<<
  * 		{"websocket":"wss://s.altnet.rippletest.net:51233"},
  * 		{"jsonrpc":"https://s.altnet.rippletest.net:51234"}
  */
-  __pyx_t_2 = PyList_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 45, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 49, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_4);
-  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_t_4);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_3);
-  PyList_SET_ITEM(__pyx_t_2, 1, __pyx_t_3);
+  PyList_SET_ITEM(__pyx_t_1, 1, __pyx_t_3);
   __pyx_t_4 = 0;
   __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_testnet, __pyx_t_2) < 0) __PYX_ERR(0, 41, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_testnet, __pyx_t_1) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":50
+  /* "xrplcli.py":54
  * 	],
  * 	"devnet":[
  * 		{"websocket":"wss://s.devnet.rippletest.net:51233"},             # <<<<<<<<<<<<<<
  * 		{"jsonrpc":"https://s.devnet.rippletest.net:51234"}
  * 	],
  */
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 50, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_websocket, __pyx_kp_s_wss_s_devnet_rippletest_net_5123) < 0) __PYX_ERR(0, 50, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 54, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_websocket, __pyx_kp_s_wss_s_devnet_rippletest_net_5123) < 0) __PYX_ERR(0, 54, __pyx_L1_error)
 
-  /* "xrplcli.py":51
+  /* "xrplcli.py":55
  * 	"devnet":[
  * 		{"websocket":"wss://s.devnet.rippletest.net:51233"},
  * 		{"jsonrpc":"https://s.devnet.rippletest.net:51234"}             # <<<<<<<<<<<<<<
  * 	],
  * 	"nftdev":[
  */
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 51, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 55, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_https_s_devnet_rippletest_net_51) < 0) __PYX_ERR(0, 51, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_https_s_devnet_rippletest_net_51) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
 
-  /* "xrplcli.py":49
+  /* "xrplcli.py":53
  * 		{"jsonrpc":"https://s.altnet.rippletest.net:51234"}
  * 	],
  * 	"devnet":[             # <<<<<<<<<<<<<<
  * 		{"websocket":"wss://s.devnet.rippletest.net:51233"},
  * 		{"jsonrpc":"https://s.devnet.rippletest.net:51234"}
  */
-  __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 49, __pyx_L1_error)
+  __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 53, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GIVEREF(__pyx_t_2);
-  PyList_SET_ITEM(__pyx_t_4, 0, __pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyList_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_3);
   PyList_SET_ITEM(__pyx_t_4, 1, __pyx_t_3);
-  __pyx_t_2 = 0;
+  __pyx_t_1 = 0;
   __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_devnet, __pyx_t_4) < 0) __PYX_ERR(0, 41, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_devnet, __pyx_t_4) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":54
+  /* "xrplcli.py":58
  * 	],
  * 	"nftdev":[
  * 		{"websocket":"wss://xls20-sandbox.rippletest.net:51233"},             # <<<<<<<<<<<<<<
  * 		{"jsonrpc":"http://xls20-sandbox.rippletest.net:51234"}
  * 	],
  */
-  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 54, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 58, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_websocket, __pyx_kp_s_wss_xls20_sandbox_rippletest_net) < 0) __PYX_ERR(0, 54, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_websocket, __pyx_kp_s_wss_xls20_sandbox_rippletest_net) < 0) __PYX_ERR(0, 58, __pyx_L1_error)
 
-  /* "xrplcli.py":55
+  /* "xrplcli.py":59
  * 	"nftdev":[
  * 		{"websocket":"wss://xls20-sandbox.rippletest.net:51233"},
  * 		{"jsonrpc":"http://xls20-sandbox.rippletest.net:51234"}             # <<<<<<<<<<<<<<
  * 	],
  * 	"local":[
  */
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 55, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 59, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_http_xls20_sandbox_rippletest_ne) < 0) __PYX_ERR(0, 55, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_http_xls20_sandbox_rippletest_ne) < 0) __PYX_ERR(0, 59, __pyx_L1_error)
 
-  /* "xrplcli.py":53
+  /* "xrplcli.py":57
  * 		{"jsonrpc":"https://s.devnet.rippletest.net:51234"}
  * 	],
  * 	"nftdev":[             # <<<<<<<<<<<<<<
  * 		{"websocket":"wss://xls20-sandbox.rippletest.net:51233"},
  * 		{"jsonrpc":"http://xls20-sandbox.rippletest.net:51234"}
  */
-  __pyx_t_2 = PyList_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 53, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_1 = PyList_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 57, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_4);
-  PyList_SET_ITEM(__pyx_t_2, 0, __pyx_t_4);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_t_4);
   __Pyx_GIVEREF(__pyx_t_3);
-  PyList_SET_ITEM(__pyx_t_2, 1, __pyx_t_3);
+  PyList_SET_ITEM(__pyx_t_1, 1, __pyx_t_3);
   __pyx_t_4 = 0;
   __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_nftdev, __pyx_t_2) < 0) __PYX_ERR(0, 41, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_nftdev, __pyx_t_1) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "xrplcli.py":58
+  /* "xrplcli.py":62
  * 	],
  * 	"local":[
  * 		{"websocket":"wss://127.0.0.1:6006"},             # <<<<<<<<<<<<<<
  * 		{"jsonrpc":"http://127.0.0.1:5005"}
  * 	]
  */
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 58, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_websocket, __pyx_kp_s_wss_127_0_0_1_6006) < 0) __PYX_ERR(0, 58, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 62, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_websocket, __pyx_kp_s_wss_127_0_0_1_6006) < 0) __PYX_ERR(0, 62, __pyx_L1_error)
 
-  /* "xrplcli.py":59
+  /* "xrplcli.py":63
  * 	"local":[
  * 		{"websocket":"wss://127.0.0.1:6006"},
  * 		{"jsonrpc":"http://127.0.0.1:5005"}             # <<<<<<<<<<<<<<
  * 	]
  * 
  */
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 59, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_http_127_0_0_1_5005) < 0) __PYX_ERR(0, 59, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_jsonrpc, __pyx_kp_s_http_127_0_0_1_5005) < 0) __PYX_ERR(0, 63, __pyx_L1_error)
 
-  /* "xrplcli.py":57
+  /* "xrplcli.py":61
  * 		{"jsonrpc":"http://xls20-sandbox.rippletest.net:51234"}
  * 	],
  * 	"local":[             # <<<<<<<<<<<<<<
  * 		{"websocket":"wss://127.0.0.1:6006"},
  * 		{"jsonrpc":"http://127.0.0.1:5005"}
  */
-  __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 57, __pyx_L1_error)
+  __pyx_t_4 = PyList_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 61, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_GIVEREF(__pyx_t_2);
-  PyList_SET_ITEM(__pyx_t_4, 0, __pyx_t_2);
+  __Pyx_GIVEREF(__pyx_t_1);
+  PyList_SET_ITEM(__pyx_t_4, 0, __pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_3);
   PyList_SET_ITEM(__pyx_t_4, 1, __pyx_t_3);
-  __pyx_t_2 = 0;
+  __pyx_t_1 = 0;
   __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_local, __pyx_t_4) < 0) __PYX_ERR(0, 41, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_local, __pyx_t_4) < 0) __PYX_ERR(0, 45, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_networks, __pyx_t_1) < 0) __PYX_ERR(0, 40, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_networks, __pyx_t_2) < 0) __PYX_ERR(0, 44, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":64
- * }
+  /* "xrplcli.py":69
  * 
+ * # XRPL object wrapper around xrpl-py functions
  * class XRPLobject:             # <<<<<<<<<<<<<<
  * 	secret = ""
  * 	account = ""
  */
-  __pyx_t_1 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_XRPLobject, __pyx_n_s_XRPLobject, (PyObject *) NULL, __pyx_n_s_xrplcli, (PyObject *) NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 64, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
+  __pyx_t_2 = __Pyx_Py3MetaclassPrepare((PyObject *) NULL, __pyx_empty_tuple, __pyx_n_s_XRPLobject, __pyx_n_s_XRPLobject, (PyObject *) NULL, __pyx_n_s_xrplcli, (PyObject *) NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
 
-  /* "xrplcli.py":65
- * 
+  /* "xrplcli.py":70
+ * # XRPL object wrapper around xrpl-py functions
  * class XRPLobject:
  * 	secret = ""             # <<<<<<<<<<<<<<
  * 	account = ""
  * 	owner = ""
  */
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_secret, __pyx_kp_s__2) < 0) __PYX_ERR(0, 65, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_secret, __pyx_kp_s__2) < 0) __PYX_ERR(0, 70, __pyx_L1_error)
 
-  /* "xrplcli.py":66
+  /* "xrplcli.py":71
  * class XRPLobject:
  * 	secret = ""
  * 	account = ""             # <<<<<<<<<<<<<<
  * 	owner = ""
  * 	server = ""
  */
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_account, __pyx_kp_s__2) < 0) __PYX_ERR(0, 66, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_account, __pyx_kp_s__2) < 0) __PYX_ERR(0, 71, __pyx_L1_error)
 
-  /* "xrplcli.py":67
+  /* "xrplcli.py":72
  * 	secret = ""
  * 	account = ""
  * 	owner = ""             # <<<<<<<<<<<<<<
  * 	server = ""
  * 	wallet = ""
  */
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_owner, __pyx_kp_s__2) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_owner, __pyx_kp_s__2) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
 
-  /* "xrplcli.py":68
+  /* "xrplcli.py":73
  * 	account = ""
  * 	owner = ""
  * 	server = ""             # <<<<<<<<<<<<<<
  * 	wallet = ""
- * 	def __init__(self):
+ * 	# object constructor
  */
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_server, __pyx_kp_s__2) < 0) __PYX_ERR(0, 68, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_server, __pyx_kp_s__2) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
 
-  /* "xrplcli.py":69
+  /* "xrplcli.py":74
  * 	owner = ""
  * 	server = ""
  * 	wallet = ""             # <<<<<<<<<<<<<<
+ * 	# object constructor
  * 	def __init__(self):
- * 		#self.secret = blah
  */
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_wallet, __pyx_kp_s__2) < 0) __PYX_ERR(0, 69, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_wallet, __pyx_kp_s__2) < 0) __PYX_ERR(0, 74, __pyx_L1_error)
 
-  /* "xrplcli.py":70
- * 	server = ""
+  /* "xrplcli.py":76
  * 	wallet = ""
+ * 	# object constructor
  * 	def __init__(self):             # <<<<<<<<<<<<<<
  * 		#self.secret = blah
  * 		pass
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_1__init__, 0, __pyx_n_s_XRPLobject___init, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 70, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_1__init__, 0, __pyx_n_s_XRPLobject___init, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__4)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 76, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 70, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_init, __pyx_t_4) < 0) __PYX_ERR(0, 76, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":73
- * 		#self.secret = blah
+  /* "xrplcli.py":80
  * 		pass
+ * 	# connect over JSON-RPC (only for now, wss more secure for internet)
  * 	def connectrpc(self):             # <<<<<<<<<<<<<<
  * 		self.client = JsonRpcClient(self.server)
- * 	def brainwallet(self,seedkey):
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_3connectrpc, 0, __pyx_n_s_XRPLobject_connectrpc, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_3connectrpc, 0, __pyx_n_s_XRPLobject_connectrpc, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__6)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_connectrpc, __pyx_t_4) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_connectrpc, __pyx_t_4) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":75
- * 	def connectrpc(self):
+  /* "xrplcli.py":83
  * 		self.client = JsonRpcClient(self.server)
+ * 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
  * 	def brainwallet(self,seedkey):             # <<<<<<<<<<<<<<
  * 		myseed = hashlib.sha512(seedkey.encode("ascii"))
  * 		myrealseed = myseed.hexdigest().upper()
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_5brainwallet, 0, __pyx_n_s_XRPLobject_brainwallet, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__8)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 75, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_5brainwallet, 0, __pyx_n_s_XRPLobject_brainwallet, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__8)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_brainwallet, __pyx_t_4) < 0) __PYX_ERR(0, 75, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_brainwallet, __pyx_t_4) < 0) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":83
- * 		self.account = self.wallet.classic_address
+  /* "xrplcli.py":92
  * 		self.secret = self.wallet.seed
+ * 	# set a wallet seed from cli argument (need to hide this from ps and histfile)
  * 	def seedwallet(self,secret):             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.Wallet(secret,1)
  * 		self.account = self.wallet.classic_address
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_7seedwallet, 0, __pyx_n_s_XRPLobject_seedwallet, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__10)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 83, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_7seedwallet, 0, __pyx_n_s_XRPLobject_seedwallet, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__10)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 92, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_seedwallet, __pyx_t_4) < 0) __PYX_ERR(0, 83, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_seedwallet, __pyx_t_4) < 0) __PYX_ERR(0, 92, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":87
- * 		self.account = self.wallet.classic_address
+  /* "xrplcli.py":97
  * 		self.secret = secret
+ * 	# use facuet to generate and fund a wallet
  * 	def genwallet(self):             # <<<<<<<<<<<<<<
  * 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
  * 		self.secret = self.wallet.seed
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_9genwallet, 0, __pyx_n_s_XRPLobject_genwallet, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__12)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 87, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_9genwallet, 0, __pyx_n_s_XRPLobject_genwallet, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__12)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_genwallet, __pyx_t_4) < 0) __PYX_ERR(0, 87, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_genwallet, __pyx_t_4) < 0) __PYX_ERR(0, 97, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":91
- * 		self.secret = self.wallet.seed
+  /* "xrplcli.py":102
  * 		self.account = self.wallet.classic_address
+ * 	# get the account information
  * 	def getaccount(self):             # <<<<<<<<<<<<<<
  * 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
  * 		response = self.client.request(acct_info)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_11getaccount, 0, __pyx_n_s_XRPLobject_getaccount, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__14)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 91, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_11getaccount, 0, __pyx_n_s_XRPLobject_getaccount, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__14)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 102, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_getaccount, __pyx_t_4) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_getaccount, __pyx_t_4) < 0) __PYX_ERR(0, 102, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":97
- * 		print("response.status: ", response.status)
+  /* "xrplcli.py":109
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
+ * 	# delete the account
  * 	def delaccount(self,dest):             # <<<<<<<<<<<<<<
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
  * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_13delaccount, 0, __pyx_n_s_XRPLobject_delaccount, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__16)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 97, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_13delaccount, 0, __pyx_n_s_XRPLobject_delaccount, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__16)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 109, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_delaccount, __pyx_t_4) < 0) __PYX_ERR(0, 97, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_delaccount, __pyx_t_4) < 0) __PYX_ERR(0, 109, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":108
+  /* "xrplcli.py":120
  * 		print("response.status: ", tx_response.status)
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	def payment(self,dest,amount,tag):             # <<<<<<<<<<<<<<
+ * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+ * 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+ */
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_15payment, 0, __pyx_n_s_XRPLobject_payment, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__18)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 120, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_payment, __pyx_t_4) < 0) __PYX_ERR(0, 120, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+  /* "xrplcli.py":135
+ * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# should take taxon as an argument for collections, grouped by taxon as an ID.
  * 	def mintnft(self,metauri):             # <<<<<<<<<<<<<<
  * 		# get the current block height
  * 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_15mintnft, 0, __pyx_n_s_XRPLobject_mintnft, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__18)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 108, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_17mintnft, 0, __pyx_n_s_XRPLobject_mintnft, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__20)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_mintnft, __pyx_t_4) < 0) __PYX_ERR(0, 108, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_mintnft, __pyx_t_4) < 0) __PYX_ERR(0, 135, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":122
- * 		print("response.status: ", tx_response.status)
+  /* "xrplcli.py":151
  * 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+ * 	# list NFT tokens and information on account, don't parse any metadata here.
  * 	def getnft(self):             # <<<<<<<<<<<<<<
  * 		nft_info = AccountNFTs(account=self.account)
  * 		response = self.client.request(nft_info)
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_17getnft, 0, __pyx_n_s_XRPLobject_getnft, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__20)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 122, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_19getnft, 0, __pyx_n_s_XRPLobject_getnft, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__22)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 151, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_getnft, __pyx_t_4) < 0) __PYX_ERR(0, 122, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_getnft, __pyx_t_4) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":128
+  /* "xrplcli.py":157
  * 		print("response.status: ", response.status)
  * 		print(json.dumps(response.result, indent=4, sort_keys=True))
  * 	def burnnft():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def create_sell():
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_19burnnft, 0, __pyx_n_s_XRPLobject_burnnft, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__21)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 128, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_21burnnft, 0, __pyx_n_s_XRPLobject_burnnft, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 157, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_burnnft, __pyx_t_4) < 0) __PYX_ERR(0, 128, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_burnnft, __pyx_t_4) < 0) __PYX_ERR(0, 157, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":130
+  /* "xrplcli.py":159
  * 	def burnnft():
  * 		pass
  * 	def create_sell():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def create_buy():
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_21create_sell, 0, __pyx_n_s_XRPLobject_create_sell, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__22)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 130, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_23create_sell, 0, __pyx_n_s_XRPLobject_create_sell, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__24)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_create_sell, __pyx_t_4) < 0) __PYX_ERR(0, 130, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_create_sell, __pyx_t_4) < 0) __PYX_ERR(0, 159, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":132
+  /* "xrplcli.py":161
  * 	def create_sell():
  * 		pass
  * 	def create_buy():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def get_offers():
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_23create_buy, 0, __pyx_n_s_XRPLobject_create_buy, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__23)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 132, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_25create_buy, 0, __pyx_n_s_XRPLobject_create_buy, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 161, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_create_buy, __pyx_t_4) < 0) __PYX_ERR(0, 132, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_create_buy, __pyx_t_4) < 0) __PYX_ERR(0, 161, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":134
+  /* "xrplcli.py":163
  * 	def create_buy():
  * 		pass
  * 	def get_offers():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def accept_sell():
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_25get_offers, 0, __pyx_n_s_XRPLobject_get_offers, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__24)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 134, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_27get_offers, 0, __pyx_n_s_XRPLobject_get_offers, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__26)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 163, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_get_offers, __pyx_t_4) < 0) __PYX_ERR(0, 134, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_get_offers, __pyx_t_4) < 0) __PYX_ERR(0, 163, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":136
+  /* "xrplcli.py":165
  * 	def get_offers():
  * 		pass
  * 	def accept_sell():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def accept_buy():
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_27accept_sell, 0, __pyx_n_s_XRPLobject_accept_sell, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__25)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 136, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_29accept_sell, 0, __pyx_n_s_XRPLobject_accept_sell, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 165, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_accept_sell, __pyx_t_4) < 0) __PYX_ERR(0, 136, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_accept_sell, __pyx_t_4) < 0) __PYX_ERR(0, 165, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":138
+  /* "xrplcli.py":167
  * 	def accept_sell():
  * 		pass
  * 	def accept_buy():             # <<<<<<<<<<<<<<
  * 		pass
  * 	def cancel_offer():
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_29accept_buy, 0, __pyx_n_s_XRPLobject_accept_buy, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__26)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 138, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_31accept_buy, 0, __pyx_n_s_XRPLobject_accept_buy, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__28)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 167, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_accept_buy, __pyx_t_4) < 0) __PYX_ERR(0, 138, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_accept_buy, __pyx_t_4) < 0) __PYX_ERR(0, 167, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":140
+  /* "xrplcli.py":169
  * 	def accept_buy():
  * 		pass
  * 	def cancel_offer():             # <<<<<<<<<<<<<<
  * 		pass
  * 
  */
-  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_31cancel_offer, 0, __pyx_n_s_XRPLobject_cancel_offer, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__27)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 140, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_CyFunction_New(&__pyx_mdef_7xrplcli_10XRPLobject_33cancel_offer, 0, __pyx_n_s_XRPLobject_cancel_offer, NULL, __pyx_n_s_xrplcli, __pyx_d, ((PyObject *)__pyx_codeobj__29)); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 169, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (__Pyx_SetNameInClass(__pyx_t_1, __pyx_n_s_cancel_offer, __pyx_t_4) < 0) __PYX_ERR(0, 140, __pyx_L1_error)
+  if (__Pyx_SetNameInClass(__pyx_t_2, __pyx_n_s_cancel_offer, __pyx_t_4) < 0) __PYX_ERR(0, 169, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-  /* "xrplcli.py":64
- * }
+  /* "xrplcli.py":69
  * 
+ * # XRPL object wrapper around xrpl-py functions
  * class XRPLobject:             # <<<<<<<<<<<<<<
  * 	secret = ""
  * 	account = ""
  */
-  __pyx_t_4 = __Pyx_Py3ClassCreate(((PyObject*)&__Pyx_DefaultClassType), __pyx_n_s_XRPLobject, __pyx_empty_tuple, __pyx_t_1, NULL, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 64, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_Py3ClassCreate(((PyObject*)&__Pyx_DefaultClassType), __pyx_n_s_XRPLobject, __pyx_empty_tuple, __pyx_t_2, NULL, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 69, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_XRPLobject, __pyx_t_4) < 0) __PYX_ERR(0, 64, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_XRPLobject, __pyx_t_4) < 0) __PYX_ERR(0, 69, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "xrplcli.py":143
- * 		pass
+  /* "xrplcli.py":173
  * 
+ * # main function, entrypoint
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
+ * 	# cli parser and option handling
  * 	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")
- * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_name); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 143, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = (__Pyx_PyString_Equals(__pyx_t_1, __pyx_n_s_main, Py_EQ)); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 143, __pyx_L1_error)
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_name); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 173, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_5 = (__Pyx_PyString_Equals(__pyx_t_2, __pyx_n_s_main, Py_EQ)); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 173, __pyx_L1_error)
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   if (__pyx_t_5) {
 
-    /* "xrplcli.py":144
- * 
+    /* "xrplcli.py":175
  * if __name__ == "__main__":
+ * 	# cli parser and option handling
  * 	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
  * 	parser.add_argument("-a","--account", help="classic account address")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_argparse); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 144, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_ArgumentParser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 144, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_argparse); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 175, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_ArgumentParser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 175, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 144, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_description, __pyx_kp_s_A_command_line_interface_for_wor) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_empty_tuple, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 144, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 175, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_description, __pyx_kp_s_A_command_line_interface_for_wor) < 0) __PYX_ERR(0, 175, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 175, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_parser, __pyx_t_3) < 0) __PYX_ERR(0, 144, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_parser, __pyx_t_3) < 0) __PYX_ERR(0, 175, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "xrplcli.py":145
- * if __name__ == "__main__":
+    /* "xrplcli.py":176
+ * 	# cli parser and option handling
  * 	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")
  * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-a","--account", help="classic account address")
  * 	parser.add_argument("-s","--secret", help="seed key")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 145, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 176, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 145, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 176, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 145, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 176, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_use_a_brain_wallet_passphrase) < 0) __PYX_ERR(0, 145, __pyx_L1_error)
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__28, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 145, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_use_a_brain_wallet_passphrase) < 0) __PYX_ERR(0, 176, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__30, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 176, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "xrplcli.py":146
+    /* "xrplcli.py":177
  * 	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")
  * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
  * 	parser.add_argument("-a","--account", help="classic account address")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-s","--secret", help="seed key")
- * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 146, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 177, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 146, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 177, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 146, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 177, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_kp_s_classic_account_address) < 0) __PYX_ERR(0, 146, __pyx_L1_error)
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__29, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 146, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_kp_s_classic_account_address) < 0) __PYX_ERR(0, 177, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__31, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 177, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "xrplcli.py":147
+    /* "xrplcli.py":178
  * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
  * 	parser.add_argument("-a","--account", help="classic account address")
  * 	parser.add_argument("-s","--secret", help="seed key")             # <<<<<<<<<<<<<<
- * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_parser); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 147, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 147, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_parser); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 178, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 178, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 147, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_help, __pyx_kp_s_seed_key) < 0) __PYX_ERR(0, 147, __pyx_L1_error)
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__30, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 147, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 178, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_help, __pyx_kp_s_seed_key) < 0) __PYX_ERR(0, 178, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__32, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 178, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "xrplcli.py":148
+    /* "xrplcli.py":179
  * 	parser.add_argument("-a","--account", help="classic account address")
  * 	parser.add_argument("-s","--secret", help="seed key")
- * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)             # <<<<<<<<<<<<<<
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
- * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 148, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 179, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 148, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 179, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 148, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 179, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_generate_a_wallet_from_faucet) < 0) __PYX_ERR(0, 148, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_nargs, __pyx_kp_s__32) < 0) __PYX_ERR(0, 148, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_const, __pyx_int_1) < 0) __PYX_ERR(0, 148, __pyx_L1_error)
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__31, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 148, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_send_payment_of_amount) < 0) __PYX_ERR(0, 179, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__33, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 179, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "xrplcli.py":149
+    /* "xrplcli.py":180
  * 	parser.add_argument("-s","--secret", help="seed key")
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")
  * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')             # <<<<<<<<<<<<<<
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 180, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 180, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 180, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_kp_s_optional_tag_for_payment) < 0) __PYX_ERR(0, 180, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__34, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 180, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+    /* "xrplcli.py":181
+ * 	parser.add_argument("-pay","--payment", help="send payment of amount")
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_parser); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 181, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 181, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 181, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_help, __pyx_kp_s_destination_wallet_for_transacti) < 0) __PYX_ERR(0, 181, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__35, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 181, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+    /* "xrplcli.py":182
+ * 	parser.add_argument("-tag","--tag", help="optional tag for payment")
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")
+ * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)             # <<<<<<<<<<<<<<
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
+ * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 182, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 182, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 182, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_generate_a_wallet_from_faucet) < 0) __PYX_ERR(0, 182, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_nargs, __pyx_kp_s__37) < 0) __PYX_ERR(0, 182, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_const, __pyx_int_1) < 0) __PYX_ERR(0, 182, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__36, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 182, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+    /* "xrplcli.py":183
+ * 	parser.add_argument("-d","--destination", help="destination wallet for transaction")
+ * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 149, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 183, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 149, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 183, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 149, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 183, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_kp_s_delete_wallet_and_send_balance_t) < 0) __PYX_ERR(0, 149, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_nargs, __pyx_kp_s__32) < 0) __PYX_ERR(0, 149, __pyx_L1_error)
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__33, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 149, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_kp_s_delete_wallet_and_send_balance_t) < 0) __PYX_ERR(0, 183, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_nargs, __pyx_kp_s__37) < 0) __PYX_ERR(0, 183, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__38, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 183, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "xrplcli.py":150
+    /* "xrplcli.py":184
  * 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
  * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
  * 	parser.add_argument("-f","--flags", help="NFT flags")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_parser); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 150, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 150, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_parser); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 184, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 150, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_help, __pyx_kp_s_list_nft_s_on_account) < 0) __PYX_ERR(0, 150, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_nargs, __pyx_kp_s__32) < 0) __PYX_ERR(0, 150, __pyx_L1_error)
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_const, __pyx_int_1) < 0) __PYX_ERR(0, 150, __pyx_L1_error)
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__34, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 150, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 184, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_help, __pyx_kp_s_list_nft_s_on_account) < 0) __PYX_ERR(0, 184, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_nargs, __pyx_kp_s__37) < 0) __PYX_ERR(0, 184, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_const, __pyx_int_1) < 0) __PYX_ERR(0, 184, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__39, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 184, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "xrplcli.py":151
- * 	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
+    /* "xrplcli.py":185
+ * 	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
  * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-f","--flags", help="NFT flags")
  * 	parser.add_argument("-i","--tokenid", help="token id")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 151, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 185, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 151, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 185, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 151, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 185, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_mint_a_NFT_token_url) < 0) __PYX_ERR(0, 151, __pyx_L1_error)
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__35, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 151, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_mint_a_NFT_token_url) < 0) __PYX_ERR(0, 185, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__40, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 185, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "xrplcli.py":152
+    /* "xrplcli.py":186
  * 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
  * 	parser.add_argument("-f","--flags", help="NFT flags")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-i","--tokenid", help="token id")
  * 	parser.add_argument("-m","--amount", help="amount")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 152, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 186, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 152, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 186, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 152, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 186, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_kp_s_NFT_flags) < 0) __PYX_ERR(0, 152, __pyx_L1_error)
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__36, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 152, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_kp_s_NFT_flags) < 0) __PYX_ERR(0, 186, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__41, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 186, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "xrplcli.py":153
+    /* "xrplcli.py":187
  * 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
  * 	parser.add_argument("-f","--flags", help="NFT flags")
  * 	parser.add_argument("-i","--tokenid", help="token id")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-m","--amount", help="amount")
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_parser); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 153, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 153, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_parser); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 187, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 187, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 153, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_help, __pyx_kp_s_token_id) < 0) __PYX_ERR(0, 153, __pyx_L1_error)
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__37, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 153, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 187, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_help, __pyx_kp_s_token_id) < 0) __PYX_ERR(0, 187, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__42, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 187, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "xrplcli.py":154
+    /* "xrplcli.py":188
  * 	parser.add_argument("-f","--flags", help="NFT flags")
  * 	parser.add_argument("-i","--tokenid", help="token id")
  * 	parser.add_argument("-m","--amount", help="amount")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
  * 	parser.add_argument("-o","--owner", help="owner")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 154, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 188, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 154, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 188, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 154, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 188, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_n_s_amount_2) < 0) __PYX_ERR(0, 154, __pyx_L1_error)
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__38, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 154, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_n_s_amount) < 0) __PYX_ERR(0, 188, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__43, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 188, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "xrplcli.py":155
+    /* "xrplcli.py":189
  * 	parser.add_argument("-i","--tokenid", help="token id")
  * 	parser.add_argument("-m","--amount", help="amount")
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-o","--owner", help="owner")
  * 	parser.add_argument("-n","--network", help="use with list for server list")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 155, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 189, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 155, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 189, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 155, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 189, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_n_s_tokenofferindex_2) < 0) __PYX_ERR(0, 155, __pyx_L1_error)
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__39, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 155, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_help, __pyx_n_s_tokenofferindex_2) < 0) __PYX_ERR(0, 189, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__44, __pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 189, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "xrplcli.py":156
+    /* "xrplcli.py":190
  * 	parser.add_argument("-m","--amount", help="amount")
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
  * 	parser.add_argument("-o","--owner", help="owner")             # <<<<<<<<<<<<<<
  * 	parser.add_argument("-n","--network", help="use with list for server list")
  * 	args = parser.parse_args()
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_parser); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 156, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_parser); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 190, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 156, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_help, __pyx_n_s_owner) < 0) __PYX_ERR(0, 156, __pyx_L1_error)
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__40, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 156, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 190, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_help, __pyx_n_s_owner) < 0) __PYX_ERR(0, 190, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__45, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 190, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "xrplcli.py":157
+    /* "xrplcli.py":191
  * 	parser.add_argument("-x","--tokenofferindex", help="tokenofferindex")
  * 	parser.add_argument("-o","--owner", help="owner")
  * 	parser.add_argument("-n","--network", help="use with list for server list")             # <<<<<<<<<<<<<<
  * 	args = parser.parse_args()
- * 	xrplobj = XRPLobject()
+ * 	# create the XRPL object
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_parser); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 191, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 157, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_add_argument); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 191, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 157, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 191, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_use_with_list_for_server_list) < 0) __PYX_ERR(0, 157, __pyx_L1_error)
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__41, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 157, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_help, __pyx_kp_s_use_with_list_for_server_list) < 0) __PYX_ERR(0, 191, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_tuple__46, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 191, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "xrplcli.py":158
+    /* "xrplcli.py":192
  * 	parser.add_argument("-o","--owner", help="owner")
  * 	parser.add_argument("-n","--network", help="use with list for server list")
  * 	args = parser.parse_args()             # <<<<<<<<<<<<<<
+ * 	# create the XRPL object
  * 	xrplobj = XRPLobject()
- * 	if str(args.network) == "list":
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 158, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_parser); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 192, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_parse_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 158, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_parse_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 192, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 158, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 192, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_args, __pyx_t_4) < 0) __PYX_ERR(0, 158, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_args, __pyx_t_4) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "xrplcli.py":159
- * 	parser.add_argument("-n","--network", help="use with list for server list")
+    /* "xrplcli.py":194
  * 	args = parser.parse_args()
+ * 	# create the XRPL object
  * 	xrplobj = XRPLobject()             # <<<<<<<<<<<<<<
+ * 	# configure network node for interaction with XRPL
  * 	if str(args.network) == "list":
- * 		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 159, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 194, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 159, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 194, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (PyDict_SetItem(__pyx_d, __pyx_n_s_xrplobj, __pyx_t_3) < 0) __PYX_ERR(0, 159, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_d, __pyx_n_s_xrplobj, __pyx_t_3) < 0) __PYX_ERR(0, 194, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "xrplcli.py":160
- * 	args = parser.parse_args()
+    /* "xrplcli.py":196
  * 	xrplobj = XRPLobject()
+ * 	# configure network node for interaction with XRPL
  * 	if str(args.network) == "list":             # <<<<<<<<<<<<<<
  * 		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
  * 		print(networks)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 160, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 196, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_network_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 160, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_network_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 196, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 160, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 196, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_5 = (__Pyx_PyString_Equals(__pyx_t_3, __pyx_n_s_list, Py_EQ)); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 160, __pyx_L1_error)
+    __pyx_t_5 = (__Pyx_PyString_Equals(__pyx_t_3, __pyx_n_s_list, Py_EQ)); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 196, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":161
- * 	xrplobj = XRPLobject()
+      /* "xrplcli.py":197
+ * 	# configure network node for interaction with XRPL
  * 	if str(args.network) == "list":
  * 		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")             # <<<<<<<<<<<<<<
  * 		print(networks)
  * 		sys.exit(0)
  */
-      if (__Pyx_PrintOne(0, __pyx_kp_s_0_main_1_testnet_2_devnet_3_nftd) < 0) __PYX_ERR(0, 161, __pyx_L1_error)
+      if (__Pyx_PrintOne(0, __pyx_kp_s_0_main_1_testnet_2_devnet_3_nftd) < 0) __PYX_ERR(0, 197, __pyx_L1_error)
 
-      /* "xrplcli.py":162
+      /* "xrplcli.py":198
  * 	if str(args.network) == "list":
  * 		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
  * 		print(networks)             # <<<<<<<<<<<<<<
  * 		sys.exit(0)
  * 	try:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_networks); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 162, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_networks); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 198, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 162, __pyx_L1_error)
+      if (__Pyx_PrintOne(0, __pyx_t_3) < 0) __PYX_ERR(0, 198, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "xrplcli.py":163
+      /* "xrplcli.py":199
  * 		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
  * 		print(networks)
  * 		sys.exit(0)             # <<<<<<<<<<<<<<
  * 	try:
  * 		networkint = int(args.network)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_sys); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 163, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_sys); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_exit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 163, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_exit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 199, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 163, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__47, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "xrplcli.py":160
- * 	args = parser.parse_args()
+      /* "xrplcli.py":196
  * 	xrplobj = XRPLobject()
+ * 	# configure network node for interaction with XRPL
  * 	if str(args.network) == "list":             # <<<<<<<<<<<<<<
  * 		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
  * 		print(networks)
  */
     }
 
-    /* "xrplcli.py":164
+    /* "xrplcli.py":200
  * 		print(networks)
  * 		sys.exit(0)
  * 	try:             # <<<<<<<<<<<<<<
@@ -6577,25 +7328,25 @@ if (!__Pyx_RefNanny) {
       __Pyx_XGOTREF(__pyx_t_8);
       /*try:*/ {
 
-        /* "xrplcli.py":165
+        /* "xrplcli.py":201
  * 		sys.exit(0)
  * 	try:
  * 		networkint = int(args.network)             # <<<<<<<<<<<<<<
  * 	except:
  * 		print("select a network, use --help")
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 165, __pyx_L4_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 201, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_network_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 165, __pyx_L4_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_network_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 201, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 165, __pyx_L4_error)
+        __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 201, __pyx_L4_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (PyDict_SetItem(__pyx_d, __pyx_n_s_networkint, __pyx_t_3) < 0) __PYX_ERR(0, 165, __pyx_L4_error)
+        if (PyDict_SetItem(__pyx_d, __pyx_n_s_networkint, __pyx_t_3) < 0) __PYX_ERR(0, 201, __pyx_L4_error)
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "xrplcli.py":164
+        /* "xrplcli.py":200
  * 		print(networks)
  * 		sys.exit(0)
  * 	try:             # <<<<<<<<<<<<<<
@@ -6613,7 +7364,7 @@ if (!__Pyx_RefNanny) {
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "xrplcli.py":166
+      /* "xrplcli.py":202
  * 	try:
  * 		networkint = int(args.network)
  * 	except:             # <<<<<<<<<<<<<<
@@ -6622,44 +7373,44 @@ if (!__Pyx_RefNanny) {
  */
       /*except:*/ {
         __Pyx_AddTraceback("xrplcli", __pyx_clineno, __pyx_lineno, __pyx_filename);
-        if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_4, &__pyx_t_1) < 0) __PYX_ERR(0, 166, __pyx_L6_except_error)
+        if (__Pyx_GetException(&__pyx_t_3, &__pyx_t_4, &__pyx_t_2) < 0) __PYX_ERR(0, 202, __pyx_L6_except_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_GOTREF(__pyx_t_2);
 
-        /* "xrplcli.py":167
+        /* "xrplcli.py":203
  * 		networkint = int(args.network)
  * 	except:
  * 		print("select a network, use --help")             # <<<<<<<<<<<<<<
  * 		sys.exit(0)
  * 	if int(networkint) > -1:
  */
-        if (__Pyx_PrintOne(0, __pyx_kp_s_select_a_network_use_help) < 0) __PYX_ERR(0, 167, __pyx_L6_except_error)
+        if (__Pyx_PrintOne(0, __pyx_kp_s_select_a_network_use_help) < 0) __PYX_ERR(0, 203, __pyx_L6_except_error)
 
-        /* "xrplcli.py":168
+        /* "xrplcli.py":204
  * 	except:
  * 		print("select a network, use --help")
  * 		sys.exit(0)             # <<<<<<<<<<<<<<
  * 	if int(networkint) > -1:
  * 		if networkint == 0:
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_sys); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 168, __pyx_L6_except_error)
-        __Pyx_GOTREF(__pyx_t_2);
-        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_exit); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 168, __pyx_L6_except_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_sys); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L6_except_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_exit); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 204, __pyx_L6_except_error)
         __Pyx_GOTREF(__pyx_t_9);
-        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-        __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 168, __pyx_L6_except_error)
-        __Pyx_GOTREF(__pyx_t_2);
+        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_tuple__47, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L6_except_error)
+        __Pyx_GOTREF(__pyx_t_1);
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
         goto __pyx_L5_exception_handled;
       }
       __pyx_L6_except_error:;
 
-      /* "xrplcli.py":164
+      /* "xrplcli.py":200
  * 		print(networks)
  * 		sys.exit(0)
  * 	try:             # <<<<<<<<<<<<<<
@@ -6679,68 +7430,68 @@ if (!__Pyx_RefNanny) {
       __pyx_L9_try_end:;
     }
 
-    /* "xrplcli.py":169
+    /* "xrplcli.py":205
  * 		print("select a network, use --help")
  * 		sys.exit(0)
  * 	if int(networkint) > -1:             # <<<<<<<<<<<<<<
  * 		if networkint == 0:
  * 			XRPLobject.server = str(networks["main"][1]["jsonrpc"])
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_networkint); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 169, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyNumber_Int(__pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 169, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_networkint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 205, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyNumber_Int(__pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 205, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyObject_RichCompare(__pyx_t_4, __pyx_int_neg_1, Py_GT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 169, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = PyObject_RichCompare(__pyx_t_4, __pyx_int_neg_1, Py_GT); __Pyx_XGOTREF(__pyx_t_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 205, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 169, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 205, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":170
+      /* "xrplcli.py":206
  * 		sys.exit(0)
  * 	if int(networkint) > -1:
  * 		if networkint == 0:             # <<<<<<<<<<<<<<
  * 			XRPLobject.server = str(networks["main"][1]["jsonrpc"])
  * 		if networkint == 1:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_networkint); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 170, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_networkint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 206, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_2, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 206, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 170, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 206, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_5) {
 
-        /* "xrplcli.py":171
+        /* "xrplcli.py":207
  * 	if int(networkint) > -1:
  * 		if networkint == 0:
  * 			XRPLobject.server = str(networks["main"][1]["jsonrpc"])             # <<<<<<<<<<<<<<
  * 		if networkint == 1:
  * 			XRPLobject.server = str(networks["testnet"][1]["jsonrpc"])
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 207, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_main_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 171, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_main_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 207, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_1, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 207, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 171, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 207, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 171, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 207, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 171, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
-        if (__Pyx_PyObject_SetAttrStr(__pyx_t_1, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 171, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 207, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 207, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "xrplcli.py":170
+        /* "xrplcli.py":206
  * 		sys.exit(0)
  * 	if int(networkint) > -1:
  * 		if networkint == 0:             # <<<<<<<<<<<<<<
@@ -6749,50 +7500,50 @@ if (!__Pyx_RefNanny) {
  */
       }
 
-      /* "xrplcli.py":172
+      /* "xrplcli.py":208
  * 		if networkint == 0:
  * 			XRPLobject.server = str(networks["main"][1]["jsonrpc"])
  * 		if networkint == 1:             # <<<<<<<<<<<<<<
  * 			XRPLobject.server = str(networks["testnet"][1]["jsonrpc"])
  * 		if networkint == 2:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_networkint); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 172, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 172, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_networkint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 208, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_2, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 208, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 172, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 208, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_5) {
 
-        /* "xrplcli.py":173
+        /* "xrplcli.py":209
  * 			XRPLobject.server = str(networks["main"][1]["jsonrpc"])
  * 		if networkint == 1:
  * 			XRPLobject.server = str(networks["testnet"][1]["jsonrpc"])             # <<<<<<<<<<<<<<
  * 		if networkint == 2:
  * 			XRPLobject.server = str(networks["devnet"][1]["jsonrpc"])
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 209, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_testnet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 173, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_testnet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 209, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_1, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 209, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 173, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 209, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 209, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 173, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
-        if (__Pyx_PyObject_SetAttrStr(__pyx_t_1, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 173, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 209, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 209, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "xrplcli.py":172
+        /* "xrplcli.py":208
  * 		if networkint == 0:
  * 			XRPLobject.server = str(networks["main"][1]["jsonrpc"])
  * 		if networkint == 1:             # <<<<<<<<<<<<<<
@@ -6801,50 +7552,50 @@ if (!__Pyx_RefNanny) {
  */
       }
 
-      /* "xrplcli.py":174
+      /* "xrplcli.py":210
  * 		if networkint == 1:
  * 			XRPLobject.server = str(networks["testnet"][1]["jsonrpc"])
  * 		if networkint == 2:             # <<<<<<<<<<<<<<
  * 			XRPLobject.server = str(networks["devnet"][1]["jsonrpc"])
  * 		if networkint == 3:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_networkint); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 174, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 174, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_networkint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 210, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_2, __pyx_int_2, 2, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 210, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 174, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 210, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_5) {
 
-        /* "xrplcli.py":175
+        /* "xrplcli.py":211
  * 			XRPLobject.server = str(networks["testnet"][1]["jsonrpc"])
  * 		if networkint == 2:
  * 			XRPLobject.server = str(networks["devnet"][1]["jsonrpc"])             # <<<<<<<<<<<<<<
  * 		if networkint == 3:
  * 			XRPLobject.server = str(networks["nftdev"][1]["jsonrpc"])
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 175, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 211, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_devnet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 175, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_devnet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 211, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_1, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 175, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 211, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 175, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 211, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 175, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 211, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 175, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
-        if (__Pyx_PyObject_SetAttrStr(__pyx_t_1, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 175, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 211, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 211, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "xrplcli.py":174
+        /* "xrplcli.py":210
  * 		if networkint == 1:
  * 			XRPLobject.server = str(networks["testnet"][1]["jsonrpc"])
  * 		if networkint == 2:             # <<<<<<<<<<<<<<
@@ -6853,50 +7604,50 @@ if (!__Pyx_RefNanny) {
  */
       }
 
-      /* "xrplcli.py":176
+      /* "xrplcli.py":212
  * 		if networkint == 2:
  * 			XRPLobject.server = str(networks["devnet"][1]["jsonrpc"])
  * 		if networkint == 3:             # <<<<<<<<<<<<<<
  * 			XRPLobject.server = str(networks["nftdev"][1]["jsonrpc"])
  * 		if networkint == 4:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_networkint); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 176, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_3, 3, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 176, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_networkint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 212, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_2, __pyx_int_3, 3, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 212, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 176, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 212, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_5) {
 
-        /* "xrplcli.py":177
+        /* "xrplcli.py":213
  * 			XRPLobject.server = str(networks["devnet"][1]["jsonrpc"])
  * 		if networkint == 3:
  * 			XRPLobject.server = str(networks["nftdev"][1]["jsonrpc"])             # <<<<<<<<<<<<<<
  * 		if networkint == 4:
  * 			XRPLobject.server = str(networks["local"][1]["jsonrpc"])
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 177, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 213, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_nftdev); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 177, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_nftdev); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 213, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_1, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 177, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 213, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 177, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 213, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 177, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 213, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 177, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
-        if (__Pyx_PyObject_SetAttrStr(__pyx_t_1, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 177, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 213, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 213, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "xrplcli.py":176
+        /* "xrplcli.py":212
  * 		if networkint == 2:
  * 			XRPLobject.server = str(networks["devnet"][1]["jsonrpc"])
  * 		if networkint == 3:             # <<<<<<<<<<<<<<
@@ -6905,50 +7656,50 @@ if (!__Pyx_RefNanny) {
  */
       }
 
-      /* "xrplcli.py":178
+      /* "xrplcli.py":214
  * 		if networkint == 3:
  * 			XRPLobject.server = str(networks["nftdev"][1]["jsonrpc"])
  * 		if networkint == 4:             # <<<<<<<<<<<<<<
  * 			XRPLobject.server = str(networks["local"][1]["jsonrpc"])
  * 	else:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_networkint); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 178, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_4, 4, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 178, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_networkint); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 214, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_4 = __Pyx_PyInt_EqObjC(__pyx_t_2, __pyx_int_4, 4, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 214, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 178, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 214, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (__pyx_t_5) {
 
-        /* "xrplcli.py":179
+        /* "xrplcli.py":215
  * 			XRPLobject.server = str(networks["nftdev"][1]["jsonrpc"])
  * 		if networkint == 4:
  * 			XRPLobject.server = str(networks["local"][1]["jsonrpc"])             # <<<<<<<<<<<<<<
  * 	else:
  * 		print("fatal error, no network selected")
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 179, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_networks); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 215, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_local); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 179, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_local); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 215, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_1, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 179, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_GetItemInt(__pyx_t_2, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 215, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 179, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_t_4, __pyx_n_s_jsonrpc); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 215, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 179, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_CallOneArg(((PyObject *)(&PyString_Type)), __pyx_t_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 215, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 179, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
-        if (__Pyx_PyObject_SetAttrStr(__pyx_t_1, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 179, __pyx_L1_error)
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_XRPLobject); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 215, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        if (__Pyx_PyObject_SetAttrStr(__pyx_t_2, __pyx_n_s_server, __pyx_t_4) < 0) __PYX_ERR(0, 215, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-        /* "xrplcli.py":178
+        /* "xrplcli.py":214
  * 		if networkint == 3:
  * 			XRPLobject.server = str(networks["nftdev"][1]["jsonrpc"])
  * 		if networkint == 4:             # <<<<<<<<<<<<<<
@@ -6957,7 +7708,7 @@ if (!__Pyx_RefNanny) {
  */
       }
 
-      /* "xrplcli.py":169
+      /* "xrplcli.py":205
  * 		print("select a network, use --help")
  * 		sys.exit(0)
  * 	if int(networkint) > -1:             # <<<<<<<<<<<<<<
@@ -6967,87 +7718,87 @@ if (!__Pyx_RefNanny) {
       goto __pyx_L12;
     }
 
-    /* "xrplcli.py":181
+    /* "xrplcli.py":217
  * 			XRPLobject.server = str(networks["local"][1]["jsonrpc"])
  * 	else:
  * 		print("fatal error, no network selected")             # <<<<<<<<<<<<<<
  * 		sys.exit(0)
- * 	xrplobj.connectrpc()
+ * 	# connect to XPRL
  */
     /*else*/ {
-      if (__Pyx_PrintOne(0, __pyx_kp_s_fatal_error_no_network_selected) < 0) __PYX_ERR(0, 181, __pyx_L1_error)
+      if (__Pyx_PrintOne(0, __pyx_kp_s_fatal_error_no_network_selected) < 0) __PYX_ERR(0, 217, __pyx_L1_error)
 
-      /* "xrplcli.py":182
+      /* "xrplcli.py":218
  * 	else:
  * 		print("fatal error, no network selected")
  * 		sys.exit(0)             # <<<<<<<<<<<<<<
+ * 	# connect to XPRL
  * 	xrplobj.connectrpc()
- * 	# set an account
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_sys); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 182, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_exit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 182, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_sys); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 218, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_exit); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 218, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 182, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_tuple__47, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 218, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
     __pyx_L12:;
 
-    /* "xrplcli.py":183
- * 		print("fatal error, no network selected")
+    /* "xrplcli.py":220
  * 		sys.exit(0)
+ * 	# connect to XPRL
  * 	xrplobj.connectrpc()             # <<<<<<<<<<<<<<
  * 	# set an account
  * 	if args.account:
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 183, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_connectrpc); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 183, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 220, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_connectrpc); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 220, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 183, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_2 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 220, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-    /* "xrplcli.py":185
+    /* "xrplcli.py":222
  * 	xrplobj.connectrpc()
  * 	# set an account
  * 	if args.account:             # <<<<<<<<<<<<<<
  * 		xrplobj.account = args.account
  * 	# make a brain wallet
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_args); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 185, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_account); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 185, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_args); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 222, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_account); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 222, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 185, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 222, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":186
+      /* "xrplcli.py":223
  * 	# set an account
  * 	if args.account:
  * 		xrplobj.account = args.account             # <<<<<<<<<<<<<<
  * 	# make a brain wallet
  * 	if args.brainwallet:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 186, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 223, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_account); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 186, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_account); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 223, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 186, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 223, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      if (__Pyx_PyObject_SetAttrStr(__pyx_t_4, __pyx_n_s_account, __pyx_t_1) < 0) __PYX_ERR(0, 186, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      if (__Pyx_PyObject_SetAttrStr(__pyx_t_4, __pyx_n_s_account, __pyx_t_2) < 0) __PYX_ERR(0, 223, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "xrplcli.py":185
+      /* "xrplcli.py":222
  * 	xrplobj.connectrpc()
  * 	# set an account
  * 	if args.account:             # <<<<<<<<<<<<<<
@@ -7056,172 +7807,172 @@ if (!__Pyx_RefNanny) {
  */
     }
 
-    /* "xrplcli.py":188
+    /* "xrplcli.py":225
  * 		xrplobj.account = args.account
  * 	# make a brain wallet
  * 	if args.brainwallet:             # <<<<<<<<<<<<<<
  * 		xrplobj.brainwallet(args.brainwallet)
- * 	# use a wallet secret
+ * 	# use a wallet secret (need to overwrite argv handler to scrub seed from memory via Cython)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 188, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 225, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_brainwallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 188, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_brainwallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 225, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 188, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 225, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":189
+      /* "xrplcli.py":226
  * 	# make a brain wallet
  * 	if args.brainwallet:
  * 		xrplobj.brainwallet(args.brainwallet)             # <<<<<<<<<<<<<<
- * 	# use a wallet secret
+ * 	# use a wallet secret (need to overwrite argv handler to scrub seed from memory via Cython)
  * 	if args.secret:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 189, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_brainwallet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 189, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_brainwallet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 226, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_args); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 189, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_brainwallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 189, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_args); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_brainwallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 226, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 189, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_2 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 226, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-      /* "xrplcli.py":188
+      /* "xrplcli.py":225
  * 		xrplobj.account = args.account
  * 	# make a brain wallet
  * 	if args.brainwallet:             # <<<<<<<<<<<<<<
  * 		xrplobj.brainwallet(args.brainwallet)
- * 	# use a wallet secret
+ * 	# use a wallet secret (need to overwrite argv handler to scrub seed from memory via Cython)
  */
     }
 
-    /* "xrplcli.py":191
+    /* "xrplcli.py":228
  * 		xrplobj.brainwallet(args.brainwallet)
- * 	# use a wallet secret
+ * 	# use a wallet secret (need to overwrite argv handler to scrub seed from memory via Cython)
  * 	if args.secret:             # <<<<<<<<<<<<<<
  * 		xrplobj.secret = args.secret
  * 		xrplobj.seedwallet(xrplobj.secret)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_args); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 191, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_secret); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 191, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_args); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 228, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_secret); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 228, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 191, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 228, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":192
- * 	# use a wallet secret
+      /* "xrplcli.py":229
+ * 	# use a wallet secret (need to overwrite argv handler to scrub seed from memory via Cython)
  * 	if args.secret:
  * 		xrplobj.secret = args.secret             # <<<<<<<<<<<<<<
  * 		xrplobj.seedwallet(xrplobj.secret)
  * 	# generate wallet from faucet
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 192, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 229, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_secret); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 192, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_secret); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 229, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 192, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 229, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      if (__Pyx_PyObject_SetAttrStr(__pyx_t_3, __pyx_n_s_secret, __pyx_t_1) < 0) __PYX_ERR(0, 192, __pyx_L1_error)
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      if (__Pyx_PyObject_SetAttrStr(__pyx_t_3, __pyx_n_s_secret, __pyx_t_2) < 0) __PYX_ERR(0, 229, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "xrplcli.py":193
+      /* "xrplcli.py":230
  * 	if args.secret:
  * 		xrplobj.secret = args.secret
  * 		xrplobj.seedwallet(xrplobj.secret)             # <<<<<<<<<<<<<<
  * 	# generate wallet from faucet
  * 	if args.generate_wallet:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 193, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_seedwallet); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 193, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_seedwallet); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 230, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 193, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_secret); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 193, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_secret); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 230, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 193, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "xrplcli.py":191
+      /* "xrplcli.py":228
  * 		xrplobj.brainwallet(args.brainwallet)
- * 	# use a wallet secret
+ * 	# use a wallet secret (need to overwrite argv handler to scrub seed from memory via Cython)
  * 	if args.secret:             # <<<<<<<<<<<<<<
  * 		xrplobj.secret = args.secret
  * 		xrplobj.seedwallet(xrplobj.secret)
  */
     }
 
-    /* "xrplcli.py":195
+    /* "xrplcli.py":232
  * 		xrplobj.seedwallet(xrplobj.secret)
  * 	# generate wallet from faucet
  * 	if args.generate_wallet:             # <<<<<<<<<<<<<<
  * 		xrplobj.genwallet()
  * 		print("Your secret seed is: %s" % xrplobj.secret)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 195, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 232, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_generate_wallet_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 195, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_generate_wallet_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 232, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 195, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 232, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":196
+      /* "xrplcli.py":233
  * 	# generate wallet from faucet
  * 	if args.generate_wallet:
  * 		xrplobj.genwallet()             # <<<<<<<<<<<<<<
  * 		print("Your secret seed is: %s" % xrplobj.secret)
  * 	if args.delete:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 196, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 233, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_genwallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 196, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_genwallet); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 233, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 196, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 233, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "xrplcli.py":197
+      /* "xrplcli.py":234
  * 	if args.generate_wallet:
  * 		xrplobj.genwallet()
  * 		print("Your secret seed is: %s" % xrplobj.secret)             # <<<<<<<<<<<<<<
  * 	if args.delete:
  * 		xrplobj.delwallet(args.delete)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 197, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_secret); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 197, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_secret); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyString_FormatSafe(__pyx_kp_s_Your_secret_seed_is_s, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 197, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyString_FormatSafe(__pyx_kp_s_Your_secret_seed_is_s, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (__Pyx_PrintOne(0, __pyx_t_4) < 0) __PYX_ERR(0, 197, __pyx_L1_error)
+      if (__Pyx_PrintOne(0, __pyx_t_4) < 0) __PYX_ERR(0, 234, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "xrplcli.py":195
+      /* "xrplcli.py":232
  * 		xrplobj.seedwallet(xrplobj.secret)
  * 	# generate wallet from faucet
  * 	if args.generate_wallet:             # <<<<<<<<<<<<<<
@@ -7230,46 +7981,46 @@ if (!__Pyx_RefNanny) {
  */
     }
 
-    /* "xrplcli.py":198
+    /* "xrplcli.py":235
  * 		xrplobj.genwallet()
  * 		print("Your secret seed is: %s" % xrplobj.secret)
  * 	if args.delete:             # <<<<<<<<<<<<<<
  * 		xrplobj.delwallet(args.delete)
  * 	# mint a URI
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 198, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 235, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_delete_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 198, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_delete_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 235, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 198, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 235, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":199
+      /* "xrplcli.py":236
  * 		print("Your secret seed is: %s" % xrplobj.secret)
  * 	if args.delete:
  * 		xrplobj.delwallet(args.delete)             # <<<<<<<<<<<<<<
  * 	# mint a URI
  * 	if args.tokenurl:
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_delwallet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 199, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_delwallet); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_delete_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
+      __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_delete_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 236, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "xrplcli.py":198
+      /* "xrplcli.py":235
  * 		xrplobj.genwallet()
  * 		print("Your secret seed is: %s" % xrplobj.secret)
  * 	if args.delete:             # <<<<<<<<<<<<<<
@@ -7278,62 +8029,62 @@ if (!__Pyx_RefNanny) {
  */
     }
 
-    /* "xrplcli.py":201
+    /* "xrplcli.py":238
  * 		xrplobj.delwallet(args.delete)
  * 	# mint a URI
  * 	if args.tokenurl:             # <<<<<<<<<<<<<<
  * 		if xrplobj.account:
  * 			xrplobj.mintnft(args.tokenurl)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 201, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 238, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_tokenurl_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 201, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_tokenurl_2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 238, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 201, __pyx_L1_error)
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 238, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":202
+      /* "xrplcli.py":239
  * 	# mint a URI
  * 	if args.tokenurl:
  * 		if xrplobj.account:             # <<<<<<<<<<<<<<
  * 			xrplobj.mintnft(args.tokenurl)
  * 	# list a URI
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 202, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_account); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 202, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 239, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_account); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 239, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 202, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 239, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (__pyx_t_5) {
 
-        /* "xrplcli.py":203
+        /* "xrplcli.py":240
  * 	if args.tokenurl:
  * 		if xrplobj.account:
  * 			xrplobj.mintnft(args.tokenurl)             # <<<<<<<<<<<<<<
  * 	# list a URI
  * 	if args.listnft:
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 203, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_mintnft); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 203, __pyx_L1_error)
-        __Pyx_GOTREF(__pyx_t_1);
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_mintnft); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 240, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 203, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_tokenurl_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 203, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_tokenurl_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 240, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 203, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 240, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+        __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "xrplcli.py":202
+        /* "xrplcli.py":239
  * 	# mint a URI
  * 	if args.tokenurl:
  * 		if xrplobj.account:             # <<<<<<<<<<<<<<
@@ -7342,7 +8093,7 @@ if (!__Pyx_RefNanny) {
  */
       }
 
-      /* "xrplcli.py":201
+      /* "xrplcli.py":238
  * 		xrplobj.delwallet(args.delete)
  * 	# mint a URI
  * 	if args.tokenurl:             # <<<<<<<<<<<<<<
@@ -7351,65 +8102,65 @@ if (!__Pyx_RefNanny) {
  */
     }
 
-    /* "xrplcli.py":205
+    /* "xrplcli.py":242
  * 			xrplobj.mintnft(args.tokenurl)
  * 	# list a URI
  * 	if args.listnft:             # <<<<<<<<<<<<<<
  * 		if xrplobj.account:
  * 			xrplobj.getnft()
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 205, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 242, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_listnft_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 205, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_listnft_2); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 242, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 205, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 242, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":206
+      /* "xrplcli.py":243
  * 	# list a URI
  * 	if args.listnft:
  * 		if xrplobj.account:             # <<<<<<<<<<<<<<
  * 			xrplobj.getnft()
- * 	# default get account details
+ * 	# send xrp droplets
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 206, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 243, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_account); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 206, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_account); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 243, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 206, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 243, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (__pyx_t_5) {
 
-        /* "xrplcli.py":207
+        /* "xrplcli.py":244
  * 	if args.listnft:
  * 		if xrplobj.account:
  * 			xrplobj.getnft()             # <<<<<<<<<<<<<<
- * 	# default get account details
- * 	if xrplobj.account:
+ * 	# send xrp droplets
+ * 	if args.payment:
  */
-        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 207, __pyx_L1_error)
+        __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 244, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_getnft); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 207, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_getnft); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 244, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_3 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 207, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyObject_CallNoArg(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 244, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-        /* "xrplcli.py":206
+        /* "xrplcli.py":243
  * 	# list a URI
  * 	if args.listnft:
  * 		if xrplobj.account:             # <<<<<<<<<<<<<<
  * 			xrplobj.getnft()
- * 	# default get account details
+ * 	# send xrp droplets
  */
       }
 
-      /* "xrplcli.py":205
+      /* "xrplcli.py":242
  * 			xrplobj.mintnft(args.tokenurl)
  * 	# list a URI
  * 	if args.listnft:             # <<<<<<<<<<<<<<
@@ -7418,55 +8169,259 @@ if (!__Pyx_RefNanny) {
  */
     }
 
-    /* "xrplcli.py":209
+    /* "xrplcli.py":246
  * 			xrplobj.getnft()
+ * 	# send xrp droplets
+ * 	if args.payment:             # <<<<<<<<<<<<<<
+ * 		if args.destination and args.tag:
+ * 			xrplobj.payment(args.destination,args.payment,int(args.tag))
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 246, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_payment); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 246, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_4);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 246, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+    if (__pyx_t_5) {
+
+      /* "xrplcli.py":247
+ * 	# send xrp droplets
+ * 	if args.payment:
+ * 		if args.destination and args.tag:             # <<<<<<<<<<<<<<
+ * 			xrplobj.payment(args.destination,args.payment,int(args.tag))
+ * 		elif args.destination and not args.tag:
+ */
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 247, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_destination); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 247, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 247, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      if (__pyx_t_10) {
+      } else {
+        __pyx_t_5 = __pyx_t_10;
+        goto __pyx_L29_bool_binop_done;
+      }
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_args); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 247, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_tag); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 247, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 247, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_5 = __pyx_t_10;
+      __pyx_L29_bool_binop_done:;
+      if (__pyx_t_5) {
+
+        /* "xrplcli.py":248
+ * 	if args.payment:
+ * 		if args.destination and args.tag:
+ * 			xrplobj.payment(args.destination,args.payment,int(args.tag))             # <<<<<<<<<<<<<<
+ * 		elif args.destination and not args.tag:
+ * 			xrplobj.payment(args.destination,args.payment,None)
+ */
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_payment); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_destination); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_2);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_payment); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_tag); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_9);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __pyx_t_4 = __Pyx_PyNumber_Int(__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+        __pyx_t_9 = PyTuple_New(3); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_9);
+        __Pyx_GIVEREF(__pyx_t_2);
+        PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_2);
+        __Pyx_GIVEREF(__pyx_t_1);
+        PyTuple_SET_ITEM(__pyx_t_9, 1, __pyx_t_1);
+        __Pyx_GIVEREF(__pyx_t_4);
+        PyTuple_SET_ITEM(__pyx_t_9, 2, __pyx_t_4);
+        __pyx_t_2 = 0;
+        __pyx_t_1 = 0;
+        __pyx_t_4 = 0;
+        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 248, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+        __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+
+        /* "xrplcli.py":247
+ * 	# send xrp droplets
+ * 	if args.payment:
+ * 		if args.destination and args.tag:             # <<<<<<<<<<<<<<
+ * 			xrplobj.payment(args.destination,args.payment,int(args.tag))
+ * 		elif args.destination and not args.tag:
+ */
+        goto __pyx_L28;
+      }
+
+      /* "xrplcli.py":249
+ * 		if args.destination and args.tag:
+ * 			xrplobj.payment(args.destination,args.payment,int(args.tag))
+ * 		elif args.destination and not args.tag:             # <<<<<<<<<<<<<<
+ * 			xrplobj.payment(args.destination,args.payment,None)
+ * 		else:
+ */
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_destination); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_9);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_9); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+      if (__pyx_t_10) {
+      } else {
+        __pyx_t_5 = __pyx_t_10;
+        goto __pyx_L31_bool_binop_done;
+      }
+      __Pyx_GetModuleGlobalName(__pyx_t_9, __pyx_n_s_args); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_9);
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_9, __pyx_n_s_tag); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+      __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(0, 249, __pyx_L1_error)
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __pyx_t_11 = ((!__pyx_t_10) != 0);
+      __pyx_t_5 = __pyx_t_11;
+      __pyx_L31_bool_binop_done:;
+      if (__pyx_t_5) {
+
+        /* "xrplcli.py":250
+ * 			xrplobj.payment(args.destination,args.payment,int(args.tag))
+ * 		elif args.destination and not args.tag:
+ * 			xrplobj.payment(args.destination,args.payment,None)             # <<<<<<<<<<<<<<
+ * 		else:
+ * 			print("Not enough parameters for payment, check your command")
+ */
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 250, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_payment); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 250, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_9);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 250, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_destination); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 250, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_args); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 250, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_payment); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 250, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __pyx_t_4 = PyTuple_New(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 250, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_4);
+        __Pyx_GIVEREF(__pyx_t_3);
+        PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_3);
+        __Pyx_GIVEREF(__pyx_t_1);
+        PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
+        __Pyx_INCREF(Py_None);
+        __Pyx_GIVEREF(Py_None);
+        PyTuple_SET_ITEM(__pyx_t_4, 2, Py_None);
+        __pyx_t_3 = 0;
+        __pyx_t_1 = 0;
+        __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_9, __pyx_t_4, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 250, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_1);
+        __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
+        __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+        __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+        /* "xrplcli.py":249
+ * 		if args.destination and args.tag:
+ * 			xrplobj.payment(args.destination,args.payment,int(args.tag))
+ * 		elif args.destination and not args.tag:             # <<<<<<<<<<<<<<
+ * 			xrplobj.payment(args.destination,args.payment,None)
+ * 		else:
+ */
+        goto __pyx_L28;
+      }
+
+      /* "xrplcli.py":252
+ * 			xrplobj.payment(args.destination,args.payment,None)
+ * 		else:
+ * 			print("Not enough parameters for payment, check your command")             # <<<<<<<<<<<<<<
+ * 	# default get account details
+ * 	if xrplobj.account:
+ */
+      /*else*/ {
+        if (__Pyx_PrintOne(0, __pyx_kp_s_Not_enough_parameters_for_paymen) < 0) __PYX_ERR(0, 252, __pyx_L1_error)
+      }
+      __pyx_L28:;
+
+      /* "xrplcli.py":246
+ * 			xrplobj.getnft()
+ * 	# send xrp droplets
+ * 	if args.payment:             # <<<<<<<<<<<<<<
+ * 		if args.destination and args.tag:
+ * 			xrplobj.payment(args.destination,args.payment,int(args.tag))
+ */
+    }
+
+    /* "xrplcli.py":254
+ * 			print("Not enough parameters for payment, check your command")
  * 	# default get account details
  * 	if xrplobj.account:             # <<<<<<<<<<<<<<
  * 		xrplobj.getaccount()
  * 		sys.exit(0)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 209, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_account); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 209, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 254, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_account); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 209, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(0, 254, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     if (__pyx_t_5) {
 
-      /* "xrplcli.py":210
+      /* "xrplcli.py":255
  * 	# default get account details
  * 	if xrplobj.account:
  * 		xrplobj.getaccount()             # <<<<<<<<<<<<<<
  * 		sys.exit(0)
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 210, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_xrplobj); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 255, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_getaccount); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 210, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_getaccount); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 255, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 210, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_CallNoArg(__pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 255, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "xrplcli.py":211
+      /* "xrplcli.py":256
  * 	if xrplobj.account:
  * 		xrplobj.getaccount()
  * 		sys.exit(0)             # <<<<<<<<<<<<<<
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_sys); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 211, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_sys); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 256, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_exit); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 211, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_exit); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 256, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 211, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_tuple__47, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 256, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "xrplcli.py":209
- * 			xrplobj.getnft()
+      /* "xrplcli.py":254
+ * 			print("Not enough parameters for payment, check your command")
  * 	# default get account details
  * 	if xrplobj.account:             # <<<<<<<<<<<<<<
  * 		xrplobj.getaccount()
@@ -7474,12 +8429,12 @@ if (!__Pyx_RefNanny) {
  */
     }
 
-    /* "xrplcli.py":143
- * 		pass
+    /* "xrplcli.py":173
  * 
+ * # main function, entrypoint
  * if __name__ == "__main__":             # <<<<<<<<<<<<<<
+ * 	# cli parser and option handling
  * 	parser = argparse.ArgumentParser(description="A command-line interface for working with the XRPL")
- * 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
  */
   }
 

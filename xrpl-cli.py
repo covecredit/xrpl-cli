@@ -10,6 +10,9 @@
 # generate and fund a wallet, mint the token "abcdef" and list NFT's
 # python3 xrpl-cli.py -g -n 2 -t abcdef -l
 #
+# generate a funded wallet, send XRP to the XRP master wallet on test.
+# python3 xrpl-cli.py -n 1 -g -p 99999999 -d rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh 
+#
 # AUTHOR: cove.crypto
 # LICENSE: MIT! 
 import sys
