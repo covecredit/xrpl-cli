@@ -95,3 +95,17 @@ harnesses todo:
 * NFTokenMint
 * NFTokenMintFlag
 * NFTokenMintFlagInterface
+
+
+The following are the most commonly used transactions (implement as priority)
+* AccountDelete - x
+* NFTokenAcceptOffer
+* NFTokenCancelOffer
+* NFTokenCreateOffer
+* NFTokenMint - x (add takon parameter)
+* OfferCancel
+* OfferCreate
+* Payment
+* TicketCreate
+* TrustSet
+

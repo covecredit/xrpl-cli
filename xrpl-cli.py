@@ -25,6 +25,7 @@ from xrpl.wallet import generate_faucet_wallet
 from xrpl.models.requests.account_info import AccountInfo
 from xrpl.models.transactions import AccountDelete
 from xrpl.models.transactions import NFTokenMint
+from xrpl.models.transactions import Payment
 from xrpl.models.requests import AccountNFTs
 from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
 from xrpl.ledger import get_latest_validated_ledger_sequence
@@ -113,6 +114,20 @@ class XRPLobject:
 		tx_response = send_reliable_submission(account_delete_signed, self.client)
 		print("response.status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	def payment(self,dest,amount,tag):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		if tag == None:
+			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest)
+		else:
+			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest, destination_tag = tag)
+		print(payment) # the unsigned transaction
+		print(payment.is_valid())
+		payment_signed = safe_sign_and_autofill_transaction(payment, self.wallet, self.client)
+		print(payment_signed) # the signed transaction
+		tx_response = send_reliable_submission(payment_signed, self.client)
+		print("response status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	# should take taxon as an argument for collections, grouped by taxon as an ID. 
 	def mintnft(self,metauri):
 		# get the current block height 
@@ -158,8 +173,11 @@ if __name__ == "__main__":
 	parser.add_argument("-b","--brainwallet", help="use a brain wallet passphrase")
 	parser.add_argument("-a","--account", help="classic account address")
 	parser.add_argument("-s","--secret", help="seed key")
+	parser.add_argument("-pay","--payment", help="send payment of amount")
+	parser.add_argument("-tag","--tag", help="optional tag for payment")
+	parser.add_argument("-d","--destination", help="destination wallet for transaction")
 	parser.add_argument("-g","--generate_wallet", help="generate a wallet from faucet", nargs='?', const=1)
-	parser.add_argument("-d","--delete", help="delete wallet and send balance to destination", nargs='?')
+	parser.add_argument("-rm","--delete", help="delete wallet and send balance to destination", nargs='?')
 	parser.add_argument("-l","--listnft", help="list nft's on account", nargs='?', const=1)
 	parser.add_argument("-t","--tokenurl", help="mint a NFT token url")
 	parser.add_argument("-f","--flags", help="NFT flags")
@@ -221,6 +239,14 @@ if __name__ == "__main__":
 	if args.listnft:
 		if xrplobj.account:
 			xrplobj.getnft()
+	# send xrp droplets
+	if args.payment:
+		if args.destination and args.tag:
+			xrplobj.payment(args.destination,args.payment,int(args.tag))
+		elif args.destination and not args.tag:
+			xrplobj.payment(args.destination,args.payment,None)
+		else:
+			print("Not enough parameters for payment, check your command")
 	# default get account details
 	if xrplobj.account:
 		xrplobj.getaccount()
