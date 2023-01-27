@@ -77,9 +77,11 @@ class XRPLobject:
 		#self.secret = blah
 		pass
 	# connect over JSON-RPC (only for now, wss more secure for internet)
+	@classmethod
 	def connectrpc(self):
 		self.client = JsonRpcClient(self.server)
 	# generates a wallet seed from a passphrase, e.g. "masterpassphrase"
+	@classmethod
 	def brainwallet(self,seedkey):
 		myseed = hashlib.sha512(seedkey.encode("ascii"))
 		myrealseed = myseed.hexdigest().upper()
@@ -89,16 +91,19 @@ class XRPLobject:
 		self.account = self.wallet.classic_address
 		self.secret = self.wallet.seed
 	# set a wallet seed from cli argument (need to hide this from ps and histfile)
+	@classmethod
 	def seedwallet(self,secret):
 		self.wallet = xrpl.wallet.Wallet(secret,1)
 		self.account = self.wallet.classic_address
 		self.secret = secret
 	# use facuet to generate and fund a wallet
+	@classmethod
 	def genwallet(self):
 		self.wallet = xrpl.wallet.generate_faucet_wallet(self.client, debug=True)
 		self.secret = self.wallet.seed
 		self.account = self.wallet.classic_address
 	# get the account information
+	@classmethod
 	def getaccount(self):
 		acct_info = AccountInfo(account=self.account,ledger_index="validated",strict=True)
 		response = self.client.request(acct_info)
@@ -106,6 +111,7 @@ class XRPLobject:
 		print("response.status: ", response.status)
 		print(json.dumps(response.result, indent=4, sort_keys=True))
 	# delete the account
+	@classmethod
 	def delaccount(self,dest):
 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
@@ -117,6 +123,8 @@ class XRPLobject:
 		tx_response = send_reliable_submission(account_delete_signed, self.client)
 		print("response.status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	# sign a payment transaction message and send
+	@classmethod
 	def payment(self,dest,amount,tag):
 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
@@ -132,6 +140,7 @@ class XRPLobject:
 		print("response status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	# should take taxon as an argument for collections, grouped by taxon as an ID. 
+	@classmethod
 	def mintnft(self,metauri):
 		# get the current block height 
 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
@@ -148,6 +157,7 @@ class XRPLobject:
 		print("response.status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	# list NFT tokens and information on account, don't parse any metadata here. 
+	@classmethod
 	def getnft(self):
 		nft_info = AccountNFTs(account=self.account)
 		response = self.client.request(nft_info)
