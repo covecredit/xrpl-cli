@@ -54,9 +54,9 @@ networks = {
 		{"websocket":"wss://s.devnet.rippletest.net:51233"},
 		{"jsonrpc":"https://s.devnet.rippletest.net:51234"}
 	],
-	"nftdev":[
-		{"websocket":"wss://xls20-sandbox.rippletest.net:51233"},
-		{"jsonrpc":"http://xls20-sandbox.rippletest.net:51234"}
+	"ammdev":[
+		{"websocket":"wss://amm.devnet.rippletest.net:51233"},
+		{"jsonrpc":"https://amm.devnet.rippletest.net:51234"}
 	],
 	"local":[
 		{"websocket":"wss://127.0.0.1:6006"},
@@ -204,7 +204,7 @@ if __name__ == "__main__":
 	xrplobj = XRPLobject()
 	# configure network node for interaction with XRPL
 	if str(args.network) == "list":
-		print("0 = main, 1 = testnet, 2 = devnet, 3 = nftdev, 4 = local")
+		print("0 = main, 1 = testnet, 2 = devnet, 3 = ammdev, 4 = local")
 		print(networks)
 		sys.exit(0)
 	try:
@@ -220,7 +220,7 @@ if __name__ == "__main__":
 		if networkint == 2:
 			XRPLobject.server = str(networks["devnet"][1]["jsonrpc"])
 		if networkint == 3:
-			XRPLobject.server = str(networks["nftdev"][1]["jsonrpc"])
+			XRPLobject.server = str(networks["ammdev"][1]["jsonrpc"])
 		if networkint == 4:
 			XRPLobject.server = str(networks["local"][1]["jsonrpc"])
 	else:

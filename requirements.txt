@@ -3,3 +3,4 @@ argparse
 ipfs-api
 asyncio
 websockets
+cython
