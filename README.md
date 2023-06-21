@@ -35,6 +35,14 @@ docker run xrpl-cli
 docker run xrpl-cli -n 2 -g 
 ```
 
+# Dependancies
+The following packages are commonly required on Ubuntu based distributions and
+should be installed before creating a compiled version. 
+
+```
+apt-get install build-essential python3 pandoc python3-dev cython3 python3-pip
+```
+
 # Compile
 
 You can create a stand-alone xrpl-cli (dynamic) binary for xrpl-cli using Cython.
