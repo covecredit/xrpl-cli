@@ -26,9 +26,8 @@ from xrpl.core import addresscodec
 from xrpl.clients import JsonRpcClient
 from xrpl.wallet import generate_faucet_wallet
 from xrpl.models.requests.account_info import AccountInfo
-from xrpl.models.transactions import AccountDelete
-from xrpl.models.transactions import NFTokenMint
-from xrpl.models.transactions import Payment
+# import all XRPL transactions
+from xrpl.models.transactions import *
 from xrpl.models.requests import AccountNFTs
 from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
 from xrpl.ledger import get_latest_validated_ledger_sequence
@@ -125,10 +124,10 @@ class XRPLobject:
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	# sign a payment transaction message and send
 	@classmethod
-	def payment(self,dest,amount,tag):
+	def payment(self,dest,amount, source_tag=None, destination_tag=None):
 		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
 		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
-		if tag == None:
+		if destination_tag == None:
 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest)
 		else:
 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest, destination_tag = tag)
@@ -178,6 +177,242 @@ class XRPLobject:
 		pass
 	def cancel_offer():
 		pass
+	@classmethod
+	def check_cancel(self, check_id):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		check_cancel = CheckCancel(account=self.wallet.classic_address, check_id=check_id)
+		print(check_cancel)  # the unsigned transaction
+		print(check_cancel.is_valid())
+		check_cancel_signed = safe_sign_and_autofill_transaction(check_cancel, self.wallet, self.client)
+		print(check_cancel_signed)  # the signed transaction
+		tx_response = send_reliable_submission(check_cancel_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def check_cash(self, check_id, amount):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		check_cash = CheckCash(account=self.wallet.classic_address, check_id=check_id, amount=amount)
+		print(check_cash)  # the unsigned transaction
+		print(check_cash.is_valid())
+		check_cash_signed = safe_sign_and_autofill_transaction(check_cash, self.wallet, self.client)
+		print(check_cash_signed)  # the signed transaction
+		tx_response = send_reliable_submission(check_cash_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def deposit_preauth(self, authorized_address, destination_address, remove=False):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		deposit_preauth = DepositPreauth(account=self.wallet.classic_address,authorize=authorized_address,unauthorize=destination_address if remove else None)
+		print(deposit_preauth)  # the unsigned transaction
+		print(deposit_preauth.is_valid())
+		deposit_preauth_signed = safe_sign_and_autofill_transaction(deposit_preauth, self.wallet, self.client)
+		print(deposit_preauth_signed)  # the signed transaction
+		tx_response = send_reliable_submission(deposit_preauth_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def escrow_cancel(self, owner_address, offer_sequence):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		escrow_cancel = EscrowCancel(
+			account=self.wallet.classic_address,
+			owner=owner_address,
+			offer_sequence=offer_sequence
+		)
+		print(escrow_cancel)  # the unsigned transaction
+		print(escrow_cancel.is_valid())
+		escrow_cancel_signed = safe_sign_and_autofill_transaction(escrow_cancel, self.wallet, self.client)
+		print(escrow_cancel_signed)  # the signed transaction
+		tx_response = send_reliable_submission(escrow_cancel_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))	
+	@classmethod
+	def escrow_create(self, amount, destination, cancel_after, finish_after, condition, source_tag=None, destination_tag=None):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		escrow_create = EscrowCreate(
+			account=self.wallet.classic_address,
+			amount=amount,
+			destination=destination,
+			cancel_after=cancel_after,
+			finish_after=finish_after,
+			condition=condition,
+			source_tag=source_tag,
+			destination_tag=destination_tag
+		)
+		print(escrow_create)  # the unsigned transaction
+		print(escrow_create.is_valid())
+		escrow_create_signed = safe_sign_and_autofill_transaction(escrow_create, self.wallet, self.client)
+		print(escrow_create_signed)  # the signed transaction
+		tx_response = send_reliable_submission(escrow_create_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def escrow_finish(self, owner_address, offer_sequence, condition, fulfillment):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		escrow_finish = EscrowFinish(
+			account=self.wallet.classic_address,
+			owner=owner_address,
+			offer_sequence=offer_sequence,
+			condition=condition,
+			fulfillment=fulfillment
+		)
+		print(escrow_finish)  # the unsigned transaction
+		print(escrow_finish.is_valid())
+		escrow_finish_signed = safe_sign_and_autofill_transaction(escrow_finish, self.wallet, self.client)
+		print(escrow_finish_signed)  # the signed transaction
+		tx_response = send_reliable_submission(escrow_finish_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def offer_cancel(self, offer_sequence):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		offer_cancel = OfferCancel(account=self.wallet.classic_address, offer_sequence=offer_sequence)
+		print(offer_cancel)  # the unsigned transaction
+		print(offer_cancel.is_valid())
+		offer_cancel_signed = safe_sign_and_autofill_transaction(offer_cancel, self.wallet, self.client)
+		print(offer_cancel_signed)  # the signed transaction
+		tx_response = send_reliable_submission(offer_cancel_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def set_regular_key(self, regular_key):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		set_regular_key = SetRegularKey(account=self.wallet.classic_address, regular_key=regular_key)
+		print(set_regular_key)  # the unsigned transaction
+		print(set_regular_key.is_valid())
+		set_regular_key_signed = safe_sign_and_autofill_transaction(set_regular_key, self.wallet, self.client)
+		print(set_regular_key_signed)  # the signed transaction
+		tx_response = send_reliable_submission(set_regular_key_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	# review this method.
+	@classmethod
+	def trust_set(self, currency, limit, quality_in=None, quality_out=None):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		trust_set = TrustSet(
+			account=self.wallet.classic_address,
+			limit=limit,
+			currency=currency,
+			quality_in=quality_in,
+			quality_out=quality_out
+		)
+		print(trust_set)  # the unsigned transaction
+		print(trust_set.is_valid())
+		trust_set_signed = safe_sign_and_autofill_transaction(trust_set, self.wallet, self.client)
+		print(trust_set_signed)  # the signed transaction
+		tx_response = send_reliable_submission(trust_set_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def set_fee(self, base_fee, reference_fee_units):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		set_fee = SetFee(
+			account=self.wallet.classic_address,
+			base_fee=base_fee,
+			reference_fee_units=reference_fee_units
+		)
+		print(set_fee)  # the unsigned transaction
+		print(set_fee.is_valid())
+		set_fee_signed = safe_sign_and_autofill_transaction(set_fee, self.wallet, self.client)
+		print(set_fee_signed)  # the signed transaction
+		tx_response = send_reliable_submission(set_fee_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def signer_list_set(self, signer_quorum, signer_entries):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		signer_list_set = SignerListSet(
+			account=self.wallet.classic_address,
+			signer_quorum=signer_quorum,
+			signer_entries=signer_entries
+		)
+		print(signer_list_set)  # the unsigned transaction
+		print(signer_list_set.is_valid())
+		signer_list_set_signed = safe_sign_and_autofill_transaction(signer_list_set, self.wallet, self.client)
+		print(signer_list_set_signed)  # the signed transaction
+		tx_response = send_reliable_submission(signer_list_set_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def deposit_preauth(self, authorized_address, destination):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		deposit_preauth = DepositPreauth(
+			account=self.wallet.classic_address,
+			authorized_address=authorized_address,
+			destination=destination
+		)
+		print(deposit_preauth)  # the unsigned transaction
+		print(deposit_preauth.is_valid())
+		deposit_preauth_signed = safe_sign_and_autofill_transaction(deposit_preauth, self.wallet, self.client)
+		print(deposit_preauth_signed)  # the signed transaction
+		tx_response = send_reliable_submission(deposit_preauth_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def check_cancel(self, check_id):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		check_cancel = CheckCancel(account=self.wallet.classic_address, check_id=check_id)
+		print(check_cancel)  # the unsigned transaction
+		print(check_cancel.is_valid())
+		check_cancel_signed = safe_sign_and_autofill_transaction(check_cancel, self.wallet, self.client)
+		print(check_cancel_signed)  # the signed transaction
+		tx_response = send_reliable_submission(check_cancel_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def check_cancel(self, check_id):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		check_cancel = CheckCancel(account=self.wallet.classic_address, check_id=check_id)
+		print(check_cancel)  # the unsigned transaction
+		print(check_cancel.is_valid())
+		check_cancel_signed = safe_sign_and_autofill_transaction(check_cancel, self.wallet, self.client)
+		print(check_cancel_signed)  # the signed transaction
+		tx_response = send_reliable_submission(check_cancel_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def check_cash(self, check_id, amount):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		check_cash = CheckCash(account=self.wallet.classic_address, check_id=check_id, amount=amount)
+		print(check_cash)  # the unsigned transaction
+		print(check_cash.is_valid())
+		check_cash_signed = safe_sign_and_autofill_transaction(check_cash, self.wallet, self.client)
+		print(check_cash_signed)  # the signed transaction
+		tx_response = send_reliable_submission(check_cash_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	@classmethod
+	def check_create(self, destination, send_max, expiration):
+		current_validated_ledger = get_latest_validated_ledger_sequence(self.client)
+		self.wallet.sequence = get_next_valid_seq_number(self.wallet.classic_address, self.client)
+		check_create = CheckCreate(
+			account=self.wallet.classic_address,
+			destination=destination,
+			send_max=send_max,
+			expiration=expiration
+		)
+		print(check_create)  # the unsigned transaction
+		print(check_create.is_valid())
+		check_create_signed = safe_sign_and_autofill_transaction(check_create, self.wallet, self.client)
+		print(check_create_signed)  # the signed transaction
+		tx_response = send_reliable_submission(check_create_signed, self.client)
+		print("response.status: ", tx_response.status)
+		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
+	
 
 # main function, entrypoint
 if __name__ == "__main__":
