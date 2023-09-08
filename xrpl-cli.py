@@ -30,7 +30,7 @@ from xrpl.models.requests.account_info import AccountInfo
 from xrpl.models.transactions import *
 # import AccountNFT request
 from xrpl.models.requests import AccountNFTs
-from xrpl.transaction import send_reliable_submission, safe_sign_and_autofill_transaction, safe_sign_transaction
+from xrpl.transaction import submit_and_wait
 from xrpl.ledger import get_latest_validated_ledger_sequence
 from xrpl.account import get_next_valid_seq_number
 
@@ -118,9 +118,9 @@ class XRPLobject:
 		account_delete = AccountDelete(account=self.wallet.classic_address, destination=dest)
 		print(account_delete) # the unsigned transaction
 		print(account_delete.is_valid())
-		account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
-		print(account_delete_signed) # the signed transaction
-		tx_response = send_reliable_submission(account_delete_signed, self.client)
+		#account_delete_signed = safe_sign_and_autofill_transaction(account_delete, self.wallet, self.client)
+		#print(account_delete_signed) # the signed transaction
+		tx_response = submit_and_wait(account_delete, self.client,self.wallet)
 		print("response.status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	# sign a payment transaction message and send
@@ -134,9 +134,9 @@ class XRPLobject:
 			payment = Payment(account=self.wallet.classic_address, amount=amount, destination=dest, destination_tag = tag)
 		print(payment) # the unsigned transaction
 		print(payment.is_valid())
-		payment_signed = safe_sign_and_autofill_transaction(payment, self.wallet, self.client)
-		print(payment_signed) # the signed transaction
-		tx_response = send_reliable_submission(payment_signed, self.client)
+		#payment_signed = safe_sign_and_autofill_transaction(payment, self.wallet, self.client)
+		#print(payment_signed) # the signed transaction
+		tx_response = submit_and_wait(payment, self.client,self.wallet)
 		print("response status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	# should take taxon as an argument for collections, grouped by taxon as an ID. 
@@ -151,9 +151,9 @@ class XRPLobject:
 		nft_mint = NFTokenMint(account=self.wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
 		print(nft_mint) # the unsigned transaction
 		print(nft_mint.is_valid())
-		nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
-		print(nft_mint_signed) # the signed transaction
-		tx_response = send_reliable_submission(nft_mint_signed, self.client)
+		#nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, self.wallet, self.client)
+		#print(nft_mint_signed) # the signed transaction
+		tx_response = submit_and_wait(nft_mint, self.client,self.wallet)
 		print("response.status: ", tx_response.status)
 		print(json.dumps(tx_response.result, indent=4, sort_keys=True))
 	# list NFT tokens and information on account, don't parse any metadata here. 
