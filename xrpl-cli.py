@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-#
 # xrpl-cli - a command line tool for working with the XRPL, can build with cython.
+# ================================================================================
 #
 # e.g.
 # list information on accounts
+#
 # python3 xrpl-cli.py --network 2 --account rsUjg5ekUMpoJG8NgabUz3WCkpgrkmVUZe
-# python3 xrpl-cli.py --account rEx2PsuEurkNQwQbiCeoj1rdAjzu1gX3XF  --network 3 -l
+# python3 xrpl-cli.py --account rEx2PsuEurkNQwQbiCeoj1rdAjzu1gX3XF --network 3 -l
 #
 # generate and fund a wallet, mint the token "abcdef" and list NFT's
 # python3 xrpl-cli.py -g -n 2 -t abcdef -l
@@ -93,7 +94,7 @@ class XRPLobject:
         seed = binascii.a2b_hex(myrealseed[0:32])
         seed1 = xrpl.core.addresscodec.encode_seed(
             seed, xrpl.constants.CryptoAlgorithm('secp256k1'))
-        self.wallet = xrpl.wallet.Wallet(seed1, 1)
+        self.wallet = xrpl.wallet.Wallet.from_secret(seed1)
         self.account = self.wallet.classic_address
         self.secret = self.wallet.seed
     # set a wallet seed from cli argument (need to hide this from ps and histfile)

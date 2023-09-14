@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # generate an XLS-20 wallet, fund it, mint a file onto the sandbox, host the file on a local IPFS node.
 # e.g. python mint.py <filename>
-# will put the file onto IPFS and mint it as an NFT 
+# will put the file onto IPFS and mint it as an NFT
 import json
 import sys
 import os
@@ -44,31 +44,32 @@ if __name__ == "__main__":
     print(json.dumps(response.result, indent=4, sort_keys=True))
     # connect to IPFS and push the file.
     ipfsclient = ipfsApi.Client()
-    os.stat(sys.argv[1]) 
+    os.stat(sys.argv[1])
     ipfsresult = ipfsclient.add(sys.argv[1])
     ipfshash = "ipfs://" + ipfsresult['Hash']
     print("your ipfs file is available at " + ipfshash)
-    # get the current block height 
+    # get the current block height
     current_validated_ledger = get_latest_validated_ledger_sequence(client)
-    test_wallet.sequence = get_next_valid_seq_number(test_wallet.classic_address, client)
+    test_wallet.sequence = get_next_valid_seq_number(
+        test_wallet.classic_address, client)
     # nft_mint uri must be > 5 chars < 512 chars
     # nftoken_taxon = Required, but if you have no use for it, set to zero.
     # uri needs to be hex-encoded data for the transaction
     uriarg = ipfshash.encode('utf-8')
     uriarg_hex = uriarg.hex()
-    nft_mint = NFTokenMint(account=test_wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
-    print(nft_mint) # the unsigned transaction
+    nft_mint = NFTokenMint(
+        account=test_wallet.classic_address, nftoken_taxon=0, uri=uriarg_hex)
+    print(nft_mint)  # the unsigned transaction
     print(nft_mint.is_valid())
-    nft_mint_signed = safe_sign_and_autofill_transaction(nft_mint, test_wallet, client)
-    print(nft_mint_signed) # the signed transaction
+    nft_mint_signed = safe_sign_and_autofill_transaction(
+        nft_mint, test_wallet, client)
+    print(nft_mint_signed)  # the signed transaction
     tx_response = send_reliable_submission(nft_mint_signed, client)
     print("response.status: ", tx_response.status)
     print(json.dumps(tx_response.result, indent=4, sort_keys=True))
-
     # list nfts
     nft_info = AccountNFTs(account=test_wallet.classic_address)
     response = client.request(nft_info)
     result = response.result
     print("response.status: ", response.status)
     print(json.dumps(response.result, indent=4, sort_keys=True))
-

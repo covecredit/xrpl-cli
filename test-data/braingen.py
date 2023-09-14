@@ -23,10 +23,10 @@ if __name__ == "__main__":
     myrealseed = myseed.hexdigest().upper()
     seed = binascii.a2b_hex(myrealseed[0:32])
     print("Generating brain wallet with phrase: " + seedkey)
-    print(seed)
+    print(myrealseed)
     seed1 = xrpl.core.addresscodec.encode_seed(
         seed, xrpl.constants.CryptoAlgorithm('secp256k1'))
     # create a wallet form the seed
-    test_wallet = xrpl.wallet.Wallet(seed1, 1)
+    test_wallet = xrpl.wallet.Wallet.from_secret(seed1)
     print(test_wallet)
     print(test_wallet.seed)
